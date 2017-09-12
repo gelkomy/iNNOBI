@@ -1,0 +1,114 @@
+{
+	"id": "72df6507-07bd-2d70-7fe9-68b538d2e1d8",
+	"name": "BIService",
+	"description": "",
+	"order": [
+		"f511ee37-d812-eda0-d816-21e58ffc243d",
+		"fafc0af6-aaba-0737-ac0c-8c4766ef5301"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1504781990015,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "f511ee37-d812-eda0-d816-21e58ffc243d",
+			"headers": "sCompanyID: BI\nsCompanyLicense: 97.74.205.13\nsRequesterUserName: admin\nsRequesterPassword: 12#3\n",
+			"headerData": [
+				{
+					"key": "sCompanyID",
+					"value": "BI",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "sCompanyLicense",
+					"value": "97.74.205.13",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "sRequesterUserName",
+					"value": "admin",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "sRequesterPassword",
+					"value": "12#3",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:2999/Derived",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "72df6507-07bd-2d70-7fe9-68b538d2e1d8",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:2999/Derived",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1504781993042,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"billNo\":\"46\",\"type\":\"2\",\"billDate\":\"20170828201324000\",\"personAccId\":\"189\",\"personAccNo\":\"102003000300001\",\"personAccAName\":\"Anas\",\"personAccEName\":\"Anas\",\"personMob\":\"201212775812\",\"clientType\":\"Normal\",\"priceType\":\"Normal\",\"notes\":\"تست فاتورة\",\"totalActAmt\":\"420\",\"discountPrcnt\":\"\",\"discountAmt\":\"\",\"totalAmount\":\"420\",\"paymentType\":\"نقدي\",\"paidAmt\":\"420\",\"postponementAmt\":\"\",\"branchId\":\"1\",\"branchNo\":\"1020070001\",\"branchArName\":\"المخزن الافتراضي\",\"branchEnName\":\"Default Stock\",\"sellerId\":\"3\",\"sellerNo\":\"3020010001\",\"sellerArName\":\"Omar Mohamed Galal\",\"sellerEnName\":\"Omar Mohamed Galal\",\"storageNo\":\"102001000100001\",\"Items\":[{\"itmId\":\"2\",\"itmNo\":\"11\",\"itmAName\":\"صنف1\",\"itmEName\":\"صنف1\",\"unitid\":\"1\",\"unitName\":\"قطعه\",\"unitEName\":\"Dozen\",\"unitPrice\":\"200\",\"itmDiscountPrcnt\":\"\",\"itmDiscountAmt\":\"\",\"price\":\"210\",\"Qty\":\"2\",\"totalAmt\":\"420\"}]}"
+		},
+		{
+			"id": "fafc0af6-aaba-0737-ac0c-8c4766ef5301",
+			"headers": "sCompanyID: BI\nsCompanyLicense: 97.74.205.13\nsRequesterUserName: admin\nsRequesterPassword: 12#3\n",
+			"headerData": [
+				{
+					"key": "sCompanyID",
+					"value": "BI",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "sCompanyLicense",
+					"value": "97.74.205.13",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "sRequesterUserName",
+					"value": "admin",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "sRequesterPassword",
+					"value": "12#3",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:2999/Voucher",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "72df6507-07bd-2d70-7fe9-68b538d2e1d8",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:2999/Voucher",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1504782001286,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"billNo\":\"46\",\"type\":\"2\",\"billDate\":\"20170828201324000\",\"personAccId\":\"189\",\"personAccNo\":\"102003000300001\",\"personAccAName\":\"Anas\",\"personAccEName\":\"Anas\",\"personMob\":\"201212775812\",\"clientType\":\"Normal\",\"priceType\":\"Normal\",\"notes\":\"تست فاتورة\",\"totalActAmt\":\"420\",\"discountPrcnt\":\"\",\"discountAmt\":\"\",\"totalAmount\":\"420\",\"paymentType\":\"نقدي\",\"paidAmt\":\"420\",\"postponementAmt\":\"\",\"branchId\":\"1\",\"branchNo\":\"1020070001\",\"branchArName\":\"المخزن الافتراضي\",\"branchEnName\":\"Default Stock\",\"sellerId\":\"3\",\"sellerNo\":\"3020010001\",\"sellerArName\":\"Omar Mohamed Galal\",\"sellerEnName\":\"Omar Mohamed Galal\",\"storageNo\":\"102001000100001\",\"Items\":[{\"itmId\":\"2\",\"itmNo\":\"11\",\"itmAName\":\"صنف1\",\"itmEName\":\"صنف1\",\"unitid\":\"1\",\"unitName\":\"قطعه\",\"unitEName\":\"Dozen\",\"unitPrice\":\"200\",\"itmDiscountPrcnt\":\"\",\"itmDiscountAmt\":\"\",\"price\":\"210\",\"Qty\":\"2\",\"totalAmt\":\"420\"}]}"
+		}
+	]
+}

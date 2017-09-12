@@ -1,0 +1,904 @@
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\ApplicationInsights.config
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\csc.exe
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\System.Collections.Immutable.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\System.Reflection.Metadata.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\vbc.exe
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\VBCSCompiler.exe
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\VBCSCompiler.exe.config
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\InnoTech.dll.config
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\InnoTech.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\InnoTech.pdb
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.AI.Agent.Intercept.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.AI.DependencyCollector.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.AI.Web.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.AI.WindowsServer.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.ApplicationInsights.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Newtonsoft.Json.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\System.Net.Http.Formatting.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\System.Web.Cors.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\System.Web.Http.Cors.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\System.Web.Http.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\System.Web.Http.WebHost.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.AI.DependencyCollector.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.AI.Web.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.AI.WindowsServer.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.ApplicationInsights.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\System.Web.Http.Cors.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Newtonsoft.Json.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\System.Net.Http.Formatting.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\System.Web.Http.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\System.Web.Http.WebHost.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\obj\Debug\InnoTech.csprojResolveAssemblyReference.cache
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\obj\Debug\InnoTech.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\obj\Debug\InnoTech.pdb
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Ionic.ZLib.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\CommitLog.pdb
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\ApplicationInsights.config
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\csc.exe
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\System.Collections.Immutable.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\System.Reflection.Metadata.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\vbc.exe
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\VBCSCompiler.exe
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\roslyn\VBCSCompiler.exe.config
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\InnoTech.dll.config
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\InnoTech.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\InnoTech.pdb
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Ionic.ZLib.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.AI.Agent.Intercept.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.AI.DependencyCollector.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.AI.Web.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.AI.WindowsServer.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.ApplicationInsights.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Newtonsoft.Json.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\System.Net.Http.Formatting.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\System.Web.Cors.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\System.Web.Http.Cors.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\System.Web.Http.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\System.Web.Http.WebHost.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.AI.DependencyCollector.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.AI.Web.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.AI.WindowsServer.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.ApplicationInsights.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\System.Web.Http.Cors.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\Newtonsoft.Json.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\System.Net.Http.Formatting.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\System.Web.Http.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\bin\System.Web.Http.WebHost.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\obj\Debug\InnoTech.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_16062016\InnoTech\obj\Debug\InnoTech.pdb
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\ApplicationInsights.config
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\roslyn\csc.exe
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\roslyn\System.Collections.Immutable.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\roslyn\System.Reflection.Metadata.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\roslyn\vbc.exe
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\roslyn\VBCSCompiler.exe
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\roslyn\VBCSCompiler.exe.config
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\InnoTech.dll.config
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\InnoTech.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\InnoTech.pdb
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\Ionic.ZLib.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\Microsoft.AI.Agent.Intercept.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\Microsoft.AI.DependencyCollector.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\Microsoft.AI.Web.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\Microsoft.AI.WindowsServer.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\Microsoft.ApplicationInsights.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\Newtonsoft.Json.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\System.Net.Http.Formatting.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\System.Web.Cors.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\System.Web.Http.Cors.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\System.Web.Http.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\System.Web.Http.WebHost.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\Microsoft.AI.DependencyCollector.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\Microsoft.AI.Web.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\Microsoft.AI.WindowsServer.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\Microsoft.ApplicationInsights.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\System.Web.Http.Cors.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\Newtonsoft.Json.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\System.Net.Http.Formatting.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\System.Web.Http.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\bin\System.Web.Http.WebHost.xml
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\obj\Debug\InnoTech.csprojResolveAssemblyReference.cache
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\obj\Debug\InnoTech.dll
+D:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_23062016\InnoTech\obj\Debug\InnoTech.pdb
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\ApplicationInsights.config
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\roslyn\csc.exe
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\roslyn\System.Collections.Immutable.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\roslyn\System.Reflection.Metadata.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\roslyn\vbc.exe
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\roslyn\VBCSCompiler.exe
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\roslyn\VBCSCompiler.exe.config
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\InnoTech.dll.config
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\InnoTech.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\InnoTech.pdb
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\Ionic.ZLib.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\Microsoft.AI.Agent.Intercept.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\Microsoft.AI.DependencyCollector.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\Microsoft.AI.Web.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\Microsoft.AI.WindowsServer.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\Microsoft.ApplicationInsights.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\Newtonsoft.Json.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\System.Net.Http.Formatting.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\System.Web.Cors.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\System.Web.Http.Cors.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\System.Web.Http.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\System.Web.Http.WebHost.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\Microsoft.AI.DependencyCollector.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\Microsoft.AI.Web.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\Microsoft.AI.WindowsServer.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\Microsoft.ApplicationInsights.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\System.Web.Http.Cors.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\Newtonsoft.Json.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\System.Net.Http.Formatting.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\System.Web.Http.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\bin\System.Web.Http.WebHost.xml
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\obj\Debug\InnoTech.csprojResolveAssemblyReference.cache
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\obj\Debug\InnoTech.dll
+E:\API\InnoMiniCRM\InnoMiniCRM_CORS_4.61_27062016\InnoTech\obj\Debug\InnoTech.pdb
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\obj\Debug\InnoTech.csprojResolveAssemblyReference.cache
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\obj\Debug\InnoTech.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\obj\Debug\InnoTech.pdb
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\ApplicationInsights.config
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\roslyn\csc.exe
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\roslyn\vbc.exe
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\InnoTech.dll.config
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\InnoTech.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\InnoTech.pdb
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\Ionic.ZLib.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\Microsoft.AI.Web.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\Newtonsoft.Json.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\System.Net.Http.Formatting.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\System.Web.Cors.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\System.Web.Http.Cors.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\System.Web.Http.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\System.Web.Http.WebHost.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\Microsoft.AI.Web.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\System.Web.Http.Cors.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\Newtonsoft.Json.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\System.Net.Http.Formatting.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\System.Web.Http.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_28062016\InnoTech\bin\System.Web.Http.WebHost.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\ApplicationInsights.config
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\roslyn\csc.exe
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\roslyn\vbc.exe
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\InnoTech.dll.config
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\InnoTech.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\InnoTech.pdb
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\Ionic.ZLib.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\Microsoft.AI.Web.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\Newtonsoft.Json.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\System.Net.Http.Formatting.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\System.Web.Cors.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\System.Web.Http.Cors.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\System.Web.Http.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\System.Web.Http.WebHost.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\Microsoft.AI.Web.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\System.Web.Http.Cors.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\Newtonsoft.Json.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\System.Net.Http.Formatting.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\System.Web.Http.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\bin\System.Web.Http.WebHost.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\obj\Debug\InnoTech.csprojResolveAssemblyReference.cache
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\obj\Debug\InnoTech.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_13072016\InnoTech\obj\Debug\InnoTech.pdb
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\ApplicationInsights.config
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\roslyn\csc.exe
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\roslyn\vbc.exe
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\InnoTech.dll.config
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\InnoTech.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\InnoTech.pdb
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\Ionic.ZLib.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\Microsoft.AI.Web.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\Newtonsoft.Json.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\System.Net.Http.Formatting.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\System.Web.Cors.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\System.Web.Http.Cors.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\System.Web.Http.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\System.Web.Http.WebHost.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\Microsoft.AI.Web.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\System.Web.Http.Cors.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\Newtonsoft.Json.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\System.Net.Http.Formatting.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\System.Web.Http.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\bin\System.Web.Http.WebHost.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\obj\Debug\InnoTech.csprojResolveAssemblyReference.cache
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\obj\Debug\InnoTech.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_17072016\InnoTech\obj\Debug\InnoTech.pdb
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\obj\Debug\InnoTech.csprojResolveAssemblyReference.cache
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\obj\Debug\InnoTech.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\obj\Debug\InnoTech.pdb
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\ApplicationInsights.config
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\roslyn\csc.exe
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\roslyn\vbc.exe
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\InnoTech.dll.config
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\InnoTech.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\InnoTech.pdb
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\Ionic.ZLib.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\Microsoft.AI.Web.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\Newtonsoft.Json.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\System.Net.Http.Formatting.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\System.Web.Cors.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\System.Web.Http.Cors.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\System.Web.Http.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\System.Web.Http.WebHost.dll
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\Microsoft.AI.Web.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\System.Web.Http.Cors.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\Newtonsoft.Json.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\System.Net.Http.Formatting.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\System.Web.Http.xml
+C:\Users\Ali Galal\Desktop\InnoMiniCRM.innodevelopment.org_03082016\InnoTech\bin\System.Web.Http.WebHost.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\ApplicationInsights.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\roslyn\csc.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\roslyn\System.Collections.Immutable.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\roslyn\System.Reflection.Metadata.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\roslyn\vbc.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\roslyn\VBCSCompiler.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\roslyn\VBCSCompiler.exe.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\InnoTech.dll.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\InnoTech.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\InnoTech.pdb
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\Ionic.ZLib.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\Microsoft.AI.Agent.Intercept.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\Microsoft.AI.DependencyCollector.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\Microsoft.AI.Web.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\Microsoft.AI.WindowsServer.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\Microsoft.ApplicationInsights.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\Newtonsoft.Json.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\System.Net.Http.Formatting.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\System.Web.Cors.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\System.Web.Http.Cors.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\System.Web.Http.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\System.Web.Http.WebHost.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\Microsoft.AI.DependencyCollector.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\Microsoft.AI.Web.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\Microsoft.AI.WindowsServer.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\Microsoft.ApplicationInsights.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\System.Web.Http.Cors.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\Newtonsoft.Json.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\System.Net.Http.Formatting.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\System.Web.Http.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\bin\System.Web.Http.WebHost.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\obj\Debug\InnoTech.csprojResolveAssemblyReference.cache
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\obj\Debug\InnoTech.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_16082016\InnoTech\obj\Debug\InnoTech.pdb
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\ApplicationInsights.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\roslyn\csc.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\roslyn\System.Collections.Immutable.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\roslyn\System.Reflection.Metadata.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\roslyn\vbc.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\roslyn\VBCSCompiler.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\roslyn\VBCSCompiler.exe.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\InnoTech.dll.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\InnoTech.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\InnoTech.pdb
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\Ionic.ZLib.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\Microsoft.AI.Agent.Intercept.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\Microsoft.AI.DependencyCollector.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\Microsoft.AI.Web.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\Microsoft.AI.WindowsServer.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\Microsoft.ApplicationInsights.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\Newtonsoft.Json.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\System.Net.Http.Formatting.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\System.Web.Cors.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\System.Web.Http.Cors.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\System.Web.Http.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\System.Web.Http.WebHost.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\Microsoft.AI.DependencyCollector.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\Microsoft.AI.Web.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\Microsoft.AI.WindowsServer.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\Microsoft.ApplicationInsights.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\System.Web.Http.Cors.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\Newtonsoft.Json.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\System.Net.Http.Formatting.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\System.Web.Http.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\bin\System.Web.Http.WebHost.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\obj\Debug\InnoTech.csprojResolveAssemblyReference.cache
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\obj\Debug\InnoTech.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_29082016\InnoTech\obj\Debug\InnoTech.pdb
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\ApplicationInsights.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\roslyn\csc.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\roslyn\System.Collections.Immutable.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\roslyn\System.Reflection.Metadata.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\roslyn\vbc.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\roslyn\VBCSCompiler.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\roslyn\VBCSCompiler.exe.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\InnoTech.dll.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\InnoTech.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\InnoTech.pdb
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\Ionic.ZLib.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\Microsoft.AI.Agent.Intercept.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\Microsoft.AI.DependencyCollector.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\Microsoft.AI.Web.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\Microsoft.AI.WindowsServer.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\Microsoft.ApplicationInsights.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\Newtonsoft.Json.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\System.Net.Http.Formatting.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\System.Web.Cors.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\System.Web.Http.Cors.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\System.Web.Http.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\System.Web.Http.WebHost.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\Microsoft.AI.DependencyCollector.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\Microsoft.AI.Web.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\Microsoft.AI.WindowsServer.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\Microsoft.ApplicationInsights.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\System.Web.Http.Cors.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\Newtonsoft.Json.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\System.Net.Http.Formatting.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\System.Web.Http.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\bin\System.Web.Http.WebHost.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\obj\Debug\InnoTech.csprojResolveAssemblyReference.cache
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\obj\Debug\InnoTech.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_21092016\InnoTech\obj\Debug\InnoTech.pdb
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\ApplicationInsights.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\roslyn\csc.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\roslyn\System.Collections.Immutable.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\roslyn\System.Reflection.Metadata.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\roslyn\vbc.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\roslyn\VBCSCompiler.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\roslyn\VBCSCompiler.exe.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\InnoTech.dll.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\InnoTech.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\InnoTech.pdb
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\Ionic.ZLib.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\Microsoft.AI.Agent.Intercept.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\Microsoft.AI.DependencyCollector.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\Microsoft.AI.Web.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\Microsoft.AI.WindowsServer.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\Microsoft.ApplicationInsights.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\Newtonsoft.Json.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\System.Net.Http.Formatting.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\System.Web.Cors.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\System.Web.Http.Cors.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\System.Web.Http.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\System.Web.Http.WebHost.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\Microsoft.AI.DependencyCollector.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\Microsoft.AI.Web.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\Microsoft.AI.WindowsServer.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\Microsoft.ApplicationInsights.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\System.Web.Http.Cors.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\Newtonsoft.Json.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\System.Net.Http.Formatting.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\System.Web.Http.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\bin\System.Web.Http.WebHost.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\obj\Debug\InnoTech.csprojResolveAssemblyReference.cache
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\obj\Debug\InnoTech.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_25092016\InnoTech\obj\Debug\InnoTech.pdb
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\ApplicationInsights.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\roslyn\csc.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\roslyn\System.Collections.Immutable.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\roslyn\System.Reflection.Metadata.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\roslyn\vbc.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\roslyn\VBCSCompiler.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\roslyn\VBCSCompiler.exe.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\InnoTech.dll.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\InnoTech.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\InnoTech.pdb
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\Ionic.ZLib.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\Microsoft.AI.Agent.Intercept.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\Microsoft.AI.DependencyCollector.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\Microsoft.AI.Web.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\Microsoft.AI.WindowsServer.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\Microsoft.ApplicationInsights.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\Newtonsoft.Json.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\System.Net.Http.Formatting.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\System.Web.Cors.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\System.Web.Http.Cors.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\System.Web.Http.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\System.Web.Http.WebHost.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\Microsoft.AI.DependencyCollector.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\Microsoft.AI.Web.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\Microsoft.AI.WindowsServer.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\Microsoft.ApplicationInsights.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\System.Web.Http.Cors.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\Newtonsoft.Json.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\System.Net.Http.Formatting.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\System.Web.Http.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\bin\System.Web.Http.WebHost.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\obj\Debug\InnoTech.csprojResolveAssemblyReference.cache
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\obj\Debug\InnoTech.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_05102016\InnoTech\obj\Debug\InnoTech.pdb
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\ApplicationInsights.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\roslyn\csc.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\roslyn\System.Collections.Immutable.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\roslyn\System.Reflection.Metadata.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\roslyn\vbc.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\roslyn\VBCSCompiler.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\roslyn\VBCSCompiler.exe.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\InnoTech.dll.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\InnoTech.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\InnoTech.pdb
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\Ionic.ZLib.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\Microsoft.AI.Agent.Intercept.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\Microsoft.AI.DependencyCollector.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\Microsoft.AI.Web.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\Microsoft.AI.WindowsServer.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\Microsoft.ApplicationInsights.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\Newtonsoft.Json.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\System.Net.Http.Formatting.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\System.Web.Cors.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\System.Web.Http.Cors.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\System.Web.Http.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\System.Web.Http.WebHost.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\Microsoft.AI.DependencyCollector.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\Microsoft.AI.Web.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\Microsoft.AI.WindowsServer.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\Microsoft.ApplicationInsights.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\System.Web.Http.Cors.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\Newtonsoft.Json.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\System.Net.Http.Formatting.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\System.Web.Http.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\bin\System.Web.Http.WebHost.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\obj\Debug\InnoTech.csprojResolveAssemblyReference.cache
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\obj\Debug\InnoTech.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_09112016\InnoTech\obj\Debug\InnoTech.pdb
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\ApplicationInsights.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\roslyn\csc.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\roslyn\System.Collections.Immutable.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\roslyn\System.Reflection.Metadata.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\roslyn\vbc.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\roslyn\VBCSCompiler.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\roslyn\VBCSCompiler.exe.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\InnoTech.dll.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\InnoTech.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\InnoTech.pdb
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\Ionic.ZLib.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\Microsoft.AI.Agent.Intercept.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\Microsoft.AI.DependencyCollector.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\Microsoft.AI.Web.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\Microsoft.AI.WindowsServer.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\Microsoft.ApplicationInsights.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\Newtonsoft.Json.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\System.Net.Http.Formatting.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\System.Web.Cors.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\System.Web.Http.Cors.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\System.Web.Http.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\System.Web.Http.WebHost.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\Microsoft.AI.DependencyCollector.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\Microsoft.AI.Web.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\Microsoft.AI.WindowsServer.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\Microsoft.ApplicationInsights.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\System.Web.Http.Cors.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\Newtonsoft.Json.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\System.Net.Http.Formatting.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\System.Web.Http.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\bin\System.Web.Http.WebHost.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\obj\Debug\InnoTech.csprojResolveAssemblyReference.cache
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\obj\Debug\InnoTech.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_15112016\InnoTech\obj\Debug\InnoTech.pdb
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\ApplicationInsights.config
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\roslyn\csc.exe
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\roslyn\System.Collections.Immutable.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\roslyn\System.Reflection.Metadata.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\roslyn\vbc.exe
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\roslyn\VBCSCompiler.exe
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\roslyn\VBCSCompiler.exe.config
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\InnoTech.dll.config
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\InnoTech.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\InnoTech.pdb
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\Ionic.ZLib.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\Microsoft.AI.Agent.Intercept.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\Microsoft.AI.DependencyCollector.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\Microsoft.AI.Web.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\Microsoft.AI.WindowsServer.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\Microsoft.ApplicationInsights.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\Newtonsoft.Json.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\System.Net.Http.Formatting.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\System.Web.Cors.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\System.Web.Http.Cors.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\System.Web.Http.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\System.Web.Http.WebHost.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\Microsoft.AI.DependencyCollector.xml
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\Microsoft.AI.Web.xml
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\Microsoft.AI.WindowsServer.xml
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\Microsoft.ApplicationInsights.xml
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\System.Web.Http.Cors.xml
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\Newtonsoft.Json.xml
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\System.Net.Http.Formatting.xml
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\System.Web.Http.xml
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\bin\System.Web.Http.WebHost.xml
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\obj\Debug\InnoTech.csprojResolveAssemblyReference.cache
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\obj\Debug\InnoTech.dll
+E:\API\Alesayie\Alesayie.innodevelopment.org_13122016\InnoTech\obj\Debug\InnoTech.pdb
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\ApplicationInsights.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\roslyn\csc.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\roslyn\System.Collections.Immutable.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\roslyn\System.Reflection.Metadata.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\roslyn\vbc.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\roslyn\VBCSCompiler.exe
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\roslyn\VBCSCompiler.exe.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\InnoTech.dll.config
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\InnoTech.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\InnoTech.pdb
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\Ionic.ZLib.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\Microsoft.AI.Agent.Intercept.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\Microsoft.AI.DependencyCollector.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\Microsoft.AI.Web.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\Microsoft.AI.WindowsServer.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\Microsoft.ApplicationInsights.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\Newtonsoft.Json.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\System.Net.Http.Formatting.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\System.Web.Cors.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\System.Web.Http.Cors.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\System.Web.Http.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\System.Web.Http.WebHost.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\Microsoft.AI.DependencyCollector.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\Microsoft.AI.Web.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\Microsoft.AI.WindowsServer.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\Microsoft.ApplicationInsights.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\System.Web.Http.Cors.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\Newtonsoft.Json.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\System.Net.Http.Formatting.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\System.Web.Http.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\bin\System.Web.Http.WebHost.xml
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\obj\Debug\InnoTech.csprojResolveAssemblyReference.cache
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\obj\Debug\InnoTech.dll
+D:\API\AlEsayiCRM\Alesayie.innodevelopment.org_07022017\InnoTech\obj\Debug\InnoTech.pdb
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\ApplicationInsights.config
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\csc.exe
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\System.Collections.Immutable.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\System.Reflection.Metadata.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\vbc.exe
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\VBCSCompiler.exe
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\VBCSCompiler.exe.config
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\InnoTech.dll.config
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\InnoTech.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\InnoTech.pdb
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\Ionic.ZLib.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.Agent.Intercept.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.DependencyCollector.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.Web.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.WindowsServer.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.ApplicationInsights.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\Newtonsoft.Json.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\System.Net.Http.Formatting.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Cors.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Http.Cors.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Http.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Http.WebHost.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\CommitLog.dll.config
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.DependencyCollector.xml
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.Web.xml
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.WindowsServer.xml
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.ApplicationInsights.xml
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Http.Cors.xml
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\Newtonsoft.Json.xml
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\System.Net.Http.Formatting.xml
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Http.xml
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Http.WebHost.xml
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\obj\Debug\InnoTech.csprojResolveAssemblyReference.cache
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\obj\Debug\InnoTech.dll
+D:\API\InnoBI\BI.innodevelopment.org_06092017\InnoTech\obj\Debug\InnoTech.pdb
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\ApplicationInsights.config
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\csc.exe
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\System.Collections.Immutable.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\System.Reflection.Metadata.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\vbc.exe
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\VBCSCompiler.exe
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\VBCSCompiler.exe.config
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\InnoTech.dll.config
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\InnoTech.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\InnoTech.pdb
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\Ionic.ZLib.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.Agent.Intercept.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.DependencyCollector.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.Web.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.WindowsServer.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.ApplicationInsights.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\Newtonsoft.Json.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\System.Net.Http.Formatting.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Cors.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Http.Cors.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Http.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Http.WebHost.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\CommitLog.dll.config
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.DependencyCollector.xml
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.Web.xml
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.WindowsServer.xml
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.ApplicationInsights.xml
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Http.Cors.xml
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\Newtonsoft.Json.xml
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\System.Net.Http.Formatting.xml
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Http.xml
+D:\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Http.WebHost.xml
+D:\BI.innodevelopment.org_06092017\InnoTech\obj\Debug\InnoTech.csprojResolveAssemblyReference.cache
+D:\BI.innodevelopment.org_06092017\InnoTech\obj\Debug\InnoTech.dll
+D:\BI.innodevelopment.org_06092017\InnoTech\obj\Debug\InnoTech.pdb
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\ApplicationInsights.config
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\csc.exe
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\System.Collections.Immutable.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\System.Reflection.Metadata.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\vbc.exe
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\VBCSCompiler.exe
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\roslyn\VBCSCompiler.exe.config
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\InnoTech.dll.config
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\InnoTech.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\InnoTech.pdb
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\Ionic.ZLib.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.DependencyCollector.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.Web.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.WindowsServer.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.ApplicationInsights.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\Newtonsoft.Json.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\System.Net.Http.Formatting.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Cors.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Http.Cors.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Http.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Http.WebHost.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\CommitLog.dll.config
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.DependencyCollector.xml
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.Web.xml
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.AI.WindowsServer.xml
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.ApplicationInsights.xml
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Http.Cors.xml
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\Newtonsoft.Json.xml
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\System.Net.Http.Formatting.xml
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Http.xml
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\bin\System.Web.Http.WebHost.xml
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\obj\Debug\InnoTech.csprojResolveAssemblyReference.cache
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\obj\Debug\InnoTech.csproj.CoreCompileInputs.cache
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\obj\Debug\InnoTech.dll
+E:\Faculty of Engineering\InnoTech\Analytics\Accounting\BI.innodevelopment New\BI.innodevelopment.org_06092017\InnoTech\obj\Debug\InnoTech.pdb

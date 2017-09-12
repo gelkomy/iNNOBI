@@ -1,0 +1,49 @@
+{
+    "data": [
+        {
+            "_rowID": "61c603e1-1556-480d-8f39-4abe8cbcd499",
+            "id": "1",
+            "runDate": "20170907125056840",
+            "accNo": "1020030001",
+            "accName": "Galal",
+            "dbtAmt": "100",
+            "crdAmt": "500"
+        },
+        {
+            "_rowID": "c0bb5e5d-0cb3-4496-87d5-af8875081407",
+            "id": "3",
+            "runDate": "20170907125913259",
+            "accNo": "1020030001",
+            "accName": "Galal",
+            "dbtAmt": "200",
+            "crdAmt": "300"
+        },
+        {
+            "_rowID": "fa5db365-3b60-4031-ab63-7f9cb776a29f",
+            "id": "4",
+            "runDate": "20170907130016716",
+            "accNo": "1020030001",
+            "accName": "Galal",
+            "dbtAmt": "250",
+            "crdAmt": "400"
+        },
+        {
+            "_rowID": "03a8de79-f1e1-4f78-97a5-65a07db8d595",
+            "id": "2",
+            "runDate": "20170907125707897",
+            "accNo": "1020030001",
+            "accName": "Galal",
+            "dbtAmt": "350",
+            "crdAmt": "700"
+        },
+        {
+            "_rowID": "61c6033e1-1556-480d-8f39-4abe8cbcd499",
+            "id": "1",
+            "runDate": "20170907125056840",
+            "accNo": "1020030001",
+            "accName": "Galal",
+            "dbtAmt": "300",
+            "crdAmt": "100"
+        }
+    ]
+}
