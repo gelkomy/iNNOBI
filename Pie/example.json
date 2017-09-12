@@ -1,0 +1,19 @@
+{
+    "success": "true",
+    "errorCode": "err-00",
+    "servermls": "0",
+    "data": [
+        {"mainButton":{"child1": 22 , 
+                    "child2": 15,
+                    "c3": 30}
+        },
+        {"Child1":{"child1 child1": 19 , 
+                   "child1 child2": 19 ,
+                   "child1 child3": 19 ,
+                   "child1 child4": 19}
+        },
+        {"Child2":{"child2 child1": 40 , 
+                   "child2 child2": 43}
+        }
+    ]
+}
