@@ -13,6 +13,11 @@ namespace InnoTech.Models
 {
     public class Derived : IDisposable
     {
+
+
+
+        // derived.cs
+
         #region Properties
         public string sRowIDs { get; set; }//for delete
         public bool bErrorOccurred { get;private set; }
