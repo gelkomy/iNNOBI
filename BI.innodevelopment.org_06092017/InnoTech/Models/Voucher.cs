@@ -19,13 +19,15 @@ namespace InnoTech.Models
 
         #region Attributes
         public string sCompanyID;
-        public string sCompanyLicense;public string sRequesterUserName;public string sRequesterPassword;public string sRequesterControlID;
+        public string sCompanyLicense;
+        public string sRequesterUserName;public string sRequesterPassword;public string sRequesterControlID;
         private string sBranchId;
         private string sProductID;
         private string sWebserviceID;
         private string sSchemaID;
         private string sSchemaVersion;
         private string sPersonId;
+        private string sFilter;
         #endregion
 
         #region Constructor
@@ -43,82 +45,96 @@ namespace InnoTech.Models
         #region CRUD Operations
         public HttpResponseMessage Select()
         {
-            Dictionary<string, int []> dict = new Dictionary<string, int[]>();
+            HttpResponseMessage response_msg = new HttpResponseMessage();
+            Dictionary<string, int[]> dict = new Dictionary<string, int[]>();
             Dictionary<string, string> dictNames = new Dictionary<string, string>();
-            using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID))
+            DateTime startDate = new DateTime(2016, 8, 25, 23, 59, 59, 0);
+            string sStartDate = startDate.ToString("yyyyMMdd");
+            DateTime endDate = new DateTime(2017, 7, 1, 23, 59, 59, 0);
+            string sEndDate = endDate.ToString("yyyyMMdd");
+            sFilter = "{'vDate':{'gte':" + sStartDate + ",'lte':"+ sEndDate +"}}";
+            for (DateTime date = startDate; date.Date <= endDate.Date; date = date.AddDays(1))
             {
-                HttpResponseMessage objResponse = objRequestInterface.Get();
-                var objResult = JObject.Parse(DecompressResult.DeflateByte(objResponse.Content.ReadAsByteArrayAsync().Result))["data"];
-
-                foreach (var objVoucher in objResult)
+                                
+                using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID,sFilter))
                 {
-                    string sVoucherNo = objVoucher["voucherNo"].ToString();
-                    DateTime sVoucherDate = DateTime.ParseExact(objVoucher["vDate"].ToString(), "yyyyMMddHHmmssfff", CultureInfo.InvariantCulture);
+                    HttpResponseMessage objResponse = objRequestInterface.Get();
+                    var objResult = JObject.Parse(DecompressResult.DeflateByte(objResponse.Content.ReadAsByteArrayAsync().Result))["data"];
 
-                    foreach (var objAccounts in objVoucher["Level1_1"])
+                    foreach (var objVoucher in objResult)
                     {
-                        string sDbtAccId = objAccounts["dbtAccId"].ToString();
-                        string sDbtAccAName = objAccounts["dbtAccAName"].ToString();
-                        string sDbtAccNo = objAccounts["dbtAccNo"].ToString();
+                        string sVoucherNo = objVoucher["voucherNo"].ToString();
+                        DateTime sVoucherDate = DateTime.ParseExact(objVoucher["vDate"].ToString(), "yyyyMMddHHmmssfff", CultureInfo.InvariantCulture);
 
-                        string sCrdAccId = objAccounts["crdAccId"].ToString();
-                        string sCrdAccAName = objAccounts["crdAccAName"].ToString();
-                        string sCrdAccNo = objAccounts["crdAccNo"].ToString();
-
-                        string sVoucherDetailNetAmt = objAccounts["voucherDetailNetAmt"].ToString();
-
-                        // loging names
-                        dictNames[sCrdAccId] = sCrdAccAName;
-                        dictNames[sDbtAccId] = sDbtAccAName;
-
-                        // credit account
-                        int[] crd = new int[2];
-                        crd[1] = 0; crd[0] = Int32.Parse(sVoucherDetailNetAmt);
-
-                        if (!dict.ContainsKey(sCrdAccId))
-                            dict.Add(sCrdAccId, crd);
-                        else
+                        foreach (var objAccounts in objVoucher["Level1_1"])
                         {
-                            dict[sCrdAccId][0]+= Int32.Parse(sVoucherDetailNetAmt);
+                            string sDbtAccId = objAccounts["dbtAccId"].ToString();
+                            string sDbtAccAName = objAccounts["dbtAccAName"].ToString();
+                            string sDbtAccNo = objAccounts["dbtAccNo"].ToString();
+
+                            string sCrdAccId = objAccounts["crdAccId"].ToString();
+                            string sCrdAccAName = objAccounts["crdAccAName"].ToString();
+                            string sCrdAccNo = objAccounts["crdAccNo"].ToString();
+
+                            string sVoucherDetailNetAmt = objAccounts["voucherDetailNetAmt"].ToString();
+
+                            // loging names
+                            dictNames[sCrdAccId] = sCrdAccAName;
+                            dictNames[sDbtAccId] = sDbtAccAName;
+
+                            // credit account
+                            int[] crd = new int[2];
+                            crd[1] = 0; crd[0] = Int32.Parse(sVoucherDetailNetAmt);
+
+                            if (!dict.ContainsKey(sCrdAccId))
+                                dict.Add(sCrdAccId, crd);
+                            else
+                            {
+                                dict[sCrdAccId][0] += Int32.Parse(sVoucherDetailNetAmt);
+                            }
+
+                            // debit account
+
+                            int[] dbt = new int[2];
+                            dbt[0] = 0; dbt[1] = Int32.Parse(sVoucherDetailNetAmt);
+
+                            if (!dict.ContainsKey(sDbtAccId))
+                                dict.Add(sDbtAccId, dbt);
+                            else
+                            {
+                                dict[sDbtAccId][1] += Int32.Parse(sVoucherDetailNetAmt);
+                            }
+
+
+
+                            string sAmt = objAccounts["voucherDetailNetAmt"].ToString();
                         }
-
-                        // debit account
-                        
-                        int[] dbt = new int[2];
-                        dbt[0] = 0; dbt[1] = Int32.Parse(sVoucherDetailNetAmt);
-
-                        if (!dict.ContainsKey(sDbtAccId))
-                            dict.Add(sDbtAccId, dbt);
-                        else
-                        {
-                            dict[sDbtAccId][1] += Int32.Parse(sVoucherDetailNetAmt);
-                        }
-
-
-                        
-                        string sAmt = objAccounts["voucherDetailNetAmt"].ToString();
                     }
-                }
-                List<JObject> lstDerivedData = new List<JObject>();
-                foreach (KeyValuePair<string, int[]> entry in dict)
-                {
-                    // do something with entry.Value or entry.Key
+                    List<JObject> lstDerivedData = new List<JObject>();
+                    foreach (KeyValuePair<string, int[]> entry in dict)
+                    {
+                        // do something with entry.Value or entry.Key
 
+
+                        JObject objDerived = new JObject
+                    {
+                        { "runDate", date.ToString("yyyyMMdd") },
+                        { "accNo", entry.Key },
+                        { "accName", dictNames[entry.Key] },
+                        { "dbtAmt", entry.Value[1] },
+                        { "crdAmt", entry.Value[0] }
+                    };
+                        lstDerivedData.Add(objDerived);
+
+                    }
+                    using (var objRequestInterface_derived = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, "1", "0", sProductID, "srvBI", "derived", sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID))
+                    {
+                        response_msg = objRequestInterface_derived.Post(lstDerivedData);
+                    }
                     
-                    JObject objDerived = new JObject();
-                    objDerived.Add("runDate", DateTime.Now.ToString("yyyyMMdd"));
-                    objDerived.Add("accNo", entry.Key);
-                    objDerived.Add("accName", dictNames[entry.Key]);
-                    objDerived.Add("dbtAmt", entry.Value[1]);
-                    objDerived.Add("crdAmt", entry.Value[0]);
-                    lstDerivedData.Add(objDerived);
-                    
-                }
-                using (var objRequestInterface_derived = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, "1", "0", sProductID, "srvBI", "derived", sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID))
-                {
-                    return objRequestInterface_derived.Post(lstDerivedData);
                 }
             }
+            return response_msg;
         }
         #endregion
 

@@ -15,12 +15,12 @@ namespace InnoTech.Models
     {
         #region Properties
         public string sRowIDs { get; set; }//for delete
-        public bool bErrorOccurred { get;private set; }
+        public bool bErrorOccurred { get; private set; }
         #endregion
 
         #region Attributes
         public string sCompanyID;
-        public string sCompanyLicense;public string sRequesterUserName;public string sRequesterPassword;public string sRequesterControlID;
+        public string sCompanyLicense; public string sRequesterUserName; public string sRequesterPassword; public string sRequesterControlID;
         private string sBranchId;
         private string sProductID;
         private string sWebserviceID;
@@ -49,9 +49,9 @@ namespace InnoTech.Models
                 var objResponse = objRequestInterface.Get();
                 var objResult = JObject.Parse(DecompressResult.DeflateByte(objResponse.Content.ReadAsByteArrayAsync().Result));
                 var objResultData = objResult["data"];
-                foreach ( var obj in objResultData)
+                foreach (var obj in objResultData)
                 {
-                     obj["Amount"] = (float)obj["dbtAmt"] - (float)obj["crdAmt"];
+                    obj["netAmt"] = (float)obj["dbtAmt"] - (float)obj["crdAmt"];
                     obj["dbtAmt"].Parent.Remove();
                     obj["crdAmt"].Parent.Remove();
                 }
