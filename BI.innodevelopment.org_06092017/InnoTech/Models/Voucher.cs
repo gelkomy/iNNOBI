@@ -79,18 +79,18 @@ namespace InnoTech.Models
                             string sVoucherDetailNetAmt = objAccounts["voucherDetailNetAmt"].ToString();
 
                             // loging names
-                            dictNames[sCrdAccId] = sCrdAccAName;
-                            dictNames[sDbtAccId] = sDbtAccAName;
+                            dictNames[sCrdAccNo] = sCrdAccAName;
+                            dictNames[sDbtAccNo] = sDbtAccAName;
 
                             // credit account
                             int[] crd = new int[2];
                             crd[1] = 0; crd[0] = Int32.Parse(sVoucherDetailNetAmt);
 
-                            if (!dict.ContainsKey(sCrdAccId))
-                                dict.Add(sCrdAccId, crd);
+                            if (!dict.ContainsKey(sCrdAccNo))
+                                dict.Add(sCrdAccNo, crd);
                             else
                             {
-                                dict[sCrdAccId][0] += Int32.Parse(sVoucherDetailNetAmt);
+                                dict[sCrdAccNo][0] += Int32.Parse(sVoucherDetailNetAmt);
                             }
 
                             // debit account
@@ -98,11 +98,11 @@ namespace InnoTech.Models
                             int[] dbt = new int[2];
                             dbt[0] = 0; dbt[1] = Int32.Parse(sVoucherDetailNetAmt);
 
-                            if (!dict.ContainsKey(sDbtAccId))
-                                dict.Add(sDbtAccId, dbt);
+                            if (!dict.ContainsKey(sDbtAccNo))
+                                dict.Add(sDbtAccNo, dbt);
                             else
                             {
-                                dict[sDbtAccId][1] += Int32.Parse(sVoucherDetailNetAmt);
+                                dict[sDbtAccNo][1] += Int32.Parse(sVoucherDetailNetAmt);
                             }
 
 
@@ -115,11 +115,22 @@ namespace InnoTech.Models
                     {
                         // do something with entry.Value or entry.Key
 
+                        string accType = "0";
+                        if (entry.Key.StartsWith("102003"))
+                        {
+                            accType = "1"; // customer
+                        }
+                        else if (entry.Key.StartsWith("202001"))
+                        {
+                            accType = "2"; // supplier
+                        }
+
 
                         JObject objDerived = new JObject
                     {
                         { "runDate", date.ToString("yyyyMMdd") },
                         { "accNo", entry.Key },
+                        {"accType", accType },
                         { "accName", dictNames[entry.Key] },
                         { "dbtAmt", entry.Value[1] },
                         { "crdAmt", entry.Value[0] }
