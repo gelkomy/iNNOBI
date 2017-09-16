@@ -60,7 +60,7 @@ namespace InnoTech.Models
         {
             // Getting the new data from the vouchers 
             HttpResponseMessage response_msg = new HttpResponseMessage();
-            Dictionary<string, int[]> dict = new Dictionary<string, int[]>();
+            Dictionary<string, float[]> dict = new Dictionary<string, float[]>();
             Dictionary<string, string> dictNames = new Dictionary<string, string>();
 
             string sStartDate = "20170702000000000";
@@ -69,7 +69,7 @@ namespace InnoTech.Models
             sFilter = null;
             
             
-            Dictionary<string, int[]> dictCurrentDerivedAccounts = new Dictionary<string, int[]>();
+            Dictionary<string, float[]> dictCurrentDerivedAccounts = new Dictionary<string, float[]>();
             using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
             {
                              
@@ -100,26 +100,26 @@ namespace InnoTech.Models
                         dictNames[sDbtAccId] = sDbtAccAName;
 
                         // credit account
-                        int[] crd = new int[2];
-                        crd[1] = 0; crd[0] = Int32.Parse(sVoucherDetailNetAmt);
+                        float[] crd = new float[2];
+                        crd[1] = 0; crd[0] = float.Parse(sVoucherDetailNetAmt);
 
-                        if (!dict.ContainsKey(sCrdAccId))
-                            dict.Add(sCrdAccId, crd);
+                        if (!dict.ContainsKey(sCrdAccNo))
+                            dict.Add(sCrdAccNo, crd);
                         else
                         {
-                            dict[sCrdAccId][0] += Int32.Parse(sVoucherDetailNetAmt);
+                            dict[sCrdAccNo][0] += float.Parse(sVoucherDetailNetAmt);
                         }
 
                         // debit account
 
-                        int[] dbt = new int[2];
-                        dbt[0] = 0; dbt[1] = Int32.Parse(sVoucherDetailNetAmt);
+                        float[] dbt = new float[2];
+                        dbt[0] = 0; dbt[1] = float.Parse(sVoucherDetailNetAmt);
 
-                        if (!dict.ContainsKey(sDbtAccId))
-                            dict.Add(sDbtAccId, dbt);
+                        if (!dict.ContainsKey(sDbtAccNo))
+                            dict.Add(sDbtAccNo, dbt);
                         else
                         {
-                            dict[sDbtAccId][1] += Int32.Parse(sVoucherDetailNetAmt);
+                            dict[sDbtAccNo][1] += float.Parse(sVoucherDetailNetAmt);
                         }
 
 
@@ -128,7 +128,7 @@ namespace InnoTech.Models
                     }
                 }
                 List<JObject> lstDerivedData = new List<JObject>();
-                foreach (KeyValuePair<string, int[]> entry in dict)
+                foreach (KeyValuePair<string, float[]> entry in dict)
                 {
                     // do something with entry.Value or entry.Key
 
@@ -189,13 +189,13 @@ namespace InnoTech.Models
                 {
                     if (!dictCurrentDerivedAccounts.ContainsKey(obj["accNo"].ToString()))
                     {
-                        int[] value = { Int32.Parse(obj["crdAmt"].ToString()), Int32.Parse(obj["dbtAmt"].ToString()) } ;
+                        float[] value = { float.Parse(obj["crdAmt"].ToString()), float.Parse(obj["dbtAmt"].ToString()) } ;
                         dictCurrentDerivedAccounts.Add(obj["accNo"].ToString(), value);
                     }
                     else
                     {
-                        dictCurrentDerivedAccounts[obj["accNo"].ToString()][0] += Int32.Parse(obj["crdAmt"].ToString());
-                        dictCurrentDerivedAccounts[obj["accNo"].ToString()][1] += Int32.Parse(obj["dbtAmt"].ToString());
+                        dictCurrentDerivedAccounts[obj["accNo"].ToString()][0] += float.Parse(obj["crdAmt"].ToString());
+                        dictCurrentDerivedAccounts[obj["accNo"].ToString()][1] += float.Parse(obj["dbtAmt"].ToString());
                     }
                 }
 

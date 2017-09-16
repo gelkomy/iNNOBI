@@ -145,6 +145,7 @@
     <Compile Include="Models\DecompressResult.cs" />
     <Compile Include="Models\derived.cs" />
     <Compile Include="Controllers\summation.cs" />
+    <Compile Include="Models\DerivedRealTime.cs" />
     <Compile Include="Models\Voucher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
