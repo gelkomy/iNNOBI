@@ -1,4 +1,3 @@
-//debugger;
 var jsonData=[]
 var myConfig;
 var dbt=[];
@@ -7,8 +6,14 @@ var dbtAccounts = {};
 var lastNetAmt = {};
 //var crdAccounts = {};
 var arraySeries = [];
-var minDate;
-
+var minDate = [];
+var dailyData = [];
+var weeklyData = [];
+var monthlyData = [];
+var quarterlyData = [];
+var halfYearlyData = [];
+var yearlyData = [];
+var weeklyConfig;
 
 var ColorsList = {
         aqua: "#00ffff",
@@ -60,7 +65,7 @@ var ColorsList = {
           url: "http://localhost:2999/Derived",
           headers: { sCompanyID:'BI', sCompanyLicense:'97.74.205.13', sRequesterUserName:'admin', sRequesterPassword:'12#3' },
           type: "GET",
-          success: function(result) { alert('Success!' );
+          success: function(result) { //alert('Success!' );
 
 //$.get(
 //    "http://localhost:2999/Derived",
@@ -102,7 +107,6 @@ var colors = ["#800000",
 	// }
 //JUSSSSSSSSSSSSTTTTTT fine
 
-	// debugger;
 	for (i in result.data){
 		var accName=result.data[i].accName;   //Get the account name 
 		if (Number(result.data[i].runDate < minDate)){   // To update minimum date if the date is less than the set one
@@ -133,7 +137,7 @@ var colors = ["#800000",
 		var col = colors.shift();
 		colors.push(col);
 
-		debugger
+		
 		var x=	{
 		values: dbtAccounts[i],//[218.92,212.85,241.95,200.76,203.87,245.26],
 		lineColor:col, //color.rgb,//'#214247',
@@ -182,7 +186,7 @@ var colors = ["#800000",
     //dbt.push(result.netAmt);
 
 
-
+    dailyData = arraySeries;
 	myConfig = {
 	 	type: 'line',
 	 	backgroundColor: '#2C2C39',
@@ -350,7 +354,6 @@ var colors = ["#800000",
 		]*/
 		
 	};
-
 zingchart.render({ 
 	id: 'myChart', 
 	data: myConfig, 
@@ -378,6 +381,162 @@ zingchart.render({
 //aa = myConfig;
 //console.log(myConfig)
 
+function setDaily(){
+	// alert('Report is daily now' )
+	myConfig.series = dailyData;
+	zingchart.render({ 
+	id: 'myChart', 
+	data: myConfig, 
+	height: '500', 
+	width: '725' 
+	});
+
+}
+
+function setWeekly(){
+	//alert('Report is Weekly now' )
+	// weeklyConfig = $.extend(true,{}, myConfig);
+ 	if(weeklyData.length == 0){
+		sJson = JSON.stringify(arraySeries);
+		weeklyData = JSON.parse(sJson);
+		for (i = 0; i < arraySeries.length; ++i) {
+			weeklyData[i].values = [];
+			var values7 = 0
+		    for(j = 0; j < arraySeries[i].values.length; j+=7){
+		    	if(j %7 ==0){
+		    		weeklyData[i].values.push(values7);
+		    		values7 = 0;
+		    	}
+		    	values7 += arraySeries[i].values[j];
+
+		    } 
+		}
+	}
+	myConfig.series = weeklyData;
+	myConfig.scaleX.step = 'week';
+	zingchart.render({ 
+		id: 'myChart', 
+		data: myConfig, 
+		height: '500', 
+		width: '725' 
+	});
+}
+
+function setMonthly(){
+	//alert('Report is Monthly now' )
+	// weeklyConfig = $.extend(true,{}, myConfig);
+ 	if(monthlyData.length == 0){
+		sJson = JSON.stringify(arraySeries);
+		monthlyData = JSON.parse(sJson);
+		for (i = 0; i < arraySeries.length; ++i) {
+			monthlyData[i].values = [];
+			var values30 = 0
+		    for(j = 0; j < arraySeries[i].values.length; j+=30){
+		    	if(j %30 ==0){
+		    		monthlyData[i].values.push(values30);
+		    		values30 = 0;
+		    	}
+		    	values30 += arraySeries[i].values[j];
+
+		    } 
+		}
+	}
+	myConfig.series = monthlyData;
+	myConfig.scaleX.step = 'month';
+	zingchart.render({ 
+		id: 'myChart', 
+		data: myConfig, 
+		height: '500', 
+		width: '725' 
+	});
+}
+
+function setQuarterly(){
+	//alert('Report is Quarterly now' )
+	// weeklyConfig = $.extend(true,{}, myConfig);
+ 	if(quarterlyData.length == 0){
+		sJson = JSON.stringify(arraySeries);
+		quarterlyData = JSON.parse(sJson);
+		for (i = 0; i < arraySeries.length; ++i) {
+			quarterlyData[i].values = [];
+			var values90 = 0
+		    for(j = 0; j < arraySeries[i].values.length; j+=90){
+		    	if(j %90 ==0){
+		    		quarterlyData[i].values.push(values90);
+		    		values90 = 0;
+		    	}
+		    	values90 += arraySeries[i].values[j];
+
+		    } 
+		}
+	}
+	myConfig.series = quarterlyData;
+	myConfig.scaleX.step = '3month';
+	zingchart.render({ 
+		id: 'myChart', 
+		data: myConfig, 
+		height: '500', 
+		width: '725' 
+	});
+}
+
+function setHalfYearly(){
+	//alert('Report is Half Yearly now' )
+	// weeklyConfig = $.extend(true,{}, myConfig);
+ 	if(halfYearlyData.length == 0){
+		sJson = JSON.stringify(arraySeries);
+		halfYearlyData = JSON.parse(sJson);
+		for (i = 0; i < arraySeries.length; ++i) {
+			halfYearlyData[i].values = [];
+			var values180 = 0
+		    for(j = 0; j < arraySeries[i].values.length; j+=180){
+		    	if(j %180 ==0){
+		    		halfYearlyData[i].values.push(values180);
+		    		values180 = 0;
+		    	}
+		    	values180 += arraySeries[i].values[j];
+
+		    } 
+		}
+	}
+	myConfig.series = halfYearlyData;
+	myConfig.scaleX.step = '6month';
+	zingchart.render({ 
+		id: 'myChart', 
+		data: myConfig, 
+		height: '500', 
+		width: '725' 
+	});
+}
+
+function setYearly(){
+	//alert('Report is Yearly now' )
+	// weeklyConfig = $.extend(true,{}, myConfig);
+ 	if(yearlyData.length == 0){
+		sJson = JSON.stringify(arraySeries);
+		yearlyData = JSON.parse(sJson);
+		for (i = 0; i < arraySeries.length; ++i) {
+			yearlyData[i].values = [];
+			var values365 = 0
+		    for(j = 0; j < arraySeries[i].values.length; j+=365){
+		    	if(j %365 ==0){
+		    		yearlyData[i].values.push(values365);
+		    		values365 = 0;
+		    	}
+		    	values365 += arraySeries[i].values[j];
+
+		    } 
+		}
+	}
+	myConfig.series = yearlyData;
+	myConfig.scaleX.step = 'year';
+	zingchart.render({ 
+		id: 'myChart', 
+		data: myConfig, 
+		height: '500', 
+		width: '725' 
+	});
+}
 
 
 zingchart.shape_click = function(p){
