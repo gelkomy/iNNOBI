@@ -96,8 +96,8 @@ namespace InnoTech.Models
                         string sVoucherDetailNetAmt = objAccounts["voucherDetailNetAmt"].ToString();
 
                         // loging names
-                        dictNames[sCrdAccId] = sCrdAccAName;
-                        dictNames[sDbtAccId] = sDbtAccAName;
+                        dictNames[sCrdAccNo] = sCrdAccAName;
+                        dictNames[sDbtAccNo] = sDbtAccAName;
 
                         // credit account
                         float[] crd = new float[2];
