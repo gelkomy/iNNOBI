@@ -138,6 +138,7 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\DerivedController.cs" />
+    <Compile Include="Controllers\DerivedRealTimeController.cs" />
     <Compile Include="Controllers\VoucherController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

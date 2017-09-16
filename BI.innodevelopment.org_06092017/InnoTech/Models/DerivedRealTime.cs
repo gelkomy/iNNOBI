@@ -194,8 +194,8 @@ namespace InnoTech.Models
                     }
                     else
                     {
-                        dictCurrentDerivedAccounts[obj["accNo"].ToString()][0] += float.Parse(obj["crdAmt"].ToString());
-                        dictCurrentDerivedAccounts[obj["accNo"].ToString()][1] += float.Parse(obj["dbtAmt"].ToString());
+                        dictCurrentDerivedAccounts[obj["accNo"].ToString()][0] += Int32.Parse(obj["crdAmt"].ToString());
+                        dictCurrentDerivedAccounts[obj["accNo"].ToString()][1] += Int32.Parse(obj["dbtAmt"].ToString());
                     }
                 }
 
