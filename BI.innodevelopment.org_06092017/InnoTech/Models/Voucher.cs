@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -46,7 +46,7 @@ namespace InnoTech.Models
         public HttpResponseMessage Select()
         {
             HttpResponseMessage response_msg = new HttpResponseMessage();
-            Dictionary<string, int[]> dict = new Dictionary<string, int[]>();
+            Dictionary<string, float[]> dict = new Dictionary<string, float[]>();
             Dictionary<string, string> dictNames = new Dictionary<string, string>();
             DateTime startDate = new DateTime(2016, 8, 25, 23, 59, 59, 0);
             string sStartDate = startDate.ToString("yyyyMMdd");
@@ -83,26 +83,26 @@ namespace InnoTech.Models
                             dictNames[sDbtAccNo] = sDbtAccAName;
 
                             // credit account
-                            int[] crd = new int[2];
-                            crd[1] = 0; crd[0] = Int32.Parse(sVoucherDetailNetAmt);
+                            float[] crd = new float[2];
+                            crd[1] = 0; crd[0] = float.Parse(sVoucherDetailNetAmt);
 
                             if (!dict.ContainsKey(sCrdAccNo))
                                 dict.Add(sCrdAccNo, crd);
                             else
                             {
-                                dict[sCrdAccNo][0] += Int32.Parse(sVoucherDetailNetAmt);
+                                dict[sCrdAccNo][0] += float.Parse(sVoucherDetailNetAmt);
                             }
 
                             // debit account
 
-                            int[] dbt = new int[2];
-                            dbt[0] = 0; dbt[1] = Int32.Parse(sVoucherDetailNetAmt);
+                            float[] dbt = new float[2];
+                            dbt[0] = 0; dbt[1] = float.Parse(sVoucherDetailNetAmt);
 
                             if (!dict.ContainsKey(sDbtAccNo))
                                 dict.Add(sDbtAccNo, dbt);
                             else
                             {
-                                dict[sDbtAccNo][1] += Int32.Parse(sVoucherDetailNetAmt);
+                                dict[sDbtAccNo][1] += float.Parse(sVoucherDetailNetAmt);
                             }
 
 
@@ -111,7 +111,7 @@ namespace InnoTech.Models
                         }
                     }
                     List<JObject> lstDerivedData = new List<JObject>();
-                    foreach (KeyValuePair<string, int[]> entry in dict)
+                    foreach (KeyValuePair<string, float[]> entry in dict)
                     {
                         // do something with entry.Value or entry.Key
 
