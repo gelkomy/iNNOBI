@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -11,6 +11,7 @@ using System.Web.Http;
 
 namespace InnoTech.Models
 {
+    
     public class DerivedRealTime : IDisposable
     {
 
@@ -62,14 +63,53 @@ namespace InnoTech.Models
             HttpResponseMessage response_msg = new HttpResponseMessage();
             Dictionary<string, float[]> dict = new Dictionary<string, float[]>();
             Dictionary<string, string> dictNames = new Dictionary<string, string>();
+            List<JObject> lstDerivedData = new List<JObject>(); // recent transactions from vouchers
+            Dictionary<string, float[]> dictCurrentDerivedAccounts = new Dictionary<string, float[]>(); // current accounts from the derived table
+            Dictionary<string, string> dictCurrentDerivedAccountsRowID = new Dictionary<string,string>();// current accounts rowIDs to update
+            HttpResponseMessage response = new HttpResponseMessage();
 
-            string sStartDate = "20170702000000000";
-            string sEndDate = "20170708110000000";
-            sFilter = "{\"vDate\":{\"gte\":\"" + sStartDate + "\",\"lte\":\"" + sEndDate + "\"}}";
+            List<JObject> lstUpdate = new List<JObject>(); // update list
+            List<JObject> lstInsert = new List<JObject>(); // insert list
+
+
+            // getting lastRunTimeStamp
+            sBranchId = "1";
+            sProductID = "innoPack";
+            sWebserviceID = "srvBI";
+            sSchemaID = "controlTable";
+            sSchemaVersion = "1";
+            sPersonId = "0";
             sFilter = null;
-            
-            
-            Dictionary<string, float[]> dictCurrentDerivedAccounts = new Dictionary<string, float[]>();
+
+            string lastRunTimeStamp;
+            string lastRunTimeStampRowID;
+
+            using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
+            {
+                HttpResponseMessage temp = objRequestInterface.Get();
+                var json = JObject.Parse(DecompressResult.DeflateByte(temp.Content.ReadAsByteArrayAsync().Result))["data"];
+                lastRunTimeStampRowID = json[0]["_rowID"].ToString();
+                lastRunTimeStamp = json[0]["lastRunTimeStamp"].ToString();
+            }
+
+
+            // getting from vouchers
+            sBranchId = "";
+            sProductID = "innoPack";
+            sWebserviceID = "SrvInnoPackAccounts";
+            sSchemaID = "VoucherInsert";
+            sSchemaVersion = "1";
+            sPersonId = "";
+
+            sFilter = null;
+
+
+            string sStartDate = lastRunTimeStamp; //"20170702000000000";
+            string currentTimeStamp = DateTime.Now.ToString("yyyyMMddHHmmssfff");
+            string sEndDate = currentTimeStamp; //"20170708110000000";
+            sFilter = "{\"vDate\":{\"gte\":\"" + sStartDate + "\",\"lte\":\"" + sEndDate + "\"}}";
+            //sFilter = null;
+
             using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
             {
                              
@@ -127,16 +167,27 @@ namespace InnoTech.Models
                         string sAmt = objAccounts["voucherDetailNetAmt"].ToString();
                     }
                 }
-                List<JObject> lstDerivedData = new List<JObject>();
+                
                 foreach (KeyValuePair<string, float[]> entry in dict)
                 {
                     // do something with entry.Value or entry.Key
 
+                    string accType = "0";
+                    if (entry.Key.StartsWith("102003"))
+                    {
+                        accType = "1"; // customer
+                    }
+                    else if (entry.Key.StartsWith("202001"))
+                    {
+                        accType = "2"; // supplier
+                    }
+                    
 
                     JObject objDerived = new JObject
                     {
-                        { "runDate", sEndDate.Substring(0,7) },
+                        { "runDate", sEndDate.Substring(0,8) },
                         { "accNo", entry.Key },
+                         {"accType", accType },
                         { "accName", dictNames[entry.Key] },
                         { "dbtAmt", entry.Value[1] },
                         { "crdAmt", entry.Value[0] }
@@ -174,9 +225,10 @@ namespace InnoTech.Models
             sSchemaVersion = "1";
             sPersonId = "0";
 
-             sStartDate = "20170701";
-             sEndDate = "20170702";
-            sFilter = "{\"runDate\":{\"gte\":\"" + sStartDate + "\",\"lte\":\"" + sEndDate + "\"}}";
+            // sStartDate = "20170701";
+            // sEndDate = "20170702";
+            //sFilter = "{\"runDate\":{\"gte\":\"" + sStartDate + "\",\"lte\":\"" + sEndDate + "\"}}";
+            sFilter = "{\"runDate\":\"" + currentTimeStamp.Substring(0,8) + "\"}";
             using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
             {
                 var objResponse = objRequestInterface.Get();
@@ -191,6 +243,7 @@ namespace InnoTech.Models
                     {
                         float[] value = { float.Parse(obj["crdAmt"].ToString()), float.Parse(obj["dbtAmt"].ToString()) } ;
                         dictCurrentDerivedAccounts.Add(obj["accNo"].ToString(), value);
+                        dictCurrentDerivedAccountsRowID.Add(obj["accNo"].ToString(), obj["_rowID"].ToString());
                     }
                     else
                     {
@@ -210,14 +263,130 @@ namespace InnoTech.Models
                 */
                 //objResult["data"] = objResultData;
 
-                HttpResponseMessage response = new HttpResponseMessage();
+                
+
+                response.Content = new ObjectContent<JObject>(objResult, GlobalConfiguration.Configuration.Formatters.JsonFormatter);
+
+
+                
+            }
+
+
+            //******************************************************************************
+            // comparing the accounts in the derived with the recently changed accounts from vouchers
+            // lstDerivedData from vouchers
+            // dictCurrentDerivedAccounts from the derived table
+            
+            foreach (JObject element in lstDerivedData)
+            {
+                string accNo = element["accNo"].ToString();
+
+                if (dictCurrentDerivedAccounts.ContainsKey(accNo))
+                {
+                    // found so we need to update
+                    
+                    element.Add("_rowID", dictCurrentDerivedAccountsRowID[accNo]);
+                    element["dbtAmt"] = float.Parse(element["dbtAmt"].ToString()) + dictCurrentDerivedAccounts[accNo][1];
+                    element["crdAmt"] = float.Parse(element["crdAmt"].ToString()) + dictCurrentDerivedAccounts[accNo][0];
+                    lstUpdate.Add(element);
+                }
+                else
+                {
+                    // not found so we need to insert
+                    lstInsert.Add(element);
+
+                }
+
+            }
+
+
+            sBranchId = "1";
+            sProductID = "innoPack";
+            sWebserviceID = "srvBI";
+            sSchemaID = "derived";
+
+            sSchemaVersion = "1";
+            sPersonId = "0";
+
+            // updating existing accounts
+            if (lstUpdate.Count > 0)
+            {
+                using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, null, null))
+                {
+                     objRequestInterface.Put(lstUpdate);
+                }
+            }
+
+            // inserting new accounts 
+            if (lstInsert.Count > 0)
+            {
+                
+                using (var objRequestInterface_derived = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, "1", "0", sProductID, "srvBI", "derived", sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID))
+                {
+                    objRequestInterface_derived.Post(lstInsert);
+
+                }
+            }
+
+
+
+            // updating the last run date in the control table 
+            sBranchId = "1";
+            sProductID = "innoPack";
+            sWebserviceID = "srvBI";
+            sSchemaID = "controlTable";
+
+            sSchemaVersion = "1";
+            sPersonId = "0";
+
+            
+            sFilter = null;
+            using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
+            {
+                
+
+                JObject x = JObject.Parse("{\"_rowID\":\""+lastRunTimeStampRowID+"\",\"lastRunTimeStamp\":\""+ currentTimeStamp + "\"}");
+                List<JObject> lstControlTable = new List<JObject>();
+                lstControlTable.Add(x);
+                
+
+                 objRequestInterface.Put(lstControlTable);
+            }
+
+
+
+
+            sBranchId = "1";
+            sProductID = "innoPack";
+            sWebserviceID = "srvBI";
+            sSchemaID = "derived";
+
+            sSchemaVersion = "1";
+            sPersonId = "0";
+            sFilter = "{\"runDate\":\"" + DateTime.Now.ToString("yyyyMMddHHmmssfff").Substring(0, 8) + "\"}";
+
+            // getting aggregates from the derived
+        using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
+                {
+                var objResponse = objRequestInterface.Get();
+                var objResult = JObject.Parse(DecompressResult.DeflateByte(objResponse.Content.ReadAsByteArrayAsync().Result));
+                var objResultData = objResult["data"];
+                foreach (var obj in objResultData)
+                {
+                    obj["netAmt"] = (float)obj["dbtAmt"] - (float)obj["crdAmt"];
+                    obj["dbtAmt"].Parent.Remove();
+                    obj["crdAmt"].Parent.Remove();
+                }
+                //objResult["data"] = objResultData;
+                 response = new HttpResponseMessage();
 
                 response.Content = new ObjectContent<JObject>(objResult, GlobalConfiguration.Configuration.Formatters.JsonFormatter);
 
                 return response;
             }
+            
 
-
+           
         }
         #endregion
 
