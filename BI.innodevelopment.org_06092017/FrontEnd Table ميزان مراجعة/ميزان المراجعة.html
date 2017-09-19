@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <title>ميزان المراجعة</title>
+    <style type="text/css">
+        .article { width: 100%; background-color: #F9F9F9; font-family: Arial, "Bitstream Vera Sans" ,Helvetica,Verdana,sans-serif; color: #333; margin-top: 3px; }
+        .article td, table.article th { border-top-color: white; border-bottom: 1px solid #DFDFDF; color: #555; }
+        .article th { text-shadow: rgba(255, 255, 255, 0.796875) 0px 1px 0px; font-family: Arial, "Bitstream Vera Sans" ,Helvetica,Verdana,sans-serif; font-weight: bold; padding: 7px 7px 8px; text-align: left; line-height: 1.3em; font-size: 12px; background: #E3F2D4; border-right: 1px solid #DFDFDF; }
+        .article td { font-size: 12px; padding: 7px 7px 8px; vertical-align: top; border-right: 1px solid #DFDFDF; }
+    </style>
+    <script type="text/javascript">
+		  var data;
+		  
+		$.ajax({
+          url: "http://localhost:2999/DerivedRealTime",
+          headers: { sCompanyID:'BI', sCompanyLicense:'97.74.205.13', sRequesterUserName:'admin', sRequesterPassword:'12#3' },
+          type: "GET",
+          success: function(result) { alert('Success!' );
+		  data=result['data'];
+		  }
+		  })
+		  
+		  var dictAccounts={};
+        function createTable() {
+            // Create table.
+            var table = document.createElement('table');
+            // Apply CSS for table
+            table.setAttribute('class', 'article');
+            // Insert New Row for table at index '0'.
+            var row1 = table.insertRow(0);
+            // Insert New Column for Row1 at index '0'.
+            var row1col1 = row1.insertCell(0);
+            row1col1.innerHTML = 'مسلسل';
+            // Insert New Column for Row1 at index '1'.
+            var row1col2 = row1.insertCell(1);
+            row1col2.innerHTML = 'رقم الحساب';
+            // Insert New Column for Row1 at index '2'.
+            var row1col3 = row1.insertCell(2);
+            row1col3.innerHTML = 'اسم الحساب';
+			
+			 var row1col3 = row1.insertCell(3);
+            row1col3.innerHTML = 'نوع الحساب';
+			
+			var row1col3 = row1.insertCell(4);
+            row1col3.innerHTML = 'مدين ما قبل';
+			
+			var row1col3 = row1.insertCell(5);
+            row1col3.innerHTML = 'دائن ما قبل';
+			
+			var row1col3 = row1.insertCell(6);
+            row1col3.innerHTML = 'مدين الحركة';
+			
+			var row1col3 = row1.insertCell(7);
+            row1col3.innerHTML = 'دائن الحركة';
+			
+			var row1col3 = row1.insertCell(8);
+            row1col3.innerHTML = 'مجاميع مدين';
+			
+			var row1col3 = row1.insertCell(9);
+            row1col3.innerHTML = 'مجاميع دائن';
+			
+			var row1col3 = row1.insertCell(10);
+            row1col3.innerHTML = 'ارصدة مدين';
+			
+			var row1col3 = row1.insertCell(11);
+            row1col3.innerHTML = 'ارصدة دائن';
+            //console.log(document.getElementById('txtFrom').value);
+			//var beforeDbt=0.0, beforeCrd=0.0 , endDbt=0.0, endCrd=0.0, startDbt=0.0,startCrd=0.0;
+			dictAccounts={};
+			
+			
+			/*
+			var row= table.insertRow(idx);	
+							row.insertCell(0).innerHTML=data[i].runDate;
+							row.insertCell(1).innerHTML=data[i].accNo;
+							row.insertCell(2).innerHTML=data[i].accName;
+							row.insertCell(3).innerHTML=data[i].accType;
+							row.insertCell(4).innerHTML=data[i].dbtAmt;
+							row.insertCell(5).innerHTML=data[i].crdAmt;
+							idx+=1;
+							
+				*/	
+				
+				
+				// building the report
+			for( i=0; i < data.length; i++){
+			
+				if (dictAccounts[data[i].accNo]){
+				
+					// the account is in dictionary
+					if (data[i].runDate<document.getElementById('txtFrom').value){
+						dictAccounts[data[i].accNo].beforeDbt+= parseFloat(data[i].dbtAmt);
+						dictAccounts[data[i].accNo].beforeCrd+= parseFloat(data[i].crdAmt);
+					
+					}
+					
+					
+							
+					if (data[i].runDate=document.getElementById('txtFrom').value){
+					dictAccounts[data[i].accNo].startDbt= parseFloat(data[i].dbtAmt);
+					dictAccounts[data[i].accNo].startCrd= parseFloat(data[i].crdAmt);
+					}
+					
+					if (data[i].runDate=document.getElementById('txtTo').value){
+					dictAccounts[data[i].accNo].endDbt= parseFloat(data[i].dbtAmt);
+					dictAccounts[data[i].accNo].endCrd= parseFloat(data[i].crdAmt);
+					}
+					
+				}
+				else{
+					dictAccounts[data[i].accNo]={};
+					dictAccounts[data[i].accNo].accNo=data[i].accNo;
+					dictAccounts[data[i].accNo].accName=data[i].accName;
+					
+					if (data[i].accType=="1"){
+					dictAccounts[data[i].accNo].accType="عميل";
+					}else if (data[i].accType=="2"){
+					dictAccounts[data[i].accNo].accType="مورد";
+					}else {
+					dictAccounts[data[i].accNo].accType=data[i].accType;
+					}
+					
+					dictAccounts[data[i].accNo].beforeDbt= 0;
+					dictAccounts[data[i].accNo].beforeCrd= 0;
+					
+					
+					if (data[i].runDate<document.getElementById('txtFrom').value){
+							
+							dictAccounts[data[i].accNo].beforeDbt= parseFloat(data[i].dbtAmt);
+							dictAccounts[data[i].accNo].beforeCrd= parseFloat(data[i].crdAmt);
+						
+						}
+				}
+			}
+			
+			// building the front end
+			var idx = 1;
+			for( var dict in dictAccounts){
+				dictAccounts[dict];
+				var row= table.insertRow(idx);	
+				row.insertCell(0).innerHTML=idx;//dictAccounts[dict].runDate;
+				row.insertCell(1).innerHTML=dictAccounts[dict].accNo;
+				row.insertCell(2).innerHTML=dictAccounts[dict].accName;
+				row.insertCell(3).innerHTML=dictAccounts[dict].accType;
+				row.insertCell(4).innerHTML=dictAccounts[dict].beforeDbt;
+				row.insertCell(5).innerHTML=dictAccounts[dict].beforeCrd;
+				
+				row.insertCell(6).innerHTML=dictAccounts[dict].endDbt-dictAccounts[dict].startDbt;
+				row.insertCell(7).innerHTML=dictAccounts[dict].endCrd-dictAccounts[dict].startCrd;
+				
+				row.insertCell(8).innerHTML=dictAccounts[dict].endDbt;
+				row.insertCell(9).innerHTML=dictAccounts[dict].endCrd;
+				
+				row.insertCell(10).innerHTML="";
+				row.insertCell(11).innerHTML="";
+				if (dictAccounts[dict].endDbt> dictAccounts[dict].endCrd){
+					row.insertCell(10).innerHTML=dictAccounts[dict].endDbt- dictAccounts[dict].endCrd;
+				}else{
+				row.insertCell(11).innerHTML=  dictAccounts[dict].endCrd-dictAccounts[dict].endDbt;
+				}
+				
+				idx+=1;
+			
+			}
+            var div = document.getElementById('divTable');
+			div.innerHTML="";
+			
+			
+            div.appendChild(table);
+        }
+		
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <input type="button" value="Create Table" onclick="createTable()" />
+		<input type="text" id="txtFrom" value="from">
+		<input type="text" id="txtTo" value="to">
+    </div>
+    <div id="divTable">
+    </div>
+    </form>
+</body>
+</html>
