@@ -46,17 +46,18 @@ namespace InnoTech.Models
         public HttpResponseMessage Select()
         {
             HttpResponseMessage response_msg = new HttpResponseMessage();
-            Dictionary<string, float[]> dict = new Dictionary<string, float[]>();
+            Dictionary<string, double[]> dict = new Dictionary<string, double[]>();
             Dictionary<string, string> dictNames = new Dictionary<string, string>();
-            DateTime startDate = new DateTime(2016, 8, 25, 23, 59, 59, 0);
+            DateTime startDate = new DateTime(2016, 12, 31, 23, 59, 59, 0);
             string sStartDate = startDate.ToString("yyyyMMdd");
-            DateTime endDate = new DateTime(2017, 7, 1, 23, 59, 59, 0);
+            DateTime endDate = new DateTime(2017, 9, 24, 23, 59, 59, 0);
             string sEndDate = endDate.ToString("yyyyMMdd");
-            sFilter = "{'vDate':{'gte':" + sStartDate + ",'lte':"+ sEndDate +"}}";
+            string sDate;
             for (DateTime date = startDate; date.Date <= endDate.Date; date = date.AddDays(1))
             {
-                                
-                using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID,sFilter))
+                sDate = date.ToString("yyyyMMddHHmmssfff");
+                sFilter = "{'vDate':{'gte':" + date.AddDays(-1).ToString("yyyyMMddHHmmssfff") + ", 'lte':" + sDate + "}}";
+                using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID,null,sFilter,null))
                 {
                     HttpResponseMessage objResponse = objRequestInterface.Get();
                     var objResult = JObject.Parse(DecompressResult.DeflateByte(objResponse.Content.ReadAsByteArrayAsync().Result))["data"];
@@ -83,26 +84,26 @@ namespace InnoTech.Models
                             dictNames[sDbtAccNo] = sDbtAccAName;
 
                             // credit account
-                            float[] crd = new float[2];
-                            crd[1] = 0; crd[0] = float.Parse(sVoucherDetailNetAmt);
+                            double[] crd = new double[2];
+                            crd[1] = 0; crd[0] = double.Parse(sVoucherDetailNetAmt);
 
                             if (!dict.ContainsKey(sCrdAccNo))
                                 dict.Add(sCrdAccNo, crd);
                             else
                             {
-                                dict[sCrdAccNo][0] += float.Parse(sVoucherDetailNetAmt);
+                                dict[sCrdAccNo][0] += double.Parse(sVoucherDetailNetAmt);
                             }
 
                             // debit account
 
-                            float[] dbt = new float[2];
-                            dbt[0] = 0; dbt[1] = float.Parse(sVoucherDetailNetAmt);
+                            double[] dbt = new double[2];
+                            dbt[0] = 0; dbt[1] = double.Parse(sVoucherDetailNetAmt);
 
                             if (!dict.ContainsKey(sDbtAccNo))
                                 dict.Add(sDbtAccNo, dbt);
                             else
                             {
-                                dict[sDbtAccNo][1] += float.Parse(sVoucherDetailNetAmt);
+                                dict[sDbtAccNo][1] += double.Parse(sVoucherDetailNetAmt);
                             }
 
 
@@ -111,7 +112,7 @@ namespace InnoTech.Models
                         }
                     }
                     List<JObject> lstDerivedData = new List<JObject>();
-                    foreach (KeyValuePair<string, float[]> entry in dict)
+                    foreach (KeyValuePair<string, double[]> entry in dict)
                     {
                         // do something with entry.Value or entry.Key
 
