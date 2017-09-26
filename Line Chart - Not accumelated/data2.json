@@ -1,0 +1,6404 @@
+{
+    "data": [
+        {
+            "_rowID": "97cb6fd0-a33b-4564-9f0d-44582bca248b",
+            "id": "498",
+            "runDate": "20170913",
+            "accNo": "401001",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "80"
+        },
+        {
+            "_rowID": "a75ef6c1-9317-4da1-b36c-896bb90b2740",
+            "id": "327",
+            "runDate": "20170715",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "c5c7388b-6250-4ecd-8885-c1b41cc48b6e",
+            "id": "631",
+            "runDate": "20170923",
+            "accNo": "503001",
+            "accType": "0",
+            "accName": "أرباح العام",
+            "dbtAmt": "400",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "356b59c6-20e3-4a68-8bfd-468fff58b6db",
+            "id": "592",
+            "runDate": "20170920",
+            "accNo": "1020030004",
+            "accType": "1",
+            "accName": "eslam",
+            "dbtAmt": "32000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "99afdaa8-b8d1-480f-b1a7-bf8e8208f6c0",
+            "id": "599",
+            "runDate": "20170921",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "92000",
+            "crdAmt": "500000"
+        },
+        {
+            "_rowID": "85e3dd8b-39da-4265-bba4-fae6b411d14e",
+            "id": "596",
+            "runDate": "20170920",
+            "accNo": "305",
+            "accType": "0",
+            "accName": "المشتريات",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "53b39e21-9a84-4a29-b4f0-1df4a342f647",
+            "id": "531",
+            "runDate": "20170916",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "42000",
+            "crdAmt": "1010000"
+        },
+        {
+            "_rowID": "da4210c7-93dc-4c73-9911-804e12768c1f",
+            "id": "13",
+            "runDate": "20170208",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "a5924946-9aa9-4dc5-bbb0-77a671577589",
+            "id": "9",
+            "runDate": "20170206",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "5331b756-9ac4-41ea-99b0-20a5168894c5",
+            "id": "177",
+            "runDate": "20170501",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "15449327-ea49-4b0c-bc34-5a907825f7dc",
+            "id": "241",
+            "runDate": "20170602",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "926d5676-0b71-4318-83bb-668b0607a398",
+            "id": "616",
+            "runDate": "20170922",
+            "accNo": "1020030001",
+            "accType": "1",
+            "accName": "عميل نقدي",
+            "dbtAmt": "80",
+            "crdAmt": "100080"
+        },
+        {
+            "_rowID": "da90cbb3-4da5-40bb-95ad-48addfe7470f",
+            "id": "535",
+            "runDate": "20170916",
+            "accNo": "2020010002",
+            "accType": "2",
+            "accName": "sameh",
+            "dbtAmt": "65048",
+            "crdAmt": "400048"
+        },
+        {
+            "_rowID": "b59d2048-bf3a-44c4-a2b0-3a94364c8b79",
+            "id": "372",
+            "runDate": "20170806",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "c8bd94a7-bc7a-44cc-81db-be8d1a5317f7",
+            "id": "70",
+            "runDate": "20170308",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "b590af8a-db67-428f-b440-542149eb9382",
+            "id": "36",
+            "runDate": "20170219",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "92f455a7-f4e8-48b9-83c7-41d75687cc24",
+            "id": "222",
+            "runDate": "20170523",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "27dd63ec-6d0b-4bd5-abe5-d140c6a6dd4a",
+            "id": "368",
+            "runDate": "20170804",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "04d6fd41-18cd-48bc-8b5c-649ffe7df11a",
+            "id": "481",
+            "runDate": "20170912",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "92000",
+            "crdAmt": "500000"
+        },
+        {
+            "_rowID": "0ea55a33-743e-42e3-b9f4-2ed4417f2f1a",
+            "id": "212",
+            "runDate": "20170518",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "295d26e6-d374-4e0d-8ad9-22ff2b2aed1b",
+            "id": "228",
+            "runDate": "20170526",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "df8247da-3667-4c69-b18f-25ef10846d76",
+            "id": "187",
+            "runDate": "20170506",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "8c882381-6bc4-4717-8442-192f5b8e21a1",
+            "id": "399",
+            "runDate": "20170820",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "7854cf3d-1a34-448b-8645-261402404ea2",
+            "id": "4",
+            "runDate": "20170203",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "50b3922d-ef6b-4139-a6b6-6db9e8aff63f",
+            "id": "466",
+            "runDate": "20170910",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "a136184d-8aa8-46db-992f-aa11e908980f",
+            "id": "224",
+            "runDate": "20170524",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "c385cb68-33f1-489c-a267-38e9351696aa",
+            "id": "202",
+            "runDate": "20170513",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "88ca0810-bc83-4f12-84f5-9aac6a448999",
+            "id": "448",
+            "runDate": "20170907",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "8df73605-5f8a-4d97-b32a-860fbaac116a",
+            "id": "640",
+            "runDate": "20170923",
+            "accNo": "1000023023023023023",
+            "accType": "0",
+            "accName": "Elkomy",
+            "dbtAmt": "232323",
+            "crdAmt": "200"
+        },
+        {
+            "_rowID": "209b32b1-246d-40d8-9d10-01a5d300791e",
+            "id": "472",
+            "runDate": "20170911",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "92000",
+            "crdAmt": "500000"
+        },
+        {
+            "_rowID": "35b69498-ed77-4a8e-9e4d-20ab14395678",
+            "id": "332",
+            "runDate": "20170717",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "d3012f21-d3f5-4bfd-b98c-11911a3322b9",
+            "id": "611",
+            "runDate": "20170921",
+            "accNo": "2020010005",
+            "accType": "2",
+            "accName": "gamal",
+            "dbtAmt": "26269278200",
+            "crdAmt": "527930425000"
+        },
+        {
+            "_rowID": "69ca0223-f776-4293-92ad-1b244b5e4ca0",
+            "id": "336",
+            "runDate": "20170719",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "7b3f79d6-1205-4f5a-b643-f01623f2d22f",
+            "id": "366",
+            "runDate": "20170803",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "27677dc6-26ec-42f3-b4fe-f6095a28ddb7",
+            "id": "100",
+            "runDate": "20170323",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "77479db4-ddb8-4854-b208-b89d8d2676ae",
+            "id": "400",
+            "runDate": "20170820",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "310baff5-5e44-4866-a730-2f271399d665",
+            "id": "121",
+            "runDate": "20170403",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "0db4b021-ad88-4b00-80ad-728f017c6ae3",
+            "id": "257",
+            "runDate": "20170610",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "ff0af640-655a-4df0-bdc6-43f30c4e4fcc",
+            "id": "226",
+            "runDate": "20170525",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "ea167a40-dc53-4b65-98e5-5d6d0267162b",
+            "id": "339",
+            "runDate": "20170721",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "5856cedb-72ad-4916-a2f1-8768bbd840a5",
+            "id": "16",
+            "runDate": "20170209",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "afb67e6a-3e45-4d3d-a903-a67d59d99fcb",
+            "id": "14",
+            "runDate": "20170208",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "244e4c55-eaf5-4afe-8373-9c27cf3baff6",
+            "id": "300",
+            "runDate": "20170701",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "be805bf6-7515-4308-9261-26313dbe0ae0",
+            "id": "453",
+            "runDate": "20170908",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "110000",
+            "crdAmt": "14400"
+        },
+        {
+            "_rowID": "decb14ff-95f3-4ded-b649-2a82f211ed32",
+            "id": "367",
+            "runDate": "20170804",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "7896bf0b-64ec-4662-99df-c9e8e30a5383",
+            "id": "479",
+            "runDate": "20170911",
+            "accNo": "1020030004",
+            "accType": "1",
+            "accName": "eslam",
+            "dbtAmt": "20000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "165e040b-0d81-4753-a3fa-fae84f5fb121",
+            "id": "314",
+            "runDate": "20170708",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "6f4ef5d1-fdae-4614-ba97-1db353e5dfb7",
+            "id": "356",
+            "runDate": "20170729",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "b995d911-fb23-4c9c-8722-a7162e8f3850",
+            "id": "106",
+            "runDate": "20170326",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "79c597b0-06c7-402e-8ba5-f67d963c19e4",
+            "id": "594",
+            "runDate": "20170920",
+            "accNo": "1020070001",
+            "accType": "0",
+            "accName": "المخزن الافتراضي",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "51141642-6d98-40a3-be2c-914bfd2afc75",
+            "id": "495",
+            "runDate": "20170913",
+            "accNo": "401",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "385b683e-5080-4fef-8527-87258a1acc43",
+            "id": "170",
+            "runDate": "20170427",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "32630a31-a2c7-45e8-bf0d-3f7f22b7fe27",
+            "id": "301",
+            "runDate": "20170702",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "da97a839-39b1-455e-bf04-a39b4b65eaf5",
+            "id": "338",
+            "runDate": "20170720",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "e453e222-f76c-43f7-80a8-3312ddd60e83",
+            "id": "407",
+            "runDate": "20170824",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "0afc0c99-2505-4b13-93e4-c5ecd835c71d",
+            "id": "315",
+            "runDate": "20170709",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "a0839cd0-ff9b-4fc9-ab4f-c836a941dd6a",
+            "id": "373",
+            "runDate": "20170807",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "603e534d-e96a-495f-9e91-947168c64cef",
+            "id": "609",
+            "runDate": "20170921",
+            "accNo": "304001",
+            "accType": "0",
+            "accName": "صافي تكلفة المبيعات",
+            "dbtAmt": "48",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "ae0eff07-4c3e-4305-8e58-8ec611bc3be8",
+            "id": "364",
+            "runDate": "20170802",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "7b750d2f-f542-4743-8b6d-e834761eaac9",
+            "id": "549",
+            "runDate": "20170917",
+            "accNo": "2020010002",
+            "accType": "2",
+            "accName": "sameh",
+            "dbtAmt": "65048",
+            "crdAmt": "400048"
+        },
+        {
+            "_rowID": "d93e34a3-eb35-4370-9a6c-431a44d7200b",
+            "id": "162",
+            "runDate": "20170423",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "b369c315-1e82-4fc1-9a5e-e070bc9e84d9",
+            "id": "157",
+            "runDate": "20170421",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "2933604f-07e6-41f1-b7b3-ca091229c3c4",
+            "id": "410",
+            "runDate": "20170825",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "24732c4b-ac83-438e-830b-98d7341b817a",
+            "id": "437",
+            "runDate": "20170904",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "84894eee-10b4-4828-b79b-6095d86e684b",
+            "id": "168",
+            "runDate": "20170426",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "d5b8d40f-ed11-4e60-b7cf-fe26883cded7",
+            "id": "405",
+            "runDate": "20170823",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "6a24bbbe-df09-40ca-b59c-3bceb266b390",
+            "id": "164",
+            "runDate": "20170424",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "c4a29592-8ff1-4c29-a68b-4ce6b67b527a",
+            "id": "508",
+            "runDate": "20170914",
+            "accNo": "401",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "c3d308ec-791f-48af-b52e-9acf1821ae73",
+            "id": "424",
+            "runDate": "20170901",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "27458923-dd6d-46c9-9891-072b4f8bd6f8",
+            "id": "450",
+            "runDate": "20170907",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "26edde2f-8a26-45d2-93f0-de6d3cf3e554",
+            "id": "53",
+            "runDate": "20170228",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "c23650b8-c493-4631-8427-6a6b5eb7bd33",
+            "id": "588",
+            "runDate": "20170920",
+            "accNo": "1020030001",
+            "accType": "1",
+            "accName": "عميل نقدي",
+            "dbtAmt": "80",
+            "crdAmt": "100080"
+        },
+        {
+            "_rowID": "10c3e3b1-30e5-4156-8826-6cbf3e4d8676",
+            "id": "6",
+            "runDate": "20170204",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "817346ed-8f9e-4070-b18b-fd152a41db5c",
+            "id": "502",
+            "runDate": "20170914",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "2810080",
+            "crdAmt": "336448"
+        },
+        {
+            "_rowID": "c4fc437b-d9df-4904-a2e8-f498e71ba565",
+            "id": "243",
+            "runDate": "20170603",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "34b22373-bada-432a-8ab2-118bbab51409",
+            "id": "589",
+            "runDate": "20170920",
+            "accNo": "503001",
+            "accType": "0",
+            "accName": "أرباح العام",
+            "dbtAmt": "400",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "c5044200-11b9-4cdb-a7db-06086f9996ec",
+            "id": "244",
+            "runDate": "20170603",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "80d2591b-3ff6-44c2-a965-96e737d452b6",
+            "id": "104",
+            "runDate": "20170325",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "98a72e77-5b16-4509-94c5-a5507a71428f",
+            "id": "635",
+            "runDate": "20170923",
+            "accNo": "401001",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "80"
+        },
+        {
+            "_rowID": "ce3e66ef-8a6b-4d42-96e7-6d9828b064ca",
+            "id": "398",
+            "runDate": "20170819",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "26b5e5a0-d13f-4a2e-8cd1-f080cd4f534b",
+            "id": "311",
+            "runDate": "20170707",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "fb9bafd8-3726-4ca6-b544-42b87206d503",
+            "id": "533",
+            "runDate": "20170916",
+            "accNo": "503001",
+            "accType": "0",
+            "accName": "أرباح العام",
+            "dbtAmt": "400",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "b14f541c-7557-462d-93ed-5f92d303b53b",
+            "id": "489",
+            "runDate": "20170913",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "2810080",
+            "crdAmt": "336448"
+        },
+        {
+            "_rowID": "1090e40a-a84e-4e29-aee7-eebaa54531c9",
+            "id": "473",
+            "runDate": "20170911",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "105000",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "d53b37f5-534c-4465-a5fc-c5d9bfb28874",
+            "id": "194",
+            "runDate": "20170509",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "f349ab2b-6855-4caa-a66f-724419050e9e",
+            "id": "283",
+            "runDate": "20170623",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "bc1d923e-eddd-4939-98bc-282fa35515e1",
+            "id": "471",
+            "runDate": "20170911",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "2810000",
+            "crdAmt": "324400"
+        },
+        {
+            "_rowID": "c085a7c6-fcae-41ed-83f9-9b9020400a64",
+            "id": "429",
+            "runDate": "20170902",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "c344c834-08f2-4c56-9d7d-8005e423f6fa",
+            "id": "173",
+            "runDate": "20170429",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "39a44de4-fd92-4b6d-ba86-fb044eb4d2f6",
+            "id": "158",
+            "runDate": "20170421",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "7d582e4f-74b8-4e0f-8b2b-ea67f445d30f",
+            "id": "335",
+            "runDate": "20170719",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "9428a531-4b7f-43aa-9004-78933fe221a7",
+            "id": "264",
+            "runDate": "20170613",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "d0815df0-623e-44cf-b976-8c034336e0bd",
+            "id": "150",
+            "runDate": "20170417",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "cc461aa7-ffdb-452a-9bac-6f18d555b6d3",
+            "id": "432",
+            "runDate": "20170903",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "10000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "2ed374a4-8612-4dab-a258-1c0848f41d36",
+            "id": "259",
+            "runDate": "20170611",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "88fa0e2d-1644-41b7-8651-211a82fef2b2",
+            "id": "469",
+            "runDate": "20170910",
+            "accNo": "1020030001",
+            "accType": "1",
+            "accName": "عميل نقدي",
+            "dbtAmt": "0",
+            "crdAmt": "100000"
+        },
+        {
+            "_rowID": "090f2e22-1db2-495b-9e09-afa15edde595",
+            "id": "342",
+            "runDate": "20170722",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "dc390b05-5d8d-43e2-9caa-0e0942acf0df",
+            "id": "125",
+            "runDate": "20170405",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "a4a4910d-7c72-4059-80a3-851f44098510",
+            "id": "393",
+            "runDate": "20170817",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "1427dcc6-f8c5-4901-8f74-381046ec45f5",
+            "id": "153",
+            "runDate": "20170419",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "49c5ecb3-c6ff-4df4-accc-f5e0289ffec6",
+            "id": "42",
+            "runDate": "20170222",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "7b9455b5-9c69-4e7e-bc9d-017aab929fef",
+            "id": "347",
+            "runDate": "20170725",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "60c32804-e2bb-48c1-87d7-89f97e15613e",
+            "id": "637",
+            "runDate": "20170923",
+            "accNo": "304001",
+            "accType": "0",
+            "accName": "صافي تكلفة المبيعات",
+            "dbtAmt": "48",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "35038032-fa7f-4a9d-a404-4f69b571d39c",
+            "id": "480",
+            "runDate": "20170912",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "2810000",
+            "crdAmt": "336400"
+        },
+        {
+            "_rowID": "cfd7a292-4d58-4eff-be6a-d4d1768766e2",
+            "id": "558",
+            "runDate": "20170918",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "105000",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "4af769e2-112b-4105-9c52-68627532cea6",
+            "id": "113",
+            "runDate": "20170330",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "f5c22de6-a4fd-4ef2-b7b9-3c49df8701d3",
+            "id": "252",
+            "runDate": "20170607",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "b23013c6-9f3e-46d4-8f49-93f21d7de7c8",
+            "id": "423",
+            "runDate": "20170901",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "12000"
+        },
+        {
+            "_rowID": "cf9306a9-101f-4454-bef1-3fafc78df9ac",
+            "id": "358",
+            "runDate": "20170730",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "70607122-de42-41cf-93d8-1a16818d9a6d",
+            "id": "444",
+            "runDate": "20170906",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "10000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "f4c940e7-0b38-4ea7-8a13-f1489d5d609f",
+            "id": "331",
+            "runDate": "20170717",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "5d024a26-9700-4b2b-98ae-706d6c524ff0",
+            "id": "181",
+            "runDate": "20170503",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "2f2c9759-e66a-4ce3-a3c2-d0ce571a74d7",
+            "id": "510",
+            "runDate": "20170914",
+            "accNo": "1020030004",
+            "accType": "1",
+            "accName": "eslam",
+            "dbtAmt": "32000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "3a28342b-686f-41b1-982d-ce0690c86b20",
+            "id": "443",
+            "runDate": "20170906",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "003df4ce-a1c1-4680-a2e6-5e7b5443e326",
+            "id": "140",
+            "runDate": "20170412",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "ef7b36ad-23ef-4727-a277-5ae2583e946c",
+            "id": "256",
+            "runDate": "20170609",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "4906ffdd-5d03-406b-bddc-c3ead49d9412",
+            "id": "420",
+            "runDate": "20170830",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "6c989043-5cce-449d-a079-38e3a5e66329",
+            "id": "551",
+            "runDate": "20170917",
+            "accNo": "401001",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "80"
+        },
+        {
+            "_rowID": "7b59db1d-fa39-4071-92f9-89466735bc49",
+            "id": "85",
+            "runDate": "20170316",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "0862df05-d0c6-4d11-a181-3fb95547380d",
+            "id": "129",
+            "runDate": "20170407",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "75eab6b5-dc96-4fd2-b679-ac109b487a41",
+            "id": "23",
+            "runDate": "20170213",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "da62a451-8acf-4557-89ce-aa33cc7ab075",
+            "id": "29",
+            "runDate": "20170216",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "fe5b1f2a-1de5-4672-b102-4fdae5702478",
+            "id": "96",
+            "runDate": "20170321",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "f86f5b2a-12dc-4cf7-b1fb-70bb214ee41b",
+            "id": "122",
+            "runDate": "20170403",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "57b767db-0156-4923-8424-90ab8714e18e",
+            "id": "143",
+            "runDate": "20170414",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "ed89d911-230d-43a6-a08b-55f359cecac8",
+            "id": "262",
+            "runDate": "20170612",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "2838e5f1-39c7-4c57-8db4-98a5a928bd75",
+            "id": "183",
+            "runDate": "20170504",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "a9268b45-bc24-4de3-9a27-ce29dca91e76",
+            "id": "590",
+            "runDate": "20170920",
+            "accNo": "401",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "d690349e-da13-4145-acf1-ac369a209dfd",
+            "id": "66",
+            "runDate": "20170306",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "c86ff5c4-2f6f-42f5-b069-c84a334bd997",
+            "id": "321",
+            "runDate": "20170712",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "09b4c12d-eae5-4d56-b44d-ec3de53ac33c",
+            "id": "123",
+            "runDate": "20170404",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "d311b72d-e3cd-47a9-b8f1-59bd1d6b6b4b",
+            "id": "52",
+            "runDate": "20170227",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "f8c5b2e1-3138-46a9-a540-d73b5576605e",
+            "id": "561",
+            "runDate": "20170918",
+            "accNo": "503001",
+            "accType": "0",
+            "accName": "أرباح العام",
+            "dbtAmt": "400",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "e1f3b29f-521d-4c68-88c4-9c0bc9e55ef5",
+            "id": "200",
+            "runDate": "20170512",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "a71a0f12-6042-474f-b519-bad71d804b27",
+            "id": "391",
+            "runDate": "20170816",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "8ea5620f-2f84-4c75-872f-29a8b481874b",
+            "id": "131",
+            "runDate": "20170408",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "e50949d9-c678-4b8a-b595-32d7ae655d82",
+            "id": "570",
+            "runDate": "20170919",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "527933200000",
+            "crdAmt": "26269614100"
+        },
+        {
+            "_rowID": "407d31cc-efc8-4452-a439-88fc40b1388f",
+            "id": "281",
+            "runDate": "20170622",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "39a243bb-c8d1-436b-a95f-e3ec59f9854d",
+            "id": "516",
+            "runDate": "20170915",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "92000",
+            "crdAmt": "500000"
+        },
+        {
+            "_rowID": "0f2e1a86-3904-44b0-94f1-561e402f5fe4",
+            "id": "191",
+            "runDate": "20170508",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "1ccf6748-40b5-4fcc-a65e-099852e76fd3",
+            "id": "546",
+            "runDate": "20170917",
+            "accNo": "1020030001",
+            "accType": "1",
+            "accName": "عميل نقدي",
+            "dbtAmt": "80",
+            "crdAmt": "100080"
+        },
+        {
+            "_rowID": "7904fc71-225b-4957-93fa-81099982cee3",
+            "id": "591",
+            "runDate": "20170920",
+            "accNo": "2020010002",
+            "accType": "2",
+            "accName": "sameh",
+            "dbtAmt": "65048",
+            "crdAmt": "400048"
+        },
+        {
+            "_rowID": "119f9c09-95ae-46a1-b73e-02a0d70ec504",
+            "id": "586",
+            "runDate": "20170920",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "105000",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "627e0ef9-0438-4daf-b6fc-4194bd536a27",
+            "id": "297",
+            "runDate": "20170630",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "c4948736-8bfb-4fa2-a6e5-2e39e600c483",
+            "id": "40",
+            "runDate": "20170221",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "32d2b525-bd62-427e-acc0-f34e9777b78d",
+            "id": "225",
+            "runDate": "20170525",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "9202d221-f901-4325-ae35-79569915cfd9",
+            "id": "414",
+            "runDate": "20170827",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "f19935ed-bd72-47b6-b45f-1da6aefcde90",
+            "id": "63",
+            "runDate": "20170305",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "75f00c1d-8f28-4eb8-b512-718b0fc2f2b5",
+            "id": "601",
+            "runDate": "20170921",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "42000",
+            "crdAmt": "1010000"
+        },
+        {
+            "_rowID": "8c4adf14-a711-4ac9-b902-349a2c3493cc",
+            "id": "54",
+            "runDate": "20170228",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "6516dc52-036a-4ea3-9936-1033c0bea2dd",
+            "id": "110",
+            "runDate": "20170328",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "21cb9583-4f98-4885-a5a6-596ba9952cf7",
+            "id": "258",
+            "runDate": "20170610",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "b2553c43-82cc-4ab8-bb9d-068196f22a2f",
+            "id": "298",
+            "runDate": "20170630",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "3e5849cf-d101-4612-98ec-49c904f1d5e5",
+            "id": "210",
+            "runDate": "20170517",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "05f3c28e-e5ac-4933-9a9b-b7e57efa92e0",
+            "id": "475",
+            "runDate": "20170911",
+            "accNo": "1020030001",
+            "accType": "1",
+            "accName": "عميل نقدي",
+            "dbtAmt": "0",
+            "crdAmt": "100000"
+        },
+        {
+            "_rowID": "a0febd23-8314-44d6-87ee-aa42e37b4b22",
+            "id": "165",
+            "runDate": "20170425",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "833a5dbb-ec83-441f-a2e4-5d23c7ba21d6",
+            "id": "154",
+            "runDate": "20170419",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "07e3b940-4fe4-4ee2-9f76-cffb6005f87e",
+            "id": "461",
+            "runDate": "20170909",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "10000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "8b6ad36e-1c08-47ba-af47-f9bfdcb1751f",
+            "id": "337",
+            "runDate": "20170720",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "9cd920ba-ffc6-45c4-8c6d-e7f5acf3b1c5",
+            "id": "74",
+            "runDate": "20170310",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "f4170b64-8093-4659-be67-b25a9bf93275",
+            "id": "291",
+            "runDate": "20170627",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "81b9ed8d-3750-40cc-9bdd-bca7a9140a8b",
+            "id": "251",
+            "runDate": "20170607",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "32917ffa-fc11-4481-8042-de6b658dc025",
+            "id": "428",
+            "runDate": "20170902",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "10000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "7296d309-b584-45d8-9c18-21318b935830",
+            "id": "537",
+            "runDate": "20170916",
+            "accNo": "401001",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "80"
+        },
+        {
+            "_rowID": "fee86be5-1b6b-469f-a2bc-d4ac3c09331d",
+            "id": "148",
+            "runDate": "20170416",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "402bc622-729c-4d84-95a8-aa72239b494e",
+            "id": "604",
+            "runDate": "20170921",
+            "accNo": "401",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "abcbb776-3b9e-4492-b562-186f346703a0",
+            "id": "349",
+            "runDate": "20170726",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "fec2689c-df93-4641-8154-8da422a8c8e6",
+            "id": "134",
+            "runDate": "20170409",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "051c9025-05bc-411c-97ad-307ca9c6d2af",
+            "id": "614",
+            "runDate": "20170922",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "105000",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "9951f22e-b66f-4a60-912b-2ea4cd570a61",
+            "id": "379",
+            "runDate": "20170810",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "1e724ef1-140e-4d74-8e25-e94a7913bb8e",
+            "id": "10",
+            "runDate": "20170206",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "398db08d-d53e-457a-a9e7-f12690e27bb4",
+            "id": "20",
+            "runDate": "20170211",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "16bdede1-047f-4d3d-a8ff-62231fa487b7",
+            "id": "543",
+            "runDate": "20170917",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "92000",
+            "crdAmt": "500000"
+        },
+        {
+            "_rowID": "f5af8854-8d7e-4d18-9f08-1a2004a28564",
+            "id": "381",
+            "runDate": "20170811",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "370593d4-55b8-4b38-b95f-651e4c347c2d",
+            "id": "292",
+            "runDate": "20170627",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "5dede41b-bcb4-4514-bed4-3737a6d716ba",
+            "id": "33",
+            "runDate": "20170218",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "8a932e66-65ae-4f2e-873b-3bfdc5b34afe",
+            "id": "320",
+            "runDate": "20170711",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "b597dd05-302e-4e27-88f8-7fce1361e78a",
+            "id": "51",
+            "runDate": "20170227",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "c436db25-de64-4b1b-8434-59b56512424f",
+            "id": "117",
+            "runDate": "20170401",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "f1204c71-eb72-4d44-ba2f-677168c273bd",
+            "id": "455",
+            "runDate": "20170908",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "10000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "7e9f9ecc-18ed-4f52-98bc-1aaf28053811",
+            "id": "98",
+            "runDate": "20170322",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "17731a24-95a0-429e-a764-65a7219cb379",
+            "id": "80",
+            "runDate": "20170313",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "1008f27f-cfdf-43d3-8cfc-33957f150b98",
+            "id": "547",
+            "runDate": "20170917",
+            "accNo": "503001",
+            "accType": "0",
+            "accName": "أرباح العام",
+            "dbtAmt": "400",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "fa67ed6f-fc44-45c8-8a68-0bc9f111072d",
+            "id": "326",
+            "runDate": "20170714",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "162a3ccf-3409-4e3f-a244-968a3edc4734",
+            "id": "538",
+            "runDate": "20170916",
+            "accNo": "1020070001",
+            "accType": "0",
+            "accName": "المخزن الافتراضي",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "bc08ad1f-14ff-462f-a590-85a353cd8095",
+            "id": "273",
+            "runDate": "20170618",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "c9629db3-70fc-4b0b-b2c3-ef0ecd12f603",
+            "id": "359",
+            "runDate": "20170731",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "f12fe3be-086a-4933-8973-38d222030d1f",
+            "id": "504",
+            "runDate": "20170914",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "105000",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "d09730a6-f7a7-4f92-900f-9b01f0c819da",
+            "id": "267",
+            "runDate": "20170615",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "d68c1f3e-62a7-4b3a-a40f-6fd27c160a72",
+            "id": "418",
+            "runDate": "20170829",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "c8f84a80-68da-4c86-9e97-90b11c19b567",
+            "id": "132",
+            "runDate": "20170408",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "89ec211e-7ffc-4ba3-92a6-ed647543363f",
+            "id": "425",
+            "runDate": "20170901",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "10000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "d4edd85e-1af4-44fc-959f-4b76f7083208",
+            "id": "351",
+            "runDate": "20170727",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "1963d193-1b96-466a-9e17-234dfae3e4c9",
+            "id": "277",
+            "runDate": "20170620",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "578f48c5-b88c-46e4-8f2b-337352eae8e0",
+            "id": "172",
+            "runDate": "20170428",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "627a461d-fb8b-4ad1-ab94-018ed89b8e05",
+            "id": "374",
+            "runDate": "20170807",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "b94fe7d8-105f-4a06-8c54-cc86546ebc57",
+            "id": "365",
+            "runDate": "20170803",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "ce087d9a-7e17-4a2c-84c8-d0d7ad481802",
+            "id": "245",
+            "runDate": "20170604",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "925eec36-00ef-40ba-9eca-db9d498b837c",
+            "id": "79",
+            "runDate": "20170313",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "49c04627-1ec9-4853-bdd4-5ae81ffcd454",
+            "id": "115",
+            "runDate": "20170331",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "60a7c029-791e-41cf-817e-195b0d0a1e3e",
+            "id": "175",
+            "runDate": "20170430",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "fd09fc25-e090-400c-a913-13d7fcf73ac2",
+            "id": "90",
+            "runDate": "20170318",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "30b79f9f-f5aa-425e-b858-301fe000b29b",
+            "id": "242",
+            "runDate": "20170602",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "50082fa2-b1f0-457e-8d05-83399ded4a2d",
+            "id": "138",
+            "runDate": "20170411",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "34449278-306e-4854-8d56-3e7c63a1ca40",
+            "id": "402",
+            "runDate": "20170821",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "df6e8372-13df-4327-926e-e86ea5910363",
+            "id": "250",
+            "runDate": "20170606",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "ab069023-c73d-499d-8bd9-a4bf6c69c72c",
+            "id": "607",
+            "runDate": "20170921",
+            "accNo": "401001",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "80"
+        },
+        {
+            "_rowID": "99ca3136-94f2-4485-b14e-710002f035c6",
+            "id": "552",
+            "runDate": "20170917",
+            "accNo": "1020070001",
+            "accType": "0",
+            "accName": "المخزن الافتراضي",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "ecfc9c58-b9c7-4fc6-a869-f01ac7d43d5f",
+            "id": "126",
+            "runDate": "20170405",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "79f70141-0a63-4146-b7fa-4334b2a6680a",
+            "id": "497",
+            "runDate": "20170913",
+            "accNo": "1020030004",
+            "accType": "1",
+            "accName": "eslam",
+            "dbtAmt": "32000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "30223bb3-49f8-45ff-8e9c-fa99b5d77d52",
+            "id": "189",
+            "runDate": "20170507",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "6aff50c9-6e43-45b9-9e9f-c1e029862f8e",
+            "id": "634",
+            "runDate": "20170923",
+            "accNo": "1020030004",
+            "accType": "1",
+            "accName": "eslam",
+            "dbtAmt": "32000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "bc15f12f-3c09-4806-b3ad-47c0ef899e92",
+            "id": "65",
+            "runDate": "20170306",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "7b72541d-84c2-4676-8333-199fed0fcd7a",
+            "id": "566",
+            "runDate": "20170918",
+            "accNo": "1020070001",
+            "accType": "0",
+            "accName": "المخزن الافتراضي",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "49999c31-8694-459f-a924-dce19f38422d",
+            "id": "513",
+            "runDate": "20170914",
+            "accNo": "304001",
+            "accType": "0",
+            "accName": "صافي تكلفة المبيعات",
+            "dbtAmt": "48",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "53cdc263-ab50-4088-a409-29e6a4fbfb34",
+            "id": "376",
+            "runDate": "20170808",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "e8d05d17-9bbb-48ca-8d77-2e558755d728",
+            "id": "520",
+            "runDate": "20170915",
+            "accNo": "503001",
+            "accType": "0",
+            "accName": "أرباح العام",
+            "dbtAmt": "400",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "f6c8c2e2-f0fc-41cf-ab97-507582c28038",
+            "id": "440",
+            "runDate": "20170905",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "10000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "6add44a8-c64f-43f1-bd03-af14aca9a06f",
+            "id": "5",
+            "runDate": "20170204",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "13b5a5dd-a188-44fa-a5ec-7d888b1a5a04",
+            "id": "341",
+            "runDate": "20170722",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "2e333319-2b7d-4a33-91d5-c09195084c98",
+            "id": "68",
+            "runDate": "20170307",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "05af28a1-e65c-4041-9528-de7e898c2b8e",
+            "id": "625",
+            "runDate": "20170922",
+            "accNo": "2020010005",
+            "accType": "2",
+            "accName": "gamal",
+            "dbtAmt": "26269278200",
+            "crdAmt": "527930425000"
+        },
+        {
+            "_rowID": "036f3141-f275-4118-9a2d-ac369454f89d",
+            "id": "434",
+            "runDate": "20170904",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "14000"
+        },
+        {
+            "_rowID": "20f4f03a-1bdd-4b3e-8061-b018c96ef41b",
+            "id": "567",
+            "runDate": "20170918",
+            "accNo": "304001",
+            "accType": "0",
+            "accName": "صافي تكلفة المبيعات",
+            "dbtAmt": "48",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "4f824f27-4b94-470b-9f8e-576797f2ec3b",
+            "id": "330",
+            "runDate": "20170716",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "66e03039-1eb9-4372-9086-f8cb2b1eae3a",
+            "id": "525",
+            "runDate": "20170915",
+            "accNo": "1020070001",
+            "accType": "0",
+            "accName": "المخزن الافتراضي",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "cda1023b-ea68-4db8-95a4-2726222a90dc",
+            "id": "271",
+            "runDate": "20170617",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "60c3d2ab-bd66-4b58-afcb-767d6883bf9b",
+            "id": "201",
+            "runDate": "20170513",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "0883d3b8-2267-4488-89cf-7ace0c53fd43",
+            "id": "120",
+            "runDate": "20170402",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "83516c36-0f51-41cb-92bd-5ea6a6b494e5",
+            "id": "230",
+            "runDate": "20170527",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "98554f00-ac22-4124-8bb4-dbd37f49d601",
+            "id": "395",
+            "runDate": "20170818",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "efbe4713-10ef-48cf-a862-520a6cd2a0e0",
+            "id": "229",
+            "runDate": "20170527",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "4aead576-4f64-482c-a86c-a7876009db34",
+            "id": "286",
+            "runDate": "20170624",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "7c335385-9169-4720-a1f5-202a36dd03b4",
+            "id": "151",
+            "runDate": "20170418",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "27b8d660-0816-4d33-91f1-ba3fa7405534",
+            "id": "266",
+            "runDate": "20170614",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "36941eba-7e03-4768-a816-fd9ec84e407b",
+            "id": "294",
+            "runDate": "20170628",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "2f6ccb78-79da-4d0c-95ef-e2dd9f0a0cbc",
+            "id": "574",
+            "runDate": "20170919",
+            "accNo": "1020030001",
+            "accType": "1",
+            "accName": "عميل نقدي",
+            "dbtAmt": "80",
+            "crdAmt": "100080"
+        },
+        {
+            "_rowID": "af1efc53-4b4e-48ec-9556-38cd172ba872",
+            "id": "103",
+            "runDate": "20170325",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "3baa7603-c5ae-40d4-9b7a-75e2eaab4e3a",
+            "id": "240",
+            "runDate": "20170601",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "95b12288-5a1e-4ddc-91f0-0b4f41fbef79",
+            "id": "184",
+            "runDate": "20170504",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "b9d8b57f-94b2-4990-926c-11acac73599c",
+            "id": "31",
+            "runDate": "20170217",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "39a9ea9a-2613-4857-951d-e129587cbef4",
+            "id": "580",
+            "runDate": "20170919",
+            "accNo": "1020070001",
+            "accType": "0",
+            "accName": "المخزن الافتراضي",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "9339775c-378d-48b0-bf60-d46ca227b840",
+            "id": "621",
+            "runDate": "20170922",
+            "accNo": "401001",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "80"
+        },
+        {
+            "_rowID": "513e16bd-5693-41e4-91c3-478e3baf51ed",
+            "id": "329",
+            "runDate": "20170716",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "ec994da7-11fd-4769-9bc7-0e14385b6ed6",
+            "id": "26",
+            "runDate": "20170214",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "d5ea8eb1-b2a7-45bf-8f68-29c12cb3ea06",
+            "id": "159",
+            "runDate": "20170422",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "88ff1a8e-f70d-4a98-a0fd-09a11da08085",
+            "id": "361",
+            "runDate": "20170801",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "53150d2d-62d7-4cab-9e0f-4c8fffb81623",
+            "id": "47",
+            "runDate": "20170225",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "b562b980-d76f-4989-a0b5-e42a47a5e8a9",
+            "id": "101",
+            "runDate": "20170324",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "d1f436eb-c4a3-4fa4-b41f-187640af8028",
+            "id": "30",
+            "runDate": "20170216",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "e897af1a-5a0d-41e3-ace7-6d1e023c92af",
+            "id": "401",
+            "runDate": "20170821",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "a11342f8-8831-4f60-ace2-6e009e54b36f",
+            "id": "246",
+            "runDate": "20170604",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "a63a518e-2745-46e8-aee3-f4103599431c",
+            "id": "203",
+            "runDate": "20170514",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "55bafed9-fd7a-4613-89ba-0a2dfbbc9902",
+            "id": "82",
+            "runDate": "20170314",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "b941bcb0-76bc-4da0-92f6-784e0c7efd6a",
+            "id": "99",
+            "runDate": "20170323",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "9ea0688a-abd2-47bd-ba61-b2c8965b59c7",
+            "id": "97",
+            "runDate": "20170322",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "c5b37477-fd20-4868-bbb7-50d5e5a46323",
+            "id": "93",
+            "runDate": "20170320",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "0a6b6eab-4dad-4d14-aa4c-39a76cb023b5",
+            "id": "569",
+            "runDate": "20170918",
+            "accNo": "2020010005",
+            "accType": "2",
+            "accName": "gamal",
+            "dbtAmt": "26268827600",
+            "crdAmt": "527930065000"
+        },
+        {
+            "_rowID": "1edc48f2-b7f7-4cb6-9a32-c86e1d83a71f",
+            "id": "60",
+            "runDate": "20170303",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "a85082e3-47fc-471e-a883-52494696df88",
+            "id": "312",
+            "runDate": "20170707",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "774b146f-6ad9-4ee9-9c93-e9f9e2c451f9",
+            "id": "499",
+            "runDate": "20170913",
+            "accNo": "1020070001",
+            "accType": "0",
+            "accName": "المخزن الافتراضي",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "03e621f5-f3ab-4153-91ef-464a452a3c33",
+            "id": "199",
+            "runDate": "20170512",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "3ea4a30f-448f-4787-a765-66087715e296",
+            "id": "49",
+            "runDate": "20170226",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "ea1e5b86-ccf2-4554-8894-8a872d597ef4",
+            "id": "638",
+            "runDate": "20170923",
+            "accNo": "305",
+            "accType": "0",
+            "accName": "المشتريات",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "fd934577-aec2-4d5c-bcb1-af0585de442a",
+            "id": "615",
+            "runDate": "20170922",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "42000",
+            "crdAmt": "1010000"
+        },
+        {
+            "_rowID": "68affd7d-82a7-49b3-80f1-9cf1cd5c5d47",
+            "id": "462",
+            "runDate": "20170909",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "2000",
+            "crdAmt": "10000"
+        },
+        {
+            "_rowID": "5b3d60c5-d9e6-4f27-80cd-9c78086bd803",
+            "id": "397",
+            "runDate": "20170819",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "07f69248-a4ac-454f-85d4-c4d25d1ebe2d",
+            "id": "532",
+            "runDate": "20170916",
+            "accNo": "1020030001",
+            "accType": "1",
+            "accName": "عميل نقدي",
+            "dbtAmt": "80",
+            "crdAmt": "100080"
+        },
+        {
+            "_rowID": "756ff27c-8b7d-41ba-9c6e-3a9bd4bddcf8",
+            "id": "540",
+            "runDate": "20170916",
+            "accNo": "305",
+            "accType": "0",
+            "accName": "المشتريات",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "b6bc2634-eeeb-49e4-a238-efc63fcc151f",
+            "id": "505",
+            "runDate": "20170914",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "42000",
+            "crdAmt": "1010000"
+        },
+        {
+            "_rowID": "e996eb54-d7a6-4b3f-9754-0f7dc61dc6b4",
+            "id": "207",
+            "runDate": "20170516",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "e1b6eed7-9128-412c-b946-51e55b656a64",
+            "id": "317",
+            "runDate": "20170710",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "e74abc44-0e16-49db-aa0f-c0e028b6bfae",
+            "id": "600",
+            "runDate": "20170921",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "105000",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "0b2a8817-f1d3-4c29-b1f7-5970ab5f2603",
+            "id": "69",
+            "runDate": "20170308",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "17431b6b-717b-405f-ac64-b7a0e5a576e6",
+            "id": "602",
+            "runDate": "20170921",
+            "accNo": "1020030001",
+            "accType": "1",
+            "accName": "عميل نقدي",
+            "dbtAmt": "80",
+            "crdAmt": "100080"
+        },
+        {
+            "_rowID": "94078586-5be4-48ab-bd99-e91b1999bbe4",
+            "id": "442",
+            "runDate": "20170906",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "100000",
+            "crdAmt": "14000"
+        },
+        {
+            "_rowID": "b298bc60-1032-4758-8870-2ccf8b5532e5",
+            "id": "152",
+            "runDate": "20170418",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "e06b636b-bd79-47a1-aa52-44e99659749e",
+            "id": "605",
+            "runDate": "20170921",
+            "accNo": "2020010002",
+            "accType": "2",
+            "accName": "sameh",
+            "dbtAmt": "65048",
+            "crdAmt": "400048"
+        },
+        {
+            "_rowID": "297680e9-82d4-48a2-81a8-85f62103951e",
+            "id": "305",
+            "runDate": "20170704",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "fdc3fe11-2dd9-48d6-b5c2-b31c21803c17",
+            "id": "582",
+            "runDate": "20170919",
+            "accNo": "305",
+            "accType": "0",
+            "accName": "المشتريات",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "89df1343-48cf-424e-b8db-f7f01948ba5d",
+            "id": "234",
+            "runDate": "20170529",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "b6001446-3fe5-48bc-bf90-ba1129c32174",
+            "id": "618",
+            "runDate": "20170922",
+            "accNo": "401",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "b6c8901a-116b-4803-8384-ad57f734ff98",
+            "id": "463",
+            "runDate": "20170909",
+            "accNo": "1020030001",
+            "accType": "1",
+            "accName": "عميل نقدي",
+            "dbtAmt": "0",
+            "crdAmt": "100000"
+        },
+        {
+            "_rowID": "fc38950f-1fb6-4bf3-828e-5bd2a0c4fbbb",
+            "id": "7",
+            "runDate": "20170205",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "d2fa6e3a-0666-4e91-9a79-6810ed0b7bcd",
+            "id": "474",
+            "runDate": "20170911",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "42000",
+            "crdAmt": "1010000"
+        },
+        {
+            "_rowID": "f30ec3bd-ca00-4b0d-a322-e21b07cdfa8d",
+            "id": "467",
+            "runDate": "20170910",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "10000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "1276249b-b9c9-4672-8f02-234fff8d9861",
+            "id": "284",
+            "runDate": "20170623",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "cb76b71f-9553-4038-9f8e-57b4e9214085",
+            "id": "219",
+            "runDate": "20170522",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "3b2cc12c-4681-4eab-8d0f-403b459c3af2",
+            "id": "536",
+            "runDate": "20170916",
+            "accNo": "1020030004",
+            "accType": "1",
+            "accName": "eslam",
+            "dbtAmt": "32000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "5044af34-faa8-4e07-a544-5b0ae9367d43",
+            "id": "413",
+            "runDate": "20170827",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "760e1414-6a60-4e45-9a42-47d0bf06ebc9",
+            "id": "304",
+            "runDate": "20170703",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "cea1d880-93e3-4b28-8181-9fc9ad88f494",
+            "id": "174",
+            "runDate": "20170429",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "45d195c6-2559-4f0f-abc6-cd9c4a8f92e1",
+            "id": "105",
+            "runDate": "20170326",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "587670f5-db80-4296-882e-3ba37e617f35",
+            "id": "161",
+            "runDate": "20170423",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "f9c4c5fd-89dc-4045-bd2e-0684353cb540",
+            "id": "416",
+            "runDate": "20170828",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "82bd50bf-b0e1-46b7-9478-126837659901",
+            "id": "163",
+            "runDate": "20170424",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "9d8cb0f3-4bbc-4f76-8187-c40da89e44f8",
+            "id": "382",
+            "runDate": "20170811",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "667369de-e80f-419d-bd3d-ce420bb2941a",
+            "id": "118",
+            "runDate": "20170401",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "40cabdd0-b730-4eef-ac7f-ecc98f157dcc",
+            "id": "445",
+            "runDate": "20170906",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "ff7d3662-621f-4630-9114-86472d54abb0",
+            "id": "11",
+            "runDate": "20170207",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "e90138af-9c11-479c-b3fa-c0a0e60011c4",
+            "id": "579",
+            "runDate": "20170919",
+            "accNo": "401001",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "80"
+        },
+        {
+            "_rowID": "8000f3e7-bf71-48f3-93aa-a1e2da50a998",
+            "id": "236",
+            "runDate": "20170530",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "3f87cc97-9944-4774-a0e1-5534bc8be654",
+            "id": "528",
+            "runDate": "20170916",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "2810080",
+            "crdAmt": "380892"
+        },
+        {
+            "_rowID": "267ac05e-e455-4ede-b0e8-5c3934107d04",
+            "id": "627",
+            "runDate": "20170923",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "92000",
+            "crdAmt": "500000"
+        },
+        {
+            "_rowID": "d11ee000-3426-4e71-bb0e-4159a5b98fc4",
+            "id": "50",
+            "runDate": "20170226",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "81058a60-eaad-48c1-84aa-3c210d79db70",
+            "id": "377",
+            "runDate": "20170809",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "35f2219a-eeb4-42b3-9a0e-3468080c4184",
+            "id": "221",
+            "runDate": "20170523",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "897d3532-7cbb-4c7c-8b29-69b3e8983738",
+            "id": "276",
+            "runDate": "20170619",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "dba7a119-ee0c-4155-adc4-efb02d637f07",
+            "id": "299",
+            "runDate": "20170701",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "32bca8ab-0f52-4509-a316-59f482ea47d0",
+            "id": "526",
+            "runDate": "20170915",
+            "accNo": "304001",
+            "accType": "0",
+            "accName": "صافي تكلفة المبيعات",
+            "dbtAmt": "48",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "5dc307d0-5a27-4ebe-83c2-5e3527a5ac89",
+            "id": "542",
+            "runDate": "20170917",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "2810080",
+            "crdAmt": "380892"
+        },
+        {
+            "_rowID": "464a2db2-be1c-4c63-8900-da892fc6a4be",
+            "id": "211",
+            "runDate": "20170518",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "8f4c581b-b188-406d-8fb8-90f8b1bf4c3b",
+            "id": "114",
+            "runDate": "20170330",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "2daeb9b1-c33b-4042-ba5b-416be52dd87b",
+            "id": "111",
+            "runDate": "20170329",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "6b4e6c46-206e-4cad-879f-356a9cc6d986",
+            "id": "548",
+            "runDate": "20170917",
+            "accNo": "401",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "bc7dce35-91cb-47a0-9fa3-fd7ff0cd78bf",
+            "id": "394",
+            "runDate": "20170817",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "237406be-746b-4269-bb3f-cd68e1c3fd58",
+            "id": "55",
+            "runDate": "20170301",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "964d12ef-4b55-4fb3-b4b2-cad6ed08d2f4",
+            "id": "565",
+            "runDate": "20170918",
+            "accNo": "401001",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "80"
+        },
+        {
+            "_rowID": "913b8225-5237-48f0-8b27-3a6f723002a5",
+            "id": "344",
+            "runDate": "20170723",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "226cd6f8-ca01-422d-8db7-53d461c49c91",
+            "id": "77",
+            "runDate": "20170312",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "41519c3d-29e5-4470-b06b-c45cc47ba13c",
+            "id": "253",
+            "runDate": "20170608",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "79db6782-e123-451f-914d-8346b495efd1",
+            "id": "48",
+            "runDate": "20170225",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "111ff99d-1535-4f09-abef-44ae9b3ff0dc",
+            "id": "171",
+            "runDate": "20170428",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "e9b1cf67-dbe8-4507-a4bb-d99d0f562f89",
+            "id": "8",
+            "runDate": "20170205",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "d83a7f6b-be94-40c4-8351-3cf4f925b439",
+            "id": "88",
+            "runDate": "20170317",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "f7b979db-99ff-46a7-9db7-6dea8d820bb4",
+            "id": "571",
+            "runDate": "20170919",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "92000",
+            "crdAmt": "500000"
+        },
+        {
+            "_rowID": "f0b62422-90bb-421d-bb2f-3891b5d2370b",
+            "id": "630",
+            "runDate": "20170923",
+            "accNo": "1020030001",
+            "accType": "1",
+            "accName": "عميل نقدي",
+            "dbtAmt": "80",
+            "crdAmt": "100080"
+        },
+        {
+            "_rowID": "be40eed1-5b40-44f1-8e54-efffdd2acd49",
+            "id": "557",
+            "runDate": "20170918",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "92000",
+            "crdAmt": "500000"
+        },
+        {
+            "_rowID": "80c85263-f531-474a-9cfc-2a107dfda812",
+            "id": "38",
+            "runDate": "20170220",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "51b58ade-2623-41df-bdfe-160c9854ad67",
+            "id": "518",
+            "runDate": "20170915",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "42000",
+            "crdAmt": "1010000"
+        },
+        {
+            "_rowID": "201d5f72-cca9-44b4-ba69-f4feb03a456b",
+            "id": "248",
+            "runDate": "20170605",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "d5be7893-f5dc-473c-b175-d5db63d31bb7",
+            "id": "328",
+            "runDate": "20170715",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "e15c3b7f-b95c-4305-8837-90590fcb2541",
+            "id": "209",
+            "runDate": "20170517",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "d13c0c5d-3a32-4879-9524-a75550ae8b83",
+            "id": "363",
+            "runDate": "20170802",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "c7f1ef67-4175-47a3-bedf-54b1bb86b827",
+            "id": "511",
+            "runDate": "20170914",
+            "accNo": "401001",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "80"
+        },
+        {
+            "_rowID": "43d00afd-2deb-490c-a993-3f54009b71e4",
+            "id": "409",
+            "runDate": "20170825",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "8d5a7ac6-8f64-4e46-8d26-0724ac29447d",
+            "id": "438",
+            "runDate": "20170905",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "14000"
+        },
+        {
+            "_rowID": "c77bfd99-4187-4f62-bc68-171f5e8d1a72",
+            "id": "484",
+            "runDate": "20170912",
+            "accNo": "1020030001",
+            "accType": "1",
+            "accName": "عميل نقدي",
+            "dbtAmt": "0",
+            "crdAmt": "100000"
+        },
+        {
+            "_rowID": "4b94a853-4474-42c2-b2c5-0fb15065c2ac",
+            "id": "390",
+            "runDate": "20170815",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "b26a4a63-7c66-4004-b3c0-1ac455db5349",
+            "id": "24",
+            "runDate": "20170213",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "85c0b88f-3cf3-4266-9ff3-acddceec6da5",
+            "id": "192",
+            "runDate": "20170508",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "c1b5147b-9d03-4032-9e74-9224e8e9b91a",
+            "id": "35",
+            "runDate": "20170219",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "6aa328f8-969c-471b-b90d-06feeac69246",
+            "id": "507",
+            "runDate": "20170914",
+            "accNo": "503001",
+            "accType": "0",
+            "accName": "أرباح العام",
+            "dbtAmt": "400",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "d554a7fe-9df5-4b8b-b0fd-a1fc44119581",
+            "id": "628",
+            "runDate": "20170923",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "105000",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "e2cf8f66-99f1-4e02-9a45-aea8bfd9b424",
+            "id": "459",
+            "runDate": "20170909",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "110000",
+            "crdAmt": "14400"
+        },
+        {
+            "_rowID": "1d9dd6f3-c934-476c-ac98-d36ae22bbfec",
+            "id": "279",
+            "runDate": "20170621",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "9bc94469-69d0-4672-aed8-bc0ce669b45a",
+            "id": "482",
+            "runDate": "20170912",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "105000",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "683dad91-76a6-4ef7-b99c-d90037a244bc",
+            "id": "198",
+            "runDate": "20170511",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "65683f0b-23e9-41d7-8511-134ef26716b6",
+            "id": "218",
+            "runDate": "20170521",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "e3f844db-32ee-4d70-9d19-385c6f4c2eb6",
+            "id": "43",
+            "runDate": "20170223",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "761c76a7-2c33-4af2-94f9-0841a6bcc528",
+            "id": "527",
+            "runDate": "20170915",
+            "accNo": "305",
+            "accType": "0",
+            "accName": "المشتريات",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "63ac9fd2-a586-4b59-abd0-c22a397e4205",
+            "id": "56",
+            "runDate": "20170301",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "ae3799bf-0a68-4507-8f91-647af2d4c887",
+            "id": "19",
+            "runDate": "20170211",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "98625de2-f723-4a73-a788-b017f619431c",
+            "id": "559",
+            "runDate": "20170918",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "42000",
+            "crdAmt": "1010000"
+        },
+        {
+            "_rowID": "5c3e3aba-fa53-4640-9bc7-6a2c249d23b6",
+            "id": "468",
+            "runDate": "20170910",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "2000",
+            "crdAmt": "10000"
+        },
+        {
+            "_rowID": "de9edb4c-b770-40d3-bd15-a6740bfc93f9",
+            "id": "554",
+            "runDate": "20170917",
+            "accNo": "305",
+            "accType": "0",
+            "accName": "المشتريات",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "46320eb5-c87e-42a0-a858-27f5b1b85fec",
+            "id": "362",
+            "runDate": "20170801",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "be470d6a-1672-4d8c-8510-694af9e9652e",
+            "id": "490",
+            "runDate": "20170913",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "92000",
+            "crdAmt": "500000"
+        },
+        {
+            "_rowID": "cdfc3e4e-70d0-4d25-bc28-54454491fa35",
+            "id": "447",
+            "runDate": "20170907",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "100000",
+            "crdAmt": "14400"
+        },
+        {
+            "_rowID": "63d5199e-8203-446a-a9fc-b4acde9d1c13",
+            "id": "91",
+            "runDate": "20170319",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "e26e7865-9034-4ee9-af81-5978c1eccd5a",
+            "id": "435",
+            "runDate": "20170904",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "aa7f88fa-9d60-4160-8601-c33739e0024d",
+            "id": "464",
+            "runDate": "20170909",
+            "accNo": "503001",
+            "accType": "0",
+            "accName": "أرباح العام",
+            "dbtAmt": "400",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "eeca568c-9d93-4f5a-b71d-cf1d53c7d7e7",
+            "id": "530",
+            "runDate": "20170916",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "105000",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "3cd20bb3-e18f-43b1-a167-968a7b55bf4d",
+            "id": "67",
+            "runDate": "20170307",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "dac2618c-d666-454d-aabd-dd94f331c99a",
+            "id": "575",
+            "runDate": "20170919",
+            "accNo": "503001",
+            "accType": "0",
+            "accName": "أرباح العام",
+            "dbtAmt": "400",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "ed16038d-465d-49cc-aa7f-161269198594",
+            "id": "185",
+            "runDate": "20170505",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "f873e9af-d41b-466f-be56-0929d23b99af",
+            "id": "545",
+            "runDate": "20170917",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "42000",
+            "crdAmt": "1010000"
+        },
+        {
+            "_rowID": "efdeaa65-73b8-459c-b8bf-b970c6695f46",
+            "id": "22",
+            "runDate": "20170212",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "caeaa2d2-1db2-47db-9599-97c0582dc15d",
+            "id": "239",
+            "runDate": "20170601",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "9f65ab9e-89e7-406e-85db-2eb31d2bfd1a",
+            "id": "169",
+            "runDate": "20170427",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "b710daeb-8f29-4d94-be84-f8351003eeb2",
+            "id": "94",
+            "runDate": "20170320",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "f168d0da-91ac-4b51-883f-0bf0c0fba5fc",
+            "id": "288",
+            "runDate": "20170625",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "0bf49fa7-fced-4e87-8c49-a315a4e0fd30",
+            "id": "568",
+            "runDate": "20170918",
+            "accNo": "305",
+            "accType": "0",
+            "accName": "المشتريات",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "e02f1b53-902f-41ef-b249-84e28c890545",
+            "id": "408",
+            "runDate": "20170824",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "1f0a1be5-77f5-46f8-933f-3a304f9cb02a",
+            "id": "555",
+            "runDate": "20170917",
+            "accNo": "2020010005",
+            "accType": "2",
+            "accName": "gamal",
+            "dbtAmt": "44444",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "6d4c9c99-6c28-45ff-8b40-4cf5382a652b",
+            "id": "130",
+            "runDate": "20170407",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "f6a95cd7-e6e9-41e9-8665-3c63bab8761e",
+            "id": "522",
+            "runDate": "20170915",
+            "accNo": "2020010002",
+            "accType": "2",
+            "accName": "sameh",
+            "dbtAmt": "65048",
+            "crdAmt": "400048"
+        },
+        {
+            "_rowID": "a3c0ebcc-2ce8-42b3-b283-f9dd996baa93",
+            "id": "415",
+            "runDate": "20170828",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "95864ac8-50e5-430b-a464-def5f8bc084d",
+            "id": "127",
+            "runDate": "20170406",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "cda5e209-6e7d-4f74-80ac-cd2af7708e45",
+            "id": "87",
+            "runDate": "20170317",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "a38162fc-5271-4496-b19f-bd426c5e00e5",
+            "id": "345",
+            "runDate": "20170724",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "0cab14aa-8640-42cf-9943-48f1da1646ef",
+            "id": "213",
+            "runDate": "20170519",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "d53321af-ed4b-4ed9-9fa5-6ba891498933",
+            "id": "268",
+            "runDate": "20170615",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "85f8fb55-5033-4bfc-83c1-bbdc6c09f370",
+            "id": "606",
+            "runDate": "20170921",
+            "accNo": "1020030004",
+            "accType": "1",
+            "accName": "eslam",
+            "dbtAmt": "32000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "613a608a-c919-4f88-9255-7fe6c4d296f4",
+            "id": "188",
+            "runDate": "20170506",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "0a8f9013-ac6d-40aa-8533-a374b0ffdbf6",
+            "id": "308",
+            "runDate": "20170705",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "03012fd5-5e90-46d6-82fe-076c082e6985",
+            "id": "146",
+            "runDate": "20170415",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "31f3ee60-db80-4bdd-a1bf-df4d18034e5a",
+            "id": "597",
+            "runDate": "20170920",
+            "accNo": "2020010005",
+            "accType": "2",
+            "accName": "gamal",
+            "dbtAmt": "26269278200",
+            "crdAmt": "527930425000"
+        },
+        {
+            "_rowID": "3f1f2d18-0e89-454a-b079-154bfd6fc4fd",
+            "id": "270",
+            "runDate": "20170616",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "19027618-b766-4590-b0a5-1bb5a06c0485",
+            "id": "529",
+            "runDate": "20170916",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "92000",
+            "crdAmt": "500000"
+        },
+        {
+            "_rowID": "99ebbbe9-8875-4450-94f0-1489e8a2cb7e",
+            "id": "272",
+            "runDate": "20170617",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "16e00c66-1369-42e0-94c2-a560ad76feb2",
+            "id": "624",
+            "runDate": "20170922",
+            "accNo": "305",
+            "accType": "0",
+            "accName": "المشتريات",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "7a56a37e-f892-4a8e-94aa-8bc897bd4d88",
+            "id": "142",
+            "runDate": "20170413",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "4ca682af-3d4c-49e2-a18e-eb27ee40d261",
+            "id": "483",
+            "runDate": "20170912",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "42000",
+            "crdAmt": "1010000"
+        },
+        {
+            "_rowID": "51780036-d5b0-468c-9f3a-334362fe46ce",
+            "id": "426",
+            "runDate": "20170902",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "14000"
+        },
+        {
+            "_rowID": "67197187-879f-483b-8417-a3f31eafb968",
+            "id": "137",
+            "runDate": "20170411",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "3e7aa25b-be79-4ad1-8c0a-c99d3ac2ab94",
+            "id": "562",
+            "runDate": "20170918",
+            "accNo": "401",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "fda152eb-4c19-42dc-92e6-a3896cfed883",
+            "id": "512",
+            "runDate": "20170914",
+            "accNo": "1020070001",
+            "accType": "0",
+            "accName": "المخزن الافتراضي",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "ac6390ab-e566-441d-b430-2a3a3bd5d431",
+            "id": "37",
+            "runDate": "20170220",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "c6f7c145-16a3-4f54-856e-019af7dbb675",
+            "id": "544",
+            "runDate": "20170917",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "105000",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "fce87a1b-4826-4e22-ac93-c33215f710db",
+            "id": "206",
+            "runDate": "20170515",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "a6c90866-b8a4-4ece-b3f8-f885a3932761",
+            "id": "441",
+            "runDate": "20170905",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "bee5e4e2-a830-4d85-bb17-975ba5cbb4a1",
+            "id": "385",
+            "runDate": "20170813",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "0faa0868-df6a-48cb-8235-e1e47b12f4e5",
+            "id": "460",
+            "runDate": "20170909",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "c5802351-713d-4035-8031-0af1afd574ec",
+            "id": "196",
+            "runDate": "20170510",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "d1a2bbdd-132b-4733-afd4-2c21835a5630",
+            "id": "282",
+            "runDate": "20170622",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "c27e62f9-ba17-4b1c-a8a0-6844fc92d563",
+            "id": "149",
+            "runDate": "20170417",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "f824a541-515d-48c9-a3f8-d0ba32ffd22d",
+            "id": "322",
+            "runDate": "20170712",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "35de41cc-bfdf-4fb5-a1d6-003b273af35c",
+            "id": "25",
+            "runDate": "20170214",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "4a34b77d-c2fb-4313-9cc5-7f2ff600d9c2",
+            "id": "389",
+            "runDate": "20170815",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "ce5f7793-d57d-4d83-96b0-5ce04f9e7c92",
+            "id": "458",
+            "runDate": "20170908",
+            "accNo": "503001",
+            "accType": "0",
+            "accName": "أرباح العام",
+            "dbtAmt": "400",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "b54d2a6c-ec2d-4cfb-b59b-08c77f4051c7",
+            "id": "595",
+            "runDate": "20170920",
+            "accNo": "304001",
+            "accType": "0",
+            "accName": "صافي تكلفة المبيعات",
+            "dbtAmt": "48",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "e473a1e3-bbe7-437c-b3c3-cfc77ee50317",
+            "id": "503",
+            "runDate": "20170914",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "92000",
+            "crdAmt": "500000"
+        },
+        {
+            "_rowID": "1d5fffdd-fb0b-4f39-a9db-1c1f58131180",
+            "id": "179",
+            "runDate": "20170502",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "d4dcf450-f0a8-4d14-b77d-f8add06b97da",
+            "id": "73",
+            "runDate": "20170310",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "320f5931-b53d-480a-a10f-92ea92c401f7",
+            "id": "249",
+            "runDate": "20170606",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "19fae230-0aae-4395-ae7c-939ac4e3df4f",
+            "id": "57",
+            "runDate": "20170302",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "6e46bf94-8ea3-4389-ad9e-1a9352206175",
+            "id": "254",
+            "runDate": "20170608",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "4e34d9f2-1855-477a-b2f9-b18387187d91",
+            "id": "216",
+            "runDate": "20170520",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "8b938861-6df8-4e92-a36d-0a357d368b7b",
+            "id": "619",
+            "runDate": "20170922",
+            "accNo": "2020010002",
+            "accType": "2",
+            "accName": "sameh",
+            "dbtAmt": "65048",
+            "crdAmt": "400048"
+        },
+        {
+            "_rowID": "6cec01d7-aa5e-45ce-9535-35a59102760a",
+            "id": "71",
+            "runDate": "20170309",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "0916221f-20f0-48b8-b3ef-a1481c124f6b",
+            "id": "521",
+            "runDate": "20170915",
+            "accNo": "401",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "f89b4ff7-94a6-45b0-be5d-6694b0d4a803",
+            "id": "488",
+            "runDate": "20170912",
+            "accNo": "1020030004",
+            "accType": "1",
+            "accName": "eslam",
+            "dbtAmt": "32000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "54002d9a-09e0-4cf2-8e0e-35b9cdcaccfa",
+            "id": "396",
+            "runDate": "20170818",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "6c68a0d3-4cb5-48f5-8698-2fd6d2d6b9fb",
+            "id": "178",
+            "runDate": "20170501",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "a2a9c98b-381d-4941-9197-3cc393480013",
+            "id": "323",
+            "runDate": "20170713",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "29ec39aa-5dda-4a2f-a9f9-c0d2fcd95c60",
+            "id": "623",
+            "runDate": "20170922",
+            "accNo": "304001",
+            "accType": "0",
+            "accName": "صافي تكلفة المبيعات",
+            "dbtAmt": "48",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "045fa0c5-7224-4ca0-8a8d-cbf00f8c6e89",
+            "id": "622",
+            "runDate": "20170922",
+            "accNo": "1020070001",
+            "accType": "0",
+            "accName": "المخزن الافتراضي",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "19cec095-6741-4c03-8db9-70b4a1c8524b",
+            "id": "369",
+            "runDate": "20170805",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "1b06f015-145b-4d1f-acf7-b05532a7c301",
+            "id": "585",
+            "runDate": "20170920",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "92000",
+            "crdAmt": "500000"
+        },
+        {
+            "_rowID": "b1e395af-0727-4342-8abf-e58696f71528",
+            "id": "476",
+            "runDate": "20170911",
+            "accNo": "503001",
+            "accType": "0",
+            "accName": "أرباح العام",
+            "dbtAmt": "400",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "79b354b6-6226-4012-9f71-f40e43801247",
+            "id": "348",
+            "runDate": "20170725",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "defacfee-cbbf-450c-80a2-4b22f8891fec",
+            "id": "3",
+            "runDate": "20170203",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "08d8c276-6f48-44e8-ad03-c5f8dbaacf8a",
+            "id": "485",
+            "runDate": "20170912",
+            "accNo": "503001",
+            "accType": "0",
+            "accName": "أرباح العام",
+            "dbtAmt": "400",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "d1469479-37c4-4a5d-b6de-cf7adec53a48",
+            "id": "290",
+            "runDate": "20170626",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "752ecd97-2691-4b49-b513-0c5599670cc8",
+            "id": "581",
+            "runDate": "20170919",
+            "accNo": "304001",
+            "accType": "0",
+            "accName": "صافي تكلفة المبيعات",
+            "dbtAmt": "48",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "f0a811d5-498d-4603-9482-863d3703afa1",
+            "id": "470",
+            "runDate": "20170910",
+            "accNo": "503001",
+            "accType": "0",
+            "accName": "أرباح العام",
+            "dbtAmt": "400",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "4940b829-0c56-4d8c-8d42-1942819fe4d8",
+            "id": "21",
+            "runDate": "20170212",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "e183f7de-34e5-4148-977c-6f5023b615c6",
+            "id": "501",
+            "runDate": "20170913",
+            "accNo": "305",
+            "accType": "0",
+            "accName": "المشتريات",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "1efd51da-e128-4b77-b434-fb888998c93b",
+            "id": "2",
+            "runDate": "20170202",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "8b473853-1efa-4fc7-a6c4-bc592c8772be",
+            "id": "612",
+            "runDate": "20170922",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "527933200000",
+            "crdAmt": "26269614100"
+        },
+        {
+            "_rowID": "f6842586-10c0-4085-a970-0ee22e8c00ac",
+            "id": "593",
+            "runDate": "20170920",
+            "accNo": "401001",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "80"
+        },
+        {
+            "_rowID": "fcb4f3d8-edb1-4d6e-b4da-e256857fca82",
+            "id": "563",
+            "runDate": "20170918",
+            "accNo": "2020010002",
+            "accType": "2",
+            "accName": "sameh",
+            "dbtAmt": "65048",
+            "crdAmt": "400048"
+        },
+        {
+            "_rowID": "0a0ad3a4-ee8b-4a8c-b566-1d64c785ac48",
+            "id": "452",
+            "runDate": "20170907",
+            "accNo": "503001",
+            "accType": "0",
+            "accName": "أرباح العام",
+            "dbtAmt": "400",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "a74e7c8a-413b-4ceb-b1d5-07ed154a59e1",
+            "id": "15",
+            "runDate": "20170209",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "95d5591b-9752-49b5-a0dc-bc3fb669423f",
+            "id": "523",
+            "runDate": "20170915",
+            "accNo": "1020030004",
+            "accType": "1",
+            "accName": "eslam",
+            "dbtAmt": "32000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "e19ab16f-b64b-4280-a905-17e272c00a13",
+            "id": "263",
+            "runDate": "20170613",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "8593e005-7fdc-41dd-b819-b41c0184405d",
+            "id": "629",
+            "runDate": "20170923",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "42000",
+            "crdAmt": "1010000"
+        },
+        {
+            "_rowID": "0e21eb80-e7b5-4b02-99b2-763a3fb7e0d0",
+            "id": "487",
+            "runDate": "20170912",
+            "accNo": "2020010002",
+            "accType": "2",
+            "accName": "sameh",
+            "dbtAmt": "65000",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "729b72cd-0f3e-4423-b1b2-56c6f0e0b48f",
+            "id": "310",
+            "runDate": "20170706",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "5086a530-737c-4972-8cc4-cea3673c9553",
+            "id": "260",
+            "runDate": "20170611",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "6327a276-fdb6-449b-9b14-1cf502c63f50",
+            "id": "457",
+            "runDate": "20170908",
+            "accNo": "1020030001",
+            "accType": "1",
+            "accName": "عميل نقدي",
+            "dbtAmt": "0",
+            "crdAmt": "100000"
+        },
+        {
+            "_rowID": "23cd05c2-2a7a-463b-b534-d20bc403a9ea",
+            "id": "285",
+            "runDate": "20170624",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "a2eeb941-47c4-4ee5-b25b-f1adb825604e",
+            "id": "343",
+            "runDate": "20170723",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "6438d0cd-a549-40fd-b403-2913c168227c",
+            "id": "375",
+            "runDate": "20170808",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "7dff4fac-a0f3-460c-9094-fc2233cd0aa7",
+            "id": "180",
+            "runDate": "20170502",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "f9149a00-8387-4a5c-bf31-807d3b3466cf",
+            "id": "58",
+            "runDate": "20170302",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "ef5f5ec2-36e1-4326-94d7-a1713d18a27f",
+            "id": "237",
+            "runDate": "20170531",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "fce79bf9-d739-47bb-b8c8-c0eb94ea31bf",
+            "id": "186",
+            "runDate": "20170505",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "513cc511-3eaa-478b-80e1-1d01a3e788cf",
+            "id": "446",
+            "runDate": "20170906",
+            "accNo": "1020030001",
+            "accType": "1",
+            "accName": "عميل نقدي",
+            "dbtAmt": "0",
+            "crdAmt": "100000"
+        },
+        {
+            "_rowID": "ab7bcb82-4c97-4b52-9194-4228d76bd941",
+            "id": "433",
+            "runDate": "20170903",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "ac7699ca-a4d7-43b7-9f4b-2b61c1ec7bd2",
+            "id": "383",
+            "runDate": "20170812",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "37d1fbf3-8c84-4148-a258-1b8e8b9b3878",
+            "id": "247",
+            "runDate": "20170605",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "80ee8f69-949a-42fc-a594-c8c6145c8d99",
+            "id": "380",
+            "runDate": "20170810",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "c8df5e9e-8121-4c84-9be1-d19c12988260",
+            "id": "289",
+            "runDate": "20170626",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "7514f774-68f0-4849-b3d7-9b6db3682743",
+            "id": "160",
+            "runDate": "20170422",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "0fc2ad8a-90f1-43ba-95c1-1a26dc0eb756",
+            "id": "491",
+            "runDate": "20170913",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "105000",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "2d52c70e-9f2c-44b4-9ae4-0ac54464806c",
+            "id": "353",
+            "runDate": "20170728",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "c71ce461-8118-4184-ba0f-018227f5258c",
+            "id": "205",
+            "runDate": "20170515",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "a59064cc-b0ba-4ad1-a93d-1209f4882b33",
+            "id": "626",
+            "runDate": "20170923",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "527933200000",
+            "crdAmt": "26269845500"
+        },
+        {
+            "_rowID": "a6b9eab1-3b31-4d76-950b-ba93e10186f8",
+            "id": "360",
+            "runDate": "20170731",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "8ddb7273-244b-4b6d-aa4b-da66b153a476",
+            "id": "275",
+            "runDate": "20170619",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "da85c4d0-0251-4ea2-a259-4b45b944c868",
+            "id": "493",
+            "runDate": "20170913",
+            "accNo": "1020030001",
+            "accType": "1",
+            "accName": "عميل نقدي",
+            "dbtAmt": "80",
+            "crdAmt": "100080"
+        },
+        {
+            "_rowID": "b240c207-79d9-458b-b420-9382716c8074",
+            "id": "166",
+            "runDate": "20170425",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "e832d9cc-f072-4c0a-a92d-107a425bf778",
+            "id": "587",
+            "runDate": "20170920",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "42000",
+            "crdAmt": "1010000"
+        },
+        {
+            "_rowID": "9f766ea4-6571-4a51-8b5a-8cd18d32b575",
+            "id": "449",
+            "runDate": "20170907",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "10000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "02d5fe25-6291-4129-859a-b5eeb3b91179",
+            "id": "296",
+            "runDate": "20170629",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "f11939df-200b-428c-b3c2-013dfe7bfbe3",
+            "id": "107",
+            "runDate": "20170327",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "f785f04d-2a89-49f2-b654-4e3b6007cf49",
+            "id": "18",
+            "runDate": "20170210",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "8bc1835c-ff05-48da-bb37-eeaa82a9558d",
+            "id": "61",
+            "runDate": "20170304",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "e200d111-a46a-47dd-a809-a86ef5e93f72",
+            "id": "477",
+            "runDate": "20170911",
+            "accNo": "401",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "8308afc2-ede2-4bc9-bd82-9bacf1b9aa0c",
+            "id": "417",
+            "runDate": "20170829",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "6668d543-f6c3-46de-bce6-9ffef4260996",
+            "id": "89",
+            "runDate": "20170318",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "b86912d9-4115-4b86-8d80-6d54eaa91a3e",
+            "id": "17",
+            "runDate": "20170210",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "5cf76aa0-9fa7-4def-881f-db0de7ff5578",
+            "id": "486",
+            "runDate": "20170912",
+            "accNo": "401",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "fd0f97ef-aed9-49d3-a26f-0d955d736514",
+            "id": "27",
+            "runDate": "20170215",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "08d4e07a-27dd-47ff-975e-fdc1782ad53e",
+            "id": "208",
+            "runDate": "20170516",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "7ebca746-3f29-4b45-a566-efb77d7fc172",
+            "id": "421",
+            "runDate": "20170831",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "1a58bfd0-9eac-4d4a-b0ff-5e3e8b26dcd3",
+            "id": "584",
+            "runDate": "20170920",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "527933200000",
+            "crdAmt": "26269614100"
+        },
+        {
+            "_rowID": "ebb8d64d-78e2-4e9c-8ebb-8667d17eb594",
+            "id": "430",
+            "runDate": "20170903",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "14000"
+        },
+        {
+            "_rowID": "40dcb159-0d1b-4248-a084-37f5bee69f22",
+            "id": "32",
+            "runDate": "20170217",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "febfdcb9-d573-4be6-9d71-fa9bb8a58ee8",
+            "id": "506",
+            "runDate": "20170914",
+            "accNo": "1020030001",
+            "accType": "1",
+            "accName": "عميل نقدي",
+            "dbtAmt": "80",
+            "crdAmt": "100080"
+        },
+        {
+            "_rowID": "6f4cb993-a663-482c-8763-8277b6af02b2",
+            "id": "541",
+            "runDate": "20170916",
+            "accNo": "2020010005",
+            "accType": "2",
+            "accName": "gamal",
+            "dbtAmt": "44444",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "78dc5913-d69a-4b5c-85cc-49724ebf745d",
+            "id": "76",
+            "runDate": "20170311",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "8cdb3a9f-e69f-489c-8655-e5c01e9ae961",
+            "id": "136",
+            "runDate": "20170410",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "a45d04e6-413b-4ae7-8021-bdb3523b21a7",
+            "id": "313",
+            "runDate": "20170708",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "4ffff303-45b8-4868-9ea9-65e7adcf0452",
+            "id": "346",
+            "runDate": "20170724",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "845a191d-f994-438e-a592-3959712fc8e1",
+            "id": "465",
+            "runDate": "20170910",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "110000",
+            "crdAmt": "14400"
+        },
+        {
+            "_rowID": "d3eeca84-46f0-4e36-90a7-c6f2461aee6d",
+            "id": "316",
+            "runDate": "20170709",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "6b10cc3c-3010-4f91-880b-ca4c2e0ea74a",
+            "id": "204",
+            "runDate": "20170514",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "bdefc4e3-b889-4385-9637-207fb0aa8ac6",
+            "id": "456",
+            "runDate": "20170908",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "2000",
+            "crdAmt": "10000"
+        },
+        {
+            "_rowID": "47a96a54-5924-44fc-a02a-03e892bd041b",
+            "id": "233",
+            "runDate": "20170529",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "56304ac7-3f68-4d72-8efa-62a2dfb9aceb",
+            "id": "45",
+            "runDate": "20170224",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "d39ae9df-a42e-4712-b942-6c6278bd45e3",
+            "id": "386",
+            "runDate": "20170813",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "8d875075-048f-4a53-87c0-5f06a3358ce7",
+            "id": "371",
+            "runDate": "20170806",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "11b88d7d-3887-481c-b839-bdb60c75ff4f",
+            "id": "608",
+            "runDate": "20170921",
+            "accNo": "1020070001",
+            "accType": "0",
+            "accName": "المخزن الافتراضي",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "c1b37651-51a0-40ea-be7d-46f12457decd",
+            "id": "72",
+            "runDate": "20170309",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "cb477e92-bd45-4c31-89f9-bc04efacd48f",
+            "id": "411",
+            "runDate": "20170826",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "cb4d1ac4-7f24-4850-94c6-6184d2b02ef2",
+            "id": "509",
+            "runDate": "20170914",
+            "accNo": "2020010002",
+            "accType": "2",
+            "accName": "sameh",
+            "dbtAmt": "65048",
+            "crdAmt": "400048"
+        },
+        {
+            "_rowID": "1914fdad-426a-44c7-b2f5-e195556b326c",
+            "id": "439",
+            "runDate": "20170905",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "215007b8-a135-42c2-8cdc-220f0e3d7120",
+            "id": "167",
+            "runDate": "20170426",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "fa8bdf8f-b443-4609-83db-f6bb5307dba5",
+            "id": "78",
+            "runDate": "20170312",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "eb215a14-a805-41ad-9553-8f9462d6e100",
+            "id": "427",
+            "runDate": "20170902",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "147a78a4-818c-4c05-aae0-ed0fd4edd83d",
+            "id": "633",
+            "runDate": "20170923",
+            "accNo": "2020010002",
+            "accType": "2",
+            "accName": "sameh",
+            "dbtAmt": "65048",
+            "crdAmt": "400048"
+        },
+        {
+            "_rowID": "829a5a7d-0d37-4d53-8d3c-08d9b754c68d",
+            "id": "190",
+            "runDate": "20170507",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "d34763a7-99df-4a40-a7f6-0cb2ba7b6c80",
+            "id": "41",
+            "runDate": "20170222",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "3f4d0c10-7964-4335-ba02-9c6b8cf507a9",
+            "id": "135",
+            "runDate": "20170410",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "8b190cf4-70be-4955-9f24-abee6f4b7b55",
+            "id": "355",
+            "runDate": "20170729",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "a40e1932-e99c-4ec4-8b04-428643547db6",
+            "id": "309",
+            "runDate": "20170706",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "7d5731a0-1919-4e10-adec-e33077c642cc",
+            "id": "278",
+            "runDate": "20170620",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "fe3f0467-ead0-4088-a2e3-8ebef2f73b98",
+            "id": "350",
+            "runDate": "20170726",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "4e74e2e7-44a6-45ed-ac9c-b23786f158f9",
+            "id": "500",
+            "runDate": "20170913",
+            "accNo": "304001",
+            "accType": "0",
+            "accName": "صافي تكلفة المبيعات",
+            "dbtAmt": "48",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "c506996a-edd1-497b-a6e8-33d4d4c433c2",
+            "id": "232",
+            "runDate": "20170528",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "a718b7ee-287b-41e5-bac2-fa5a0d7e1008",
+            "id": "354",
+            "runDate": "20170728",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "75d5e4c7-c40d-4fb2-9837-e1def7bddb82",
+            "id": "514",
+            "runDate": "20170914",
+            "accNo": "305",
+            "accType": "0",
+            "accName": "المشتريات",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "22fa5fe9-b087-4152-a2c6-5db0d72a9549",
+            "id": "412",
+            "runDate": "20170826",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "1f6a75c6-e73c-4180-997c-f87a4a6c7f35",
+            "id": "75",
+            "runDate": "20170311",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "7e93c470-9df6-49a7-858b-b0234ff4a8c5",
+            "id": "598",
+            "runDate": "20170921",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "527933200000",
+            "crdAmt": "26269614100"
+        },
+        {
+            "_rowID": "e6ac6250-4935-450b-8460-30d5ad5809e5",
+            "id": "577",
+            "runDate": "20170919",
+            "accNo": "2020010002",
+            "accType": "2",
+            "accName": "sameh",
+            "dbtAmt": "65048",
+            "crdAmt": "400048"
+        },
+        {
+            "_rowID": "a0e9a590-fb77-4c2d-9535-ff517bb216de",
+            "id": "639",
+            "runDate": "20170923",
+            "accNo": "2020010005",
+            "accType": "2",
+            "accName": "gamal",
+            "dbtAmt": "26269278200",
+            "crdAmt": "527930425000"
+        },
+        {
+            "_rowID": "1cfd9cf1-0469-4ae8-9c4d-c5bdfb0876df",
+            "id": "392",
+            "runDate": "20170816",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "c049bad9-ce8b-4626-95a1-f4c82a75dca2",
+            "id": "334",
+            "runDate": "20170718",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "6b31c34b-d482-4a58-8b3e-d7f12dad5798",
+            "id": "560",
+            "runDate": "20170918",
+            "accNo": "1020030001",
+            "accType": "1",
+            "accName": "عميل نقدي",
+            "dbtAmt": "80",
+            "crdAmt": "100080"
+        },
+        {
+            "_rowID": "c1eab886-c9a6-493f-9184-5c89c7bf6aaf",
+            "id": "133",
+            "runDate": "20170409",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "ac32ca97-d7c0-4495-bd48-e643a1dd355d",
+            "id": "12",
+            "runDate": "20170207",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "174dcac1-c08e-43c9-a401-3e32be615b92",
+            "id": "404",
+            "runDate": "20170822",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "a84afff0-2235-4de7-869a-d34e1881fed4",
+            "id": "92",
+            "runDate": "20170319",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "f4b44b3f-0b65-4c8b-b6f1-a357eb966dc6",
+            "id": "610",
+            "runDate": "20170921",
+            "accNo": "305",
+            "accType": "0",
+            "accName": "المشتريات",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "fa482dd5-7d6c-4783-84bc-d7e4c41ace7d",
+            "id": "84",
+            "runDate": "20170315",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "016e82a6-81ff-4e15-9982-21504ceb690a",
+            "id": "44",
+            "runDate": "20170223",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "a18bfffb-0ae7-44bf-96ac-790ac050bfb2",
+            "id": "306",
+            "runDate": "20170704",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "cb9825c7-5972-4ad9-89ab-705341d6e09e",
+            "id": "340",
+            "runDate": "20170721",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "6e68d12d-2be7-458c-992b-31bcbc8d1408",
+            "id": "617",
+            "runDate": "20170922",
+            "accNo": "503001",
+            "accType": "0",
+            "accName": "أرباح العام",
+            "dbtAmt": "400",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "1149c368-4d18-4c2c-a622-96a1e92e8718",
+            "id": "556",
+            "runDate": "20170918",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "527932850000",
+            "crdAmt": "26269163500"
+        },
+        {
+            "_rowID": "493d43dc-cd8c-44a7-9093-c639f69b5a5b",
+            "id": "293",
+            "runDate": "20170628",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "c9bf7ecc-0eb8-449b-97f7-2edb41831ab9",
+            "id": "83",
+            "runDate": "20170315",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "f38c86df-3cc2-4f97-83a9-2cadf9117904",
+            "id": "492",
+            "runDate": "20170913",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "42000",
+            "crdAmt": "1010000"
+        },
+        {
+            "_rowID": "5c705242-ab98-44cf-86ab-3ba3045189dc",
+            "id": "280",
+            "runDate": "20170621",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "27e01cf7-e365-419f-9411-5f1bfc26de98",
+            "id": "269",
+            "runDate": "20170616",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "b6aac85b-a5d1-4d6d-a3d2-340b08f7139b",
+            "id": "46",
+            "runDate": "20170224",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "309cbb57-b887-4659-a02c-e36d7577c614",
+            "id": "573",
+            "runDate": "20170919",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "42000",
+            "crdAmt": "1010000"
+        },
+        {
+            "_rowID": "778fb1b3-7b60-46d5-b7e3-8145aceace9c",
+            "id": "238",
+            "runDate": "20170531",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "9d27b4ab-7413-41f4-8aac-c9edbd8e9aaf",
+            "id": "255",
+            "runDate": "20170609",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "0aa8f828-d487-4e85-a89e-1dd9d74c10ef",
+            "id": "231",
+            "runDate": "20170528",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "0c2f25eb-03f1-4729-b7d4-51bc2f227615",
+            "id": "613",
+            "runDate": "20170922",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "92000",
+            "crdAmt": "500000"
+        },
+        {
+            "_rowID": "e811dae3-0d5e-4298-ad0c-c412560c4eb0",
+            "id": "303",
+            "runDate": "20170703",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "b7af2372-3992-4cf2-93c3-16640bcde46e",
+            "id": "156",
+            "runDate": "20170420",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "846a8332-2873-49ba-ab99-8066048dfec2",
+            "id": "431",
+            "runDate": "20170903",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "5edffe0d-a13c-44fa-97e5-7c1e031e2f7c",
+            "id": "182",
+            "runDate": "20170503",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "2646ac68-9fd2-4ebd-adb4-8924a1c3298c",
+            "id": "193",
+            "runDate": "20170509",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "840144cd-02f0-4c21-a4ed-1b2743f23eef",
+            "id": "295",
+            "runDate": "20170629",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "490d806f-cf0f-48fc-84f7-21fef98cf843",
+            "id": "287",
+            "runDate": "20170625",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "8ecde2be-3e3b-4940-99e4-f59531dde83c",
+            "id": "578",
+            "runDate": "20170919",
+            "accNo": "1020030004",
+            "accType": "1",
+            "accName": "eslam",
+            "dbtAmt": "32000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "2ff6977b-ebcf-4083-b9f3-1f35ea008516",
+            "id": "112",
+            "runDate": "20170329",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "9ceefef5-b2ee-4e30-a4b9-64ed9b243a1d",
+            "id": "197",
+            "runDate": "20170511",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "e95bf621-7ceb-4000-99be-c9211ac6877f",
+            "id": "454",
+            "runDate": "20170908",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "f7fa445d-62cd-482f-93cb-6f82ebebd937",
+            "id": "478",
+            "runDate": "20170911",
+            "accNo": "2020010002",
+            "accType": "2",
+            "accName": "sameh",
+            "dbtAmt": "65000",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "acceadf8-45bb-4eaf-83f4-0e1391ad1106",
+            "id": "235",
+            "runDate": "20170530",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "d9bdd7cd-1c1f-4426-80e9-d7a8a45cd411",
+            "id": "524",
+            "runDate": "20170915",
+            "accNo": "401001",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "80"
+        },
+        {
+            "_rowID": "13ace69e-2828-4d83-b6d3-0b77bcb3e622",
+            "id": "302",
+            "runDate": "20170702",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "440ee7b3-00e8-4a59-8a38-a473eb237a3d",
+            "id": "451",
+            "runDate": "20170907",
+            "accNo": "1020030001",
+            "accType": "1",
+            "accName": "عميل نقدي",
+            "dbtAmt": "0",
+            "crdAmt": "100000"
+        },
+        {
+            "_rowID": "10841c4b-2db6-41d0-a41c-1eb87ee599f5",
+            "id": "319",
+            "runDate": "20170711",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "db63cb95-ae64-4276-abb8-131ac39029c6",
+            "id": "352",
+            "runDate": "20170727",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "14c7d100-05bd-4b48-b0a5-bb252665a27e",
+            "id": "116",
+            "runDate": "20170331",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "d59347f1-985b-4e36-9c7e-5c34bb4f8f6b",
+            "id": "128",
+            "runDate": "20170406",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "c16fea8a-14f0-4838-9517-df188e6ef162",
+            "id": "215",
+            "runDate": "20170520",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "d4872075-7fb5-4f84-9b89-5498a949841d",
+            "id": "387",
+            "runDate": "20170814",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "a67eb856-f2f3-456d-b4d5-72adce971e27",
+            "id": "370",
+            "runDate": "20170805",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "079bd051-c740-4dfc-9e29-ca6086dab1e4",
+            "id": "261",
+            "runDate": "20170612",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "da3f3f31-cf89-4abd-9b0d-0994c2fc5a7c",
+            "id": "636",
+            "runDate": "20170923",
+            "accNo": "1020070001",
+            "accType": "0",
+            "accName": "المخزن الافتراضي",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "59b3efc7-cc94-4fb9-96c2-68440f97dba8",
+            "id": "632",
+            "runDate": "20170923",
+            "accNo": "401",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "b346394d-fd39-48e2-a36e-4876313c42fc",
+            "id": "220",
+            "runDate": "20170522",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "af4585c5-969f-4fc8-8a04-4b3623a14a9f",
+            "id": "325",
+            "runDate": "20170714",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "3f2971b9-d3f4-4e28-8822-9d179deb2e46",
+            "id": "553",
+            "runDate": "20170917",
+            "accNo": "304001",
+            "accType": "0",
+            "accName": "صافي تكلفة المبيعات",
+            "dbtAmt": "48",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "b59ff1f0-c1e7-435d-b1f9-0adead27a77e",
+            "id": "108",
+            "runDate": "20170327",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "b917eb46-3ea6-42a8-acd0-b23b077a3803",
+            "id": "145",
+            "runDate": "20170415",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "e3925ae6-5527-42f5-b2ea-59775855f1af",
+            "id": "357",
+            "runDate": "20170730",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "c03e4f06-a9d6-4b8e-a001-9247ad36fd57",
+            "id": "384",
+            "runDate": "20170812",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "5e1ed7fc-067e-4195-be0e-795e6f5d2da7",
+            "id": "265",
+            "runDate": "20170614",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "87756e4d-f93c-4caf-b44d-298b2ac7f02f",
+            "id": "515",
+            "runDate": "20170915",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "2810080",
+            "crdAmt": "336448"
+        },
+        {
+            "_rowID": "668503f3-d5ec-49b9-84a4-c8bddebf4dd7",
+            "id": "406",
+            "runDate": "20170823",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "b4ecdb1a-cc66-4591-9068-e7afc5f46f29",
+            "id": "307",
+            "runDate": "20170705",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "f5623a65-8aec-46bd-8e49-4c7f488bf960",
+            "id": "517",
+            "runDate": "20170915",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "105000",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "2b3e6743-6a1e-4219-88a3-1bb527a134e7",
+            "id": "223",
+            "runDate": "20170524",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "d1b8c412-4207-41dd-a991-d45ab75e5151",
+            "id": "139",
+            "runDate": "20170412",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "43499b2b-7b51-4121-a82d-45cfe0599549",
+            "id": "333",
+            "runDate": "20170718",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "7fe6e2fc-e678-40da-b719-6d4880734c7b",
+            "id": "388",
+            "runDate": "20170814",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "f7a1d386-7336-43ad-8a21-95cc5deabdef",
+            "id": "81",
+            "runDate": "20170314",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "08e1019c-7e4b-4d21-8f45-cbf2926ece75",
+            "id": "403",
+            "runDate": "20170822",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "a945b1c8-5e90-4dcf-823a-b3eefdcd723a",
+            "id": "109",
+            "runDate": "20170328",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "2f010ab1-78eb-43e5-9b92-ca0a0a75da11",
+            "id": "95",
+            "runDate": "20170321",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "920c981a-15da-4ae7-b820-7bf2368fda37",
+            "id": "534",
+            "runDate": "20170916",
+            "accNo": "401",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "c2e5e4d2-687d-44ca-a3a6-79dc77ca976e",
+            "id": "214",
+            "runDate": "20170519",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "460be8b0-684d-4eab-8266-ea6f8700d12c",
+            "id": "59",
+            "runDate": "20170303",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "77b66895-2331-4698-870d-cf6fb1bfa365",
+            "id": "550",
+            "runDate": "20170917",
+            "accNo": "1020030004",
+            "accType": "1",
+            "accName": "eslam",
+            "dbtAmt": "32000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "f760b480-d5e4-44b2-a4b2-9f5f7d297c68",
+            "id": "564",
+            "runDate": "20170918",
+            "accNo": "1020030004",
+            "accType": "1",
+            "accName": "eslam",
+            "dbtAmt": "32000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "9a14cdbd-8a26-4db1-ab0d-d9e29dbcf22f",
+            "id": "572",
+            "runDate": "20170919",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "105000",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "0ee4fa32-797c-4323-9238-d38ca356e299",
+            "id": "64",
+            "runDate": "20170305",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "e9c2d259-fc73-40bf-ba91-1053ba02d50d",
+            "id": "176",
+            "runDate": "20170430",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "3c79f2ed-842d-4cf1-9269-7c7ca6041b57",
+            "id": "318",
+            "runDate": "20170710",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "d3484f01-b254-473e-8574-fe8d4bbe8dfd",
+            "id": "28",
+            "runDate": "20170215",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "3fc5e687-3407-4310-8747-179b6a93da1e",
+            "id": "620",
+            "runDate": "20170922",
+            "accNo": "1020030004",
+            "accType": "1",
+            "accName": "eslam",
+            "dbtAmt": "32000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "e73c5113-5c7e-4df6-a85b-b526cbd196f4",
+            "id": "34",
+            "runDate": "20170218",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "d27a6202-6a8e-4d46-acd7-b10c629b41c0",
+            "id": "496",
+            "runDate": "20170913",
+            "accNo": "2020010002",
+            "accType": "2",
+            "accName": "sameh",
+            "dbtAmt": "65048",
+            "crdAmt": "400048"
+        },
+        {
+            "_rowID": "9a2a8da7-b7d2-4caf-8dad-3626e1270c45",
+            "id": "519",
+            "runDate": "20170915",
+            "accNo": "1020030001",
+            "accType": "1",
+            "accName": "عميل نقدي",
+            "dbtAmt": "80",
+            "crdAmt": "100080"
+        },
+        {
+            "_rowID": "45815c3f-e60e-4db0-8e15-e01f3bdb9ac0",
+            "id": "62",
+            "runDate": "20170304",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "fc9b59b1-531c-470f-b384-80f4eb3ad114",
+            "id": "102",
+            "runDate": "20170324",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "c47c702c-bbe8-45f7-ac39-387143d16a2b",
+            "id": "1",
+            "runDate": "20170202",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "58f06c17-026b-4ee2-a903-040a7be32069",
+            "id": "274",
+            "runDate": "20170618",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "846c0998-ad5c-4095-889c-d286a0fac8d6",
+            "id": "227",
+            "runDate": "20170526",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "3d20cc64-553c-43e9-8d89-78d87440d706",
+            "id": "39",
+            "runDate": "20170221",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "575acf21-6885-41b2-8c79-440cc64fd737",
+            "id": "119",
+            "runDate": "20170402",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "3da4c903-78c2-4431-a9a0-6821f35507d0",
+            "id": "539",
+            "runDate": "20170916",
+            "accNo": "304001",
+            "accType": "0",
+            "accName": "صافي تكلفة المبيعات",
+            "dbtAmt": "48",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "82af1a3f-94be-440f-a4b6-051395d88232",
+            "id": "576",
+            "runDate": "20170919",
+            "accNo": "401",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "6b81e0f9-947d-46d1-bbf7-a5ae5e7f136e",
+            "id": "324",
+            "runDate": "20170713",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "d297095a-16cb-4e98-a49c-865baccc87e6",
+            "id": "603",
+            "runDate": "20170921",
+            "accNo": "503001",
+            "accType": "0",
+            "accName": "أرباح العام",
+            "dbtAmt": "400",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "877d595c-621b-4942-8882-ca2368b8ef88",
+            "id": "217",
+            "runDate": "20170521",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "144a700c-d42d-419a-9b60-a626522eaa67",
+            "id": "141",
+            "runDate": "20170413",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "c2b6245a-d2e9-4123-8c2e-53e8c33da04d",
+            "id": "436",
+            "runDate": "20170904",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "10000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "53d601fb-c14f-4527-a7f5-84c6be15a868",
+            "id": "155",
+            "runDate": "20170420",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "04c11cfa-c8d5-4185-8b30-d5ae4999fc69",
+            "id": "147",
+            "runDate": "20170416",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "405e89c5-aa4c-4dc4-8939-7c2007e6241d",
+            "id": "583",
+            "runDate": "20170919",
+            "accNo": "2020010005",
+            "accType": "2",
+            "accName": "gamal",
+            "dbtAmt": "26269278200",
+            "crdAmt": "527930425000"
+        },
+        {
+            "_rowID": "372e2b3b-acc5-4301-8b0a-232b3c1ed7af",
+            "id": "144",
+            "runDate": "20170414",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "cdfef12f-033a-4b66-a2f8-8d997052ca4b",
+            "id": "494",
+            "runDate": "20170913",
+            "accNo": "503001",
+            "accType": "0",
+            "accName": "أرباح العام",
+            "dbtAmt": "400",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "b1fb4b4d-b774-448c-8e4b-2538732ccf51",
+            "id": "422",
+            "runDate": "20170831",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "80daeff6-45d9-492c-9389-d8fc2f929515",
+            "id": "86",
+            "runDate": "20170316",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "8f24be9a-90e5-424d-ae46-783637876653",
+            "id": "124",
+            "runDate": "20170404",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "cbc516d4-fa3d-4e15-80a1-64e2e8b70974",
+            "id": "419",
+            "runDate": "20170830",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "fdf5f98d-69ee-4d28-b1e4-2042a6ea1c04",
+            "id": "195",
+            "runDate": "20170510",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "0",
+            "crdAmt": "2000"
+        },
+        {
+            "_rowID": "cd93416a-209e-4c4d-a0e5-0e4dceefe7ef",
+            "id": "378",
+            "runDate": "20170809",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "2000",
+            "crdAmt": "0"
+        }
+    ]
+}
