@@ -290,7 +290,7 @@ zingchart.render({
 });
 
 	  // }});
-GenerateTable(7);
+GenerateTable(1,data_);
 });
 
 
@@ -303,6 +303,7 @@ function setDaily(){
 	height: '500', 
 	width: '725' 
 	});
+	GenerateTable(1,data_);
 }
 
 function setWeekly(){
@@ -332,6 +333,7 @@ function setWeekly(){
 		height: '500', 
 		width: '725' 
 	});
+	GenerateTable(7,data_);
 }
 
 function setMonthly(){
@@ -361,6 +363,7 @@ function setMonthly(){
 		height: '500', 
 		width: '725' 
 	});
+	GenerateTable(30,data_);
 }
 
 function setQuarterly(){
@@ -390,6 +393,7 @@ function setQuarterly(){
 		height: '500', 
 		width: '725' 
 	});
+	GenerateTable(90,data_);
 }
 
 function setHalfYearly(){
@@ -419,6 +423,7 @@ function setHalfYearly(){
 		height: '500', 
 		width: '725' 
 	});
+	GenerateTable(180,data_);
 }
 
 function setYearly(){
@@ -448,9 +453,10 @@ function setYearly(){
 		height: '500', 
 		width: '725' 
 	});
+	GenerateTable(360,data_);
 }
 
-function GenerateTable(step) {
+function GenerateTable(step,data__) {
     // Create table.
     var table = document.createElement('table');
     // Apply CSS for table
@@ -480,8 +486,8 @@ function GenerateTable(step) {
     var idx = 1;
     var beforedbt;
     var accounts={};
-    var startDate = data_[0].runDate;
-    var endDate = data_[data_.length-1].runDate;
+    var startDate = data__[0].runDate;
+    var endDate = data__[data_.length-1].runDate;
 
 
     //Convert dates
@@ -501,39 +507,40 @@ function GenerateTable(step) {
 
 	    //var s = Object.assign(startDateFormatted);
 	    var s = new Date(startDateFormatted.getTime());
-	    while(startPlusStep > startDateFormatted && data_.length>0){
+	    while(startPlusStep > startDateFormatted && data__.length>0){
 
-	    	while(data_.length>0){
+	    	while(data__.length>0){
 	    	// 	if (data_.length<55){
 	    	// 	debugger;
 	    	// }
-	    		d = dateRegex.exec(data_[0].runDate);
+	    		d = dateRegex.exec(data__[0].runDate);
 	    		dd = d[1]+"-"+d[2]+"-"+d[3]+"T00:00:00+0000";
 	    		var ddd = new Date(dd);
 	    		if (ddd<startPlusStep){
-	    			var accName=data_[0].accName; 
+	    			var accName=data__[0].accName; 
 	    			if (accounts[accName]){
-						accounts[accName].crdAmt = (Number(accounts[accName].crdAmt)+ Number(accounts[accName].crdAmt)).toString();
-						accounts[accName].dbtAmt = (Number(accounts[accName].dbtAmt)+ Number(accounts[accName].dbtAmt)).toString();
-						data_=data_.slice(1);
+						accounts[accName].crdAmt = (Number(accounts[accName].crdAmt)+ Number(data__[0].crdAmt)).toString();
+						accounts[accName].dbtAmt = (Number(accounts[accName].dbtAmt)+ Number(data__[0].dbtAmt)).toString();
+						data__=data__.slice(1);
 					}
 					else{
 						var x = {
-				    		accoNo: data_[0].accNo,
-							accName: data_[0].accName,
-							accType: data_[0].accType,
-							dbtAmt: data_[0].dbtAmt,
-							crdAmt: data_[0].crdAmt
+				    		accNo: data__[0].accNo,
+							accName: data__[0].accName,
+							accType: data__[0].accType,
+							dbtAmt: data__[0].dbtAmt,
+							crdAmt: data__[0].crdAmt
 		    			}				
 						accounts[accName]=x;
-						data_ = data_.slice(1);
+						data__ = data__.slice(1);
 					}	
 					accounts[accName].runDate = s;
 	    		}
 	    		else{
 	    			for (i in accounts){
 			    		var row= table.insertRow(idx);
-			    		row.insertCell(0).innerHTML=accounts[i].runDate;
+			    		D = accounts[i].runDate.toISOString();
+			    		row.insertCell(0).innerHTML=D.substring(0,10);
 			            row.insertCell(1).innerHTML=accounts[i].accNo;
 			            row.insertCell(2).innerHTML=accounts[i].accName;
 			            row.insertCell(3).innerHTML=accounts[i].accType;
