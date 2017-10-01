@@ -79,13 +79,13 @@ function fillArray(value, len) {
   return arr;
 }
 
-// $.ajax({
-//          url: "http://localhost:2999/Derived",
-//          headers: { sCompanyID:'BI', sCompanyLicense:'97.74.205.13', sRequesterUserName:'admin', sRequesterPassword:'12#3' },
-//          type: "GET",
-//          success: function(result) { alert('Success!' );
-$.getJSON("data2.json", function(result) {
-	alert("success");
+$.ajax({
+          url: "http://localhost:2999/Derived",
+          headers: { sCompanyID:'BI', sCompanyLicense:'97.74.205.13', sRequesterUserName:'admin', sRequesterPassword:'12#3' },
+          type: "GET",
+          success: function(result) { alert('Success!' );
+//$.getJSON("data2.json", function(result) {
+//	alert("success");
 
 result['data'] = result['data'].sort(function (a,b) {
 	return parseFloat(a.runDate) - parseFloat(b.runDate);
@@ -295,7 +295,7 @@ zingchart.render({
 
 	  // }});
 GenerateTable(1,data_);
-
+}
 });
 
 
