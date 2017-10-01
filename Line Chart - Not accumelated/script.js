@@ -79,7 +79,11 @@ function fillArray(value, len) {
   return arr;
 }
 
-
+// $.ajax({
+//          url: "http://localhost:2999/Derived",
+//          headers: { sCompanyID:'BI', sCompanyLicense:'97.74.205.13', sRequesterUserName:'admin', sRequesterPassword:'12#3' },
+//          type: "GET",
+//          success: function(result) { alert('Success!' );
 $.getJSON("data2.json", function(result) {
 	alert("success");
 
@@ -98,19 +102,19 @@ firstDate = firstDateFormatted.getTime();
 
 
 
-var colors = ["#800000",
-         "#00ffff",
-         "#f5f5dc",
-         "#00ff00",
-        "#4b0082",
-         "#a52a2a",
-        "#00ffff",
-        "#00008b",
-        "#008b8b",
-        "#a9a9a9",
-         "#006400",
-         "#bdb76b",
-        "#8b008b"];
+var colors = ["#0088CC",
+         "#005580",
+         "#E36159",
+         "#FF77FF",
+        "#050505",
+        "#FCF305",
+        "#c88cea",
+        "#37e5d9",
+         "#1FB713",
+        "#6711FF",
+        "#A64C21",
+        "#00ABEA"
+        ];
 
 
 	for (i in result.data){
@@ -149,12 +153,12 @@ var colors = ["#800000",
     dailyData = arraySeries;
 	myConfig = {
 	 	type: 'line',
-	 	backgroundColor: '#2C2C39',
+	 	backgroundColor: '#FFFFFF',
 	 	title:{
 	 	  text:'تقرير حسابات الدائن و المدين',
 	 	  rtl: true,
 	 	  adjustLayout: true,
-	 	  fontColor:"#E3E3E5",
+	 	  fontColor:"black",
 	 	  marginTop: 7
 	 	},
 	 	"legend":{
@@ -210,7 +214,7 @@ var colors = ["#800000",
 	 	  minorGuide:{
 	 	    visible: true,
 	 	    lineWidth: 1,
-	 	    lineColor: 'black',//'#E3E3E5',
+	 	    lineColor: '#FFFFFF',//'black',//'#E3E3E5',
 	 	    alpha: 0.7,
 	 	    lineStyle: 'dashed'
 	 	  },
@@ -291,6 +295,7 @@ zingchart.render({
 
 	  // }});
 GenerateTable(1,data_);
+
 });
 
 
