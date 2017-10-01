@@ -1,4 +1,3 @@
-//debugger;
 var jsonData=[]
 var myConfig;
 var dbt=[];
@@ -11,53 +10,6 @@ var data;
 var startDate = document.getElementById("dat").value.replace('-','').replace('-','');
 var endDate = document.getElementById("dat2").value.replace('-','').replace('-','');
 
-
-
-var ColorsList = {
-        aqua: "#00ffff",
-        azure: "#f0ffff",
-        beige: "#f5f5dc",
-        black: "#000000",
-        blue: "#0000ff",
-        brown: "#a52a2a",
-        cyan: "#00ffff",
-        darkblue: "#00008b",
-        darkcyan: "#008b8b",
-        darkgrey: "#a9a9a9",
-        darkgreen: "#006400",
-        darkkhaki: "#bdb76b",
-        darkmagenta: "#8b008b",
-        darkolivegreen: "#556b2f",
-        darkorange: "#ff8c00",
-        darkorchid: "#9932cc",
-        darkred: "#8b0000",
-        darksalmon: "#e9967a",
-        darkviolet: "#9400d3",
-        fuchsia: "#ff00ff",
-        gold: "#ffd700",
-        green: "#008000",
-        indigo: "#4b0082",
-        khaki: "#f0e68c",
-        lightblue: "#add8e6",
-        lightcyan: "#e0ffff",
-        lightgreen: "#90ee90",
-        lightgrey: "#d3d3d3",
-        lightpink: "#ffb6c1",
-        lightyellow: "#ffffe0",
-        lime: "#00ff00",
-        magenta: "#ff00ff",
-        maroon: "#800000",
-        navy: "#000080",
-        olive: "#808000",
-        orange: "#ffa500",
-        pink: "#ffc0cb",
-        purple: "#800080",
-        violet: "#800080",
-        red: "#ff0000",
-        silver: "#c0c0c0",
-        white: "#ffffff",
-        yellow: "#ffff00"
-    };
 
 
 $(document).ready(function(){
@@ -84,21 +36,25 @@ $(document).ready(function(){
           	data=result['data'].sort(function(a,b){ return parseFloat(a.runDate) - parseFloat(b.runDate);});
             $('#Button').removeAttr('disabled');
 
-		var colors = ["#800000",
-			         "#00ffff",
-			         "#f5f5dc",
-			         "#00ff00",
-			        "#4b0082",
-			         "#a52a2a",
-			        "#00ffff",
-			        "#00008b",
-			        "#008b8b",
-			        "#a9a9a9",
-			         "#006400",
-			         "#bdb76b",
-			        "#8b008b"];
+		var colors = ["#0088CC",
+         "#005580",
+         "#E36159",
+         "#FF77FF",
+        "#050505",
+        "#FCF305",
+        "#c88cea",
+        "#37e5d9",
+         "#1FB713",
+        "#6711FF",
+        "#A64C21",
+        "#00ABEA"
+        ];
 
-
+firstD=result['data'][0].runDate;
+allDate = dateRegex.exec(firstD);
+dateInEpochFormat = allDate[1]+"-"+allDate[2]+"-"+allDate[3]+"T00:00:00+0000";
+var firstDateFormatted = new Date(dateInEpochFormat);
+firstDate = firstDateFormatted.getTime();
 	
 	for (i in result.data){
 		var accName=result.data[i].accName;   //Get the account name 
@@ -133,12 +89,12 @@ $(document).ready(function(){
 
 	myConfig = {
 	 	type: 'line',
-	 	backgroundColor: '#2C2C39',
+	 	backgroundColor:  '#FFFFFF',
 	 	title:{
 	 	  text:'تقرير حسابات الدائن و المدين',
 	 	  rtl: true,
 	 	  adjustLayout: true,
-	 	  fontColor:"#E3E3E5",
+	 	  fontColor:"black",
 	 	  marginTop: 7
 	 	},
 	 	
@@ -178,7 +134,7 @@ $(document).ready(function(){
 	 	  lineColor: '#E3E3E5',
 	 	  zooming: true,
 	 	  zoomTo:[0,15],
-	 	  minValue: 1459468800000,
+	 	  minValue: firstDate,
 	 	  step: 'day',
 	 	  item:{
 	 	    fontColor:'black',//'#E3E3E5'
@@ -200,7 +156,7 @@ $(document).ready(function(){
 	 	  minorGuide:{
 	 	    visible: true,
 	 	    lineWidth: 1,
-	 	    lineColor: 'black',//'#E3E3E5',
+	 	    lineColor: '#FFFFFF',//'#E3E3E5',
 	 	    alpha: 0.7,
 	 	    lineStyle: 'dashed'
 	 	  },
