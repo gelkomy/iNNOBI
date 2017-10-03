@@ -15,53 +15,7 @@ var reqDate;
 var Ratio;
 var dictRatios={};
 
-var currentAssets_dbtAmt = 0;
-	var currentAssets_crdAmt=0;
 
-	var currentLiabilities_dbtAmt=0;
-	var currentLiabilities_crdAmt=0;
-
-	var stocks_dbtAmt=0;
-	var stocks_crdAmt=0;
-
-	var customers_dbtAmt=0;
-	var customers_crdAmt=0;
-
-	var otherDebitAccounts_dbtAmt=0;
-	var otherDebitAccounts_crdAmt=0;
-
-	var receivables_dbtAmt=0;
-	var receivables_crdAmt=0;
-
-	var suppliers_dbtAmt=0;
-	var suppliers_crdAmt=0;
-
-	var payables_dbtAmt=0;
-	var payables_crdAmt=0;
-
-	var crdBalances_dbtAmt=0;
-	var crdBalances_crdAmt=0;
-
-	var fixedAssets_dbtAmt=0;
-	var fixedAssets_crdAmt=0;
-
-	var cash_dbtAmt=0;
-	var cash_crdAmt=0;
-
-	var shortTermInvest_dbtAmt=0;
-	var shortTermInvest_crdAmt=0;
-	
-	var shortTermLoans_dbtAmt=0;
-	var shortTermLoans_crdAmt=0;
-
-	var fixedLiabilities_dbtAmt=0;
-	var fixedLiabilities_crdAmt=0;
-
-	var projectOwnersRights_dbtAmt=0;
-	var projectOwnersRights_crdAmt=0;
-
-	var	longTermLoans_dbtAmt=0;
-	var longTermLoans_crdAmt=0;
 $(document).ready(function(){
     $('#dat').change(function(){
         startDate = this.value.replace('-','').replace('-','');        
@@ -72,7 +26,7 @@ $(document).ready(function(){
 //$.getJSON("oneday.json", function(result){
  
 function checkDates(){
-	/*
+	
 	var currentAssets_dbtAmt = 0;
 	var currentAssets_crdAmt=0;
 
@@ -120,7 +74,10 @@ function checkDates(){
 
 	var	longTermLoans_dbtAmt=0;
 	var longTermLoans_crdAmt=0;
-	*/
+
+	var prePaidExpenses_dbtAmt = 0;
+	var prePaidExpenses_crdAmt=0;
+	
 	$.ajax({
 		url: "http://localhost:2999/FinancialAnalysis",
 		headers: { sCompanyID:'BI', sCompanyLicense:'97.74.205.13', sRequesterUserName:'admin', sRequesterPassword:'12#3', sDate: startDate},
@@ -129,7 +86,7 @@ function checkDates(){
 			$('#Button').removeAttr('disabled');
 
 			reqDate = result["data"][0].runDate;		
-
+			//1020040002
 			for (var i in result["data"]) {
 				if (result["data"][i].accNo.startsWith("102")){
 					currentAssets_dbtAmt += Number(result["data"][i].dbtAmt);	
@@ -149,7 +106,12 @@ function checkDates(){
 					}
 					else if (result["data"][i].accNo.startsWith("102004")){
 						otherDebitAccounts_dbtAmt += Number(result["data"][i].dbtAmt);	
-						otherDebitAccounts_crdAmt += Number(result["data"][i].crdAmt);		
+						otherDebitAccounts_crdAmt += Number(result["data"][i].crdAmt);
+
+						if (result["data"][i].accNo.startsWith("1020040002")){
+							prePaidExpenses_dbtAmt += Number(result["data"][i].dbtAmt);	
+							prePaidExpenses_crdAmt += Number(result["data"][i].crdAmt);
+						}		
 					}
 					else if (result["data"][i].accNo.startsWith("102002")){
 						receivables_dbtAmt += Number(result["data"][i].dbtAmt);	
@@ -207,15 +169,13 @@ function checkDates(){
 				}
 			}
 
-			Ratio = (currentAssets_dbtAmt - currentAssets_crdAmt)/(currentLiabilities_dbtAmt - currentLiabilities_crdAmt);
-			dictRatios["نسبة التداول"]=Ratio;
+			dictRatios["نسبة التداول"] = (currentAssets_dbtAmt - currentAssets_crdAmt)-(currentLiabilities_dbtAmt - currentLiabilities_crdAmt);
 
-			Ratio = ((currentAssets_dbtAmt - currentAssets_crdAmt) - (stocks_dbtAmt - stocks_crdAmt))/(currentLiabilities_dbtAmt - currentLiabilities_crdAmt);
-			dictRatios["نسبة السيولة السريعة"] = Ratio;
+			dictRatios["نسبة السيولة السريعة"] = ((currentAssets_dbtAmt - currentAssets_crdAmt) - (stocks_dbtAmt - stocks_crdAmt))/(currentLiabilities_dbtAmt - currentLiabilities_crdAmt);
 
 			dictRatios["نسبة المخزون الى صافى  راس المال العامل"]=(stocks_dbtAmt - stocks_crdAmt)/dictRatios["نسبة التداول"];
 
-			dictRatios["نسبة السيولة النقدية"] = (cash_dbtAmt- cash_crdAmt + shortTermInvest_dbtAmt - shortTermInvest_crdAmt)/(currentLiabilities_dbtAmt - currentLiabilities_crdAmt);
+			dictRatios["نسبة السيولة النقدية"] = currentAssets_dbtAmt - currentAssets_crdAmt - stocks_dbtAmt - stocks_crdAmt - prePaidExpenses_dbtAmt - prePaidExpenses_crdAmt;
 			
 			dictRatios["نسبة المدينون واوراق القبض الى صافى راس المال العامل "]=(customers_dbtAmt - customers_crdAmt + otherDebitAccounts_dbtAmt - otherDebitAccounts_crdAmt + receivables_dbtAmt - receivables_crdAmt) / dictRatios["نسبة التداول"];
 
