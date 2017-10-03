@@ -6,7 +6,7 @@ var dbtAccounts = {};
 //var crdAccounts = {};
 var arraySeries = [];
 var data;
-
+var dateRegex = /(\d{4})(\d{2})(\d{2})/;
 var startDate = document.getElementById("dat").value.replace('-','').replace('-','');
 var endDate = document.getElementById("dat2").value.replace('-','').replace('-','');
 
@@ -278,7 +278,7 @@ function GenerateTable() {
     for( i=0; i < data.length; i++){
         var row= table.insertRow(idx);
 
-        dateRegex = /(\d{4})(\d{2})(\d{2})/;
+        
         allDate = dateRegex.exec(data[i].runDate)
         styledDate = allDate[3]+"-"+allDate[2]+"-"+allDate[1]
 
