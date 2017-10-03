@@ -74,6 +74,9 @@ function checkDates(){
 
 	var	longTermLoans_dbtAmt=0;
 	var longTermLoans_crdAmt=0;
+
+	var prePaidExpenses_dbtAmt = 0;
+	var prePaidExpenses_crdAmt=0;
 	
 	$.ajax({
 		url: "http://localhost:2999/FinancialAnalysis",
@@ -83,7 +86,7 @@ function checkDates(){
 			$('#Button').removeAttr('disabled');
 
 			reqDate = result["data"][0].runDate;		
-
+			//1020040002
 			for (var i in result["data"]) {
 				if (result["data"][i].accNo.startsWith("102")){
 					currentAssets_dbtAmt += Number(result["data"][i].dbtAmt);	
@@ -103,7 +106,12 @@ function checkDates(){
 					}
 					else if (result["data"][i].accNo.startsWith("102004")){
 						otherDebitAccounts_dbtAmt += Number(result["data"][i].dbtAmt);	
-						otherDebitAccounts_crdAmt += Number(result["data"][i].crdAmt);		
+						otherDebitAccounts_crdAmt += Number(result["data"][i].crdAmt);
+
+						if (result["data"][i].accNo.startsWith("1020040002")){
+							prePaidExpenses_dbtAmt += Number(result["data"][i].dbtAmt);	
+							prePaidExpenses_crdAmt += Number(result["data"][i].crdAmt);
+						}		
 					}
 					else if (result["data"][i].accNo.startsWith("102002")){
 						receivables_dbtAmt += Number(result["data"][i].dbtAmt);	
@@ -161,31 +169,29 @@ function checkDates(){
 				}
 			}
 
-			Ratio = (currentAssets_dbtAmt - currentAssets_crdAmt)/(currentLiabilities_dbtAmt - currentLiabilities_crdAmt);
-			dictRatios["نسبة التداول"]=Ratio;
+			dictRatios["نسبة التداول"] = Math.round(((currentAssets_dbtAmt - currentAssets_crdAmt)/(currentLiabilities_dbtAmt - currentLiabilities_crdAmt))*100)/100;
 
-			Ratio = ((currentAssets_dbtAmt - currentAssets_crdAmt) - (stocks_dbtAmt - stocks_crdAmt))/(currentLiabilities_dbtAmt - currentLiabilities_crdAmt);
-			dictRatios["نسبة السيولة السريعة"] = Ratio;
+			dictRatios["نسبة السيولة السريعة"] = Math.round(((currentAssets_dbtAmt - currentAssets_crdAmt) - (stocks_dbtAmt - stocks_crdAmt))/(currentLiabilities_dbtAmt - currentLiabilities_crdAmt)*100)/100;
 
-			dictRatios["نسبة المخزون الى صافى  راس المال العامل"]=(stocks_dbtAmt - stocks_crdAmt)/dictRatios["نسبة التداول"];
+			dictRatios["نسبة المخزون الى صافى  راس المال العامل"]=Math.round((stocks_dbtAmt - stocks_crdAmt)/dictRatios["نسبة التداول"]*100)/100;
 
-			dictRatios["نسبة السيولة النقدية"] = (cash_dbtAmt- cash_crdAmt + shortTermInvest_dbtAmt - shortTermInvest_crdAmt)/(currentLiabilities_dbtAmt - currentLiabilities_crdAmt);
+			dictRatios["نسبة السيولة النقدية"] = Math.round((currentAssets_dbtAmt - currentAssets_crdAmt - stocks_dbtAmt - stocks_crdAmt - prePaidExpenses_dbtAmt - prePaidExpenses_crdAmt)/(currentLiabilities_dbtAmt - currentLiabilities_crdAmt)*100)/100;
 			
-			dictRatios["نسبة المدينون واوراق القبض الى صافى راس المال العامل "]=(customers_dbtAmt - customers_crdAmt + otherDebitAccounts_dbtAmt - otherDebitAccounts_crdAmt + receivables_dbtAmt - receivables_crdAmt) / dictRatios["نسبة التداول"];
+			dictRatios["نسبة المدينون واوراق القبض الى صافى راس المال العامل "]=Math.round((customers_dbtAmt - customers_crdAmt + otherDebitAccounts_dbtAmt - otherDebitAccounts_crdAmt + receivables_dbtAmt - receivables_crdAmt) / ((currentAssets_dbtAmt - currentAssets_crdAmt)-(currentLiabilities_dbtAmt - currentLiabilities_crdAmt))*100)/100;
 
-			dictRatios["نسبة المدينون واوراق القبض الى الدائنون واوراق الدفع"]= (customers_dbtAmt - customers_crdAmt + otherDebitAccounts_dbtAmt - otherDebitAccounts_crdAmt + receivables_dbtAmt - receivables_crdAmt)/(suppliers_dbtAmt - suppliers_crdAmt + payables_dbtAmt - payables_crdAmt + crdBalances_dbtAmt - crdBalances_crdAmt);
+			dictRatios["نسبة المدينون واوراق القبض الى الدائنون واوراق الدفع"]= Math.round((customers_dbtAmt - customers_crdAmt + otherDebitAccounts_dbtAmt - otherDebitAccounts_crdAmt + receivables_dbtAmt - receivables_crdAmt)/(suppliers_dbtAmt - suppliers_crdAmt + payables_dbtAmt - payables_crdAmt + crdBalances_dbtAmt - crdBalances_crdAmt)*100)/100;
 
-			dictRatios["نسبة الاصول الثابتة الى المتداولة"] = (fixedAssets_dbtAmt- fixedAssets_crdAmt)/(currentAssets_dbtAmt - currentAssets_crdAmt);
+			dictRatios["نسبة الاصول الثابتة الى المتداولة"] = Math.round((fixedAssets_dbtAmt- fixedAssets_crdAmt)/(currentAssets_dbtAmt - currentAssets_crdAmt)*100)/100;
 			
-			dictRatios["نسبة الاصول الثابتة الى حقوق اصحاب المشروع"] = (fixedAssets_dbtAmt - fixedAssets_crdAmt)/(projectOwnersRights_dbtAmt - projectOwnersRights_crdAmt);
+			dictRatios["نسبة الاصول الثابتة الى حقوق اصحاب المشروع"] = Math.round((fixedAssets_dbtAmt - fixedAssets_crdAmt)/(projectOwnersRights_dbtAmt - projectOwnersRights_crdAmt)*100)/100;
 
-			dictRatios["نسبة حقوق اصحاب المشروع الى الخصوم الثابتة"] = (projectOwnersRights_dbtAmt - projectOwnersRights_crdAmt)/(fixedLiabilities_dbtAmt - fixedLiabilities_crdAmt);
+			dictRatios["نسبة حقوق اصحاب المشروع الى الخصوم الثابتة"] = Math.round((projectOwnersRights_dbtAmt - projectOwnersRights_crdAmt)/(fixedLiabilities_dbtAmt - fixedLiabilities_crdAmt)*100)/100;
 
-			dictRatios["نسبة المديونية قصيرة الاجل الى مجموع الاصول"] = (shortTermLoans_dbtAmt - shortTermLoans_crdAmt)/(fixedAssets_dbtAmt - fixedAssets_crdAmt + currentAssets_dbtAmt - currentAssets_crdAmt);
+			dictRatios["نسبة المديونية قصيرة الاجل الى مجموع الاصول"] = Math.round((shortTermLoans_dbtAmt - shortTermLoans_crdAmt)/(fixedAssets_dbtAmt - fixedAssets_crdAmt + currentAssets_dbtAmt - currentAssets_crdAmt)*100)/100;
 			
-			dictRatios["نسبة المديونية طويلة الاجل الى مجموع الاصول"] = (longTermLoans_dbtAmt - longTermLoans_crdAmt)/ (fixedAssets_dbtAmt - fixedAssets_crdAmt + currentAssets_dbtAmt - currentAssets_crdAmt);
+			dictRatios["نسبة المديونية طويلة الاجل الى مجموع الاصول"] = Math.round((longTermLoans_dbtAmt - longTermLoans_crdAmt)/ (fixedAssets_dbtAmt - fixedAssets_crdAmt + currentAssets_dbtAmt - currentAssets_crdAmt)*100)/100;
 
-			dictRatios["نسبة المديونية طويلة و قصيرة الاجل الى مجموع الاصول "] = (longTermLoans_dbtAmt - longTermLoans_crdAmt + shortTermLoans_dbtAmt - shortTermLoans_crdAmt)/(fixedAssets_dbtAmt - fixedAssets_crdAmt + currentAssets_dbtAmt - currentAssets_crdAmt);
+			dictRatios["نسبة المديونية طويلة و قصيرة الاجل الى مجموع الاصول "] = Math.round((longTermLoans_dbtAmt - longTermLoans_crdAmt + shortTermLoans_dbtAmt - shortTermLoans_crdAmt)/(fixedAssets_dbtAmt - fixedAssets_crdAmt + currentAssets_dbtAmt - currentAssets_crdAmt)*100)/100;
 			
 			GenerateTable(dictRatios);
 		}
