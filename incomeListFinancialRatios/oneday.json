@@ -1,0 +1,124 @@
+{
+    "success": "true",
+    "errorCode": "err-00",
+    "servermls": "0",
+    "data": [
+		{
+            "_rowID": "52e627d1-5d4e-425d-b05f-7307f0bf4f6d",
+            "runDate": "20170915",
+            "accNo": "1020030003",
+            "accType": "1",
+            "accName": "mohamed",
+            "dbtAmt": "42000",
+            "crdAmt": "1010000"
+        },
+        {
+            "_rowID": "a8e86b1c-6136-47df-8354-d1080a8dfb28",
+            "runDate": "20170915",
+            "accNo": "1020030004",
+            "accType": "1",
+            "accName": "eslam",
+            "dbtAmt": "32000",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "6886158f-ac39-4241-bb0b-c933c125cf7e",
+            "runDate": "20170915",
+            "accNo": "1020070001",
+            "accType": "0",
+            "accName": "المخزن الافتراضي",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "ca320f62-300e-4fca-8d8a-cfe132c58366",
+            "runDate": "20170915",
+            "accNo": "102001000100001",
+            "accType": "0",
+            "accName": "خزينة الشركة",
+            "dbtAmt": "2810080",
+            "crdAmt": "336448"
+        },
+        {
+            "_rowID": "b3728473-1dcf-495d-af15-fd11d3afcb3f",
+            "runDate": "20170915",
+            "accNo": "401",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "ce47e8f2-9375-4e51-b76c-fcc8cec5f171",
+            "runDate": "20170915",
+            "accNo": "1020030002",
+            "accType": "1",
+            "accName": "ahmed",
+            "dbtAmt": "105000",
+            "crdAmt": "400000"
+        },
+        {
+            "_rowID": "7ce13b47-788e-47fc-a496-b7d376c5f6eb",
+            "runDate": "20170915",
+            "accNo": "2020010002",
+            "accType": "2",
+            "accName": "sameh",
+            "dbtAmt": "65048",
+            "crdAmt": "400048"
+        },
+        {
+            "_rowID": "b248e87b-1872-40f6-b050-02d3c845c123",
+            "runDate": "20170915",
+            "accNo": "401001",
+            "accType": "0",
+            "accName": "صافى المبيعات",
+            "dbtAmt": "0",
+            "crdAmt": "80"
+        },
+        {
+            "_rowID": "02332420-5dcf-4923-872a-f1411c681dba",
+            "runDate": "20170915",
+            "accNo": "305",
+            "accType": "0",
+            "accName": "المشتريات",
+            "dbtAmt": "48",
+            "crdAmt": "48"
+        },
+        {
+            "_rowID": "a0b05030-0e5e-43c4-a8e8-6211ce3421a9",
+            "runDate": "20170915",
+            "accNo": "304001",
+            "accType": "0",
+            "accName": "صافي تكلفة المبيعات",
+            "dbtAmt": "48",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "a17d3fc9-2579-43b8-92e6-2e11be4cca5c",
+            "runDate": "20170915",
+            "accNo": "503001",
+            "accType": "0",
+            "accName": "أرباح العام",
+            "dbtAmt": "400",
+            "crdAmt": "0"
+        },
+        {
+            "_rowID": "b30ebb51-4a7b-4432-85cf-8f660f082821",
+            "runDate": "20170915",
+            "accNo": "2020010003",
+            "accType": "2",
+            "accName": "sami",
+            "dbtAmt": "92000",
+            "crdAmt": "500000"
+        },
+        {
+            "_rowID": "b095b94c-cde8-4a77-acc1-e0e37edc4f30",
+            "runDate": "20170915",
+            "accNo": "1020030001",
+            "accType": "1",
+            "accName": "عميل نقدي",
+            "dbtAmt": "80",
+            "crdAmt": "100080"
+        }
+		]
+		}
