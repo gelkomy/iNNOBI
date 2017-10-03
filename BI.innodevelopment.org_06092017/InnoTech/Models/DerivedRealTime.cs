@@ -110,6 +110,7 @@ namespace InnoTech.Models
             sFilter = "{\"vDate\":{\"gte\":\"" + sStartDate + "\",\"lte\":\"" + sEndDate + "\"}}";
             //sFilter = null;
 
+
             using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
             {
                              
