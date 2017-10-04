@@ -25,58 +25,9 @@ $(document).ready(function(){
 
 //$.getJSON("oneday.json", function(result){
  
-	var currentAssets_dbtAmt = 0;
-	var currentAssets_crdAmt=0;
 
-	var currentLiabilities_dbtAmt=0;
-	var currentLiabilities_crdAmt=0;
-
-	var stocks_dbtAmt=0;
-	var stocks_crdAmt=0;
-
-	var customers_dbtAmt=0;
-	var customers_crdAmt=0;
-
-	var otherDebitAccounts_dbtAmt=0;
-	var otherDebitAccounts_crdAmt=0;
-
-	var receivables_dbtAmt=0;
-	var receivables_crdAmt=0;
-
-	var suppliers_dbtAmt=0;
-	var suppliers_crdAmt=0;
-
-	var payables_dbtAmt=0;
-	var payables_crdAmt=0;
-
-	var crdBalances_dbtAmt=0;
-	var crdBalances_crdAmt=0;
-
-	var fixedAssets_dbtAmt=0;
-	var fixedAssets_crdAmt=0;
-
-	var cash_dbtAmt=0;
-	var cash_crdAmt=0;
-
-	var shortTermInvest_dbtAmt=0;
-	var shortTermInvest_crdAmt=0;
-	
-	var shortTermLoans_dbtAmt=0;
-	var shortTermLoans_crdAmt=0;
-
-	var fixedLiabilities_dbtAmt=0;
-	var fixedLiabilities_crdAmt=0;
-
-	var projectOwnersRights_dbtAmt=0;
-	var projectOwnersRights_crdAmt=0;
-
-	var	longTermLoans_dbtAmt=0;
-	var longTermLoans_crdAmt=0;
-
-	var prePaidExpenses_dbtAmt = 0;
-	var prePaidExpenses_crdAmt=0;
 function checkDates(){
-	/*
+	
 	var currentAssets_dbtAmt = 0;
 	var currentAssets_crdAmt=0;
 
@@ -127,7 +78,7 @@ function checkDates(){
 
 	var prePaidExpenses_dbtAmt = 0;
 	var prePaidExpenses_crdAmt=0;
-	*/
+	
 	$.ajax({
 		url: "http://localhost:2999/FinancialAnalysis",
 		headers: { sCompanyID:'BI', sCompanyLicense:'97.74.205.13', sRequesterUserName:'admin', sRequesterPassword:'12#3', sDate: startDate},
@@ -215,7 +166,7 @@ function checkDates(){
 
 				//else if (result["data"][i].accNo.startsWith("501") || result["data"][i].accNo.startsWith("502") || result["data"][i].accNo.startsWith("503") || result["data"][i].accNo.startsWith("504")){
 					else if (result["data"][i].accNo.startsWith("5")){
-						console.log(result["data"][i].accNo);
+						
 					projectOwnersRights_dbtAmt += Number(result["data"][i].dbtAmt);
 					projectOwnersRights_crdAmt += Number(result["data"][i].crdAmt);
 				}
