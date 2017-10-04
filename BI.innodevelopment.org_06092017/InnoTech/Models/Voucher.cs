@@ -50,7 +50,8 @@ namespace InnoTech.Models
             Dictionary<string, string> dictNames = new Dictionary<string, string>();
             DateTime startDate = new DateTime(2016, 12, 31, 23, 59, 59, 0);
             string sStartDate = startDate.ToString("yyyyMMdd");
-            DateTime endDate = new DateTime(2017, 9, 24, 23, 59, 59, 0);
+            //DateTime endDate = new DateTime(2017, 9, 24, 23, 59, 59, 0);
+            DateTime endDate = DateTime.Now;
             string sEndDate = endDate.ToString("yyyyMMdd");
             string sDate;
             for (DateTime date = startDate; date.Date <= endDate.Date; date = date.AddDays(1))
@@ -145,6 +146,43 @@ namespace InnoTech.Models
                     }
                     
                 }
+            }
+
+            // updating the last run date in the control table 
+            sBranchId = "1";
+            sProductID = "innoPack";
+            sWebserviceID = "srvBI";
+            sSchemaID = "controlTable";
+
+            sSchemaVersion = "1";
+            sPersonId = "0";
+
+            // getting lastRunTimeStamp
+            
+            sFilter = null;
+
+            
+            string lastRunTimeStampRowID;
+
+            using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
+            {
+                HttpResponseMessage temp = objRequestInterface.Get();
+                var json = JObject.Parse(DecompressResult.DeflateByte(temp.Content.ReadAsByteArrayAsync().Result))["data"];
+                lastRunTimeStampRowID = json[0]["_rowID"].ToString();
+                
+            }
+
+            sFilter = null;
+            using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
+            {
+
+
+                JObject x = JObject.Parse("{\"_rowID\":\"" + lastRunTimeStampRowID + "\",\"lastRunTimeStamp\":\"" + endDate.ToString("yyyyMMddHHmmssfff") + "\"}");
+                List<JObject> lstControlTable = new List<JObject>();
+                lstControlTable.Add(x);
+
+
+                objRequestInterface.Put(lstControlTable);
             }
             return response_msg;
         }
