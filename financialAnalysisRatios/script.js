@@ -25,8 +25,6 @@ $(document).ready(function(){
 
 //$.getJSON("oneday.json", function(result){
  
-function checkDates(){
-	
 	var currentAssets_dbtAmt = 0;
 	var currentAssets_crdAmt=0;
 
@@ -77,7 +75,59 @@ function checkDates(){
 
 	var prePaidExpenses_dbtAmt = 0;
 	var prePaidExpenses_crdAmt=0;
+function checkDates(){
+	/*
+	var currentAssets_dbtAmt = 0;
+	var currentAssets_crdAmt=0;
+
+	var currentLiabilities_dbtAmt=0;
+	var currentLiabilities_crdAmt=0;
+
+	var stocks_dbtAmt=0;
+	var stocks_crdAmt=0;
+
+	var customers_dbtAmt=0;
+	var customers_crdAmt=0;
+
+	var otherDebitAccounts_dbtAmt=0;
+	var otherDebitAccounts_crdAmt=0;
+
+	var receivables_dbtAmt=0;
+	var receivables_crdAmt=0;
+
+	var suppliers_dbtAmt=0;
+	var suppliers_crdAmt=0;
+
+	var payables_dbtAmt=0;
+	var payables_crdAmt=0;
+
+	var crdBalances_dbtAmt=0;
+	var crdBalances_crdAmt=0;
+
+	var fixedAssets_dbtAmt=0;
+	var fixedAssets_crdAmt=0;
+
+	var cash_dbtAmt=0;
+	var cash_crdAmt=0;
+
+	var shortTermInvest_dbtAmt=0;
+	var shortTermInvest_crdAmt=0;
 	
+	var shortTermLoans_dbtAmt=0;
+	var shortTermLoans_crdAmt=0;
+
+	var fixedLiabilities_dbtAmt=0;
+	var fixedLiabilities_crdAmt=0;
+
+	var projectOwnersRights_dbtAmt=0;
+	var projectOwnersRights_crdAmt=0;
+
+	var	longTermLoans_dbtAmt=0;
+	var longTermLoans_crdAmt=0;
+
+	var prePaidExpenses_dbtAmt = 0;
+	var prePaidExpenses_crdAmt=0;
+	*/
 	$.ajax({
 		url: "http://localhost:2999/FinancialAnalysis",
 		headers: { sCompanyID:'BI', sCompanyLicense:'97.74.205.13', sRequesterUserName:'admin', sRequesterPassword:'12#3', sDate: startDate},
@@ -163,7 +213,9 @@ function checkDates(){
 					fixedAssets_crdAmt += Number(result["data"][i].crdAmt);		
 				}
 
-				else if (result["data"][i].accNo.startsWith("501") || result["data"][i].accNo.startsWith("502") || result["data"][i].accNo.startsWith("503") || result["data"][i].accNo.startsWith("504")){
+				//else if (result["data"][i].accNo.startsWith("501") || result["data"][i].accNo.startsWith("502") || result["data"][i].accNo.startsWith("503") || result["data"][i].accNo.startsWith("504")){
+					else if (result["data"][i].accNo.startsWith("5")){
+						console.log(result["data"][i].accNo);
 					projectOwnersRights_dbtAmt += Number(result["data"][i].dbtAmt);
 					projectOwnersRights_crdAmt += Number(result["data"][i].crdAmt);
 				}
@@ -173,11 +225,11 @@ function checkDates(){
 
 			dictRatios["نسبة السيولة السريعة"] = Math.round(((currentAssets_dbtAmt - currentAssets_crdAmt) - (stocks_dbtAmt - stocks_crdAmt))/(currentLiabilities_dbtAmt - currentLiabilities_crdAmt)*100)/100;
 
-			dictRatios["نسبة المخزون الى صافى  راس المال العامل"]=Math.round((stocks_dbtAmt - stocks_crdAmt)/dictRatios["نسبة التداول"]*100)/100;
+			dictRatios["نسبة المخزون الى صافى  راس المال العامل"]=Math.round((stocks_dbtAmt - stocks_crdAmt)/((currentAssets_dbtAmt - currentAssets_crdAmt)-(currentLiabilities_crdAmt-currentLiabilities_dbtAmt  ))*100)/100;
 
 			dictRatios["نسبة السيولة النقدية"] = Math.round((currentAssets_dbtAmt - currentAssets_crdAmt - stocks_dbtAmt - stocks_crdAmt - prePaidExpenses_dbtAmt - prePaidExpenses_crdAmt)/(currentLiabilities_dbtAmt - currentLiabilities_crdAmt)*100)/100;
 			
-			dictRatios["نسبة المدينون واوراق القبض الى صافى راس المال العامل "]=Math.round((customers_dbtAmt - customers_crdAmt + otherDebitAccounts_dbtAmt - otherDebitAccounts_crdAmt + receivables_dbtAmt - receivables_crdAmt) / ((currentAssets_dbtAmt - currentAssets_crdAmt)-(currentLiabilities_dbtAmt - currentLiabilities_crdAmt))*100)/100;
+			dictRatios["نسبة المدينون واوراق القبض الى صافى راس المال العامل "]=Math.round((customers_dbtAmt - customers_crdAmt + otherDebitAccounts_dbtAmt - otherDebitAccounts_crdAmt + receivables_dbtAmt - receivables_crdAmt) / ((currentAssets_dbtAmt - currentAssets_crdAmt)-(currentLiabilities_crdAmt-currentLiabilities_dbtAmt  ))*100)/100;
 
 			dictRatios["نسبة المدينون واوراق القبض الى الدائنون واوراق الدفع"]= Math.round((customers_dbtAmt - customers_crdAmt + otherDebitAccounts_dbtAmt - otherDebitAccounts_crdAmt + receivables_dbtAmt - receivables_crdAmt)/(suppliers_dbtAmt - suppliers_crdAmt + payables_dbtAmt - payables_crdAmt + crdBalances_dbtAmt - crdBalances_crdAmt)*100)/100;
 

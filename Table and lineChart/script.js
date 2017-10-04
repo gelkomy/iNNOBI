@@ -89,7 +89,7 @@ firstDate = firstDateFormatted.getTime();
 		marker:{
 		  backgroundColor:col//color.rgb,//'#E34247'
 		},
-		text:" دائن "+ i 
+		text: i 
 			};
 		arraySeries.push(x);	
 
@@ -239,6 +239,7 @@ firstDate = firstDateFormatted.getTime();
 		
 	};
 
+	
 zingchart.render({ 
 	id: 'myChart', 
 	data: myConfig, 
@@ -301,7 +302,7 @@ firstDate = firstDateFormatted.getTime();
 		marker:{
 		  backgroundColor:col//color.rgb,//'#E34247'
 		},
-		text:" دائن "+ i 
+		text: i 
 			};
 		arraySeries.push(x);	
 
