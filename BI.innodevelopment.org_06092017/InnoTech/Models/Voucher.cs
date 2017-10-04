@@ -45,10 +45,49 @@ namespace InnoTech.Models
         #region CRUD Operations
         public HttpResponseMessage Select()
         {
+            // getting the min value from the voucher schema
+            // added by Gamal Elkomy 4/10/2017
+            // getting from vouchers
+            sBranchId = "";
+            sProductID = "innoPack";
+            sWebserviceID = "SrvInnoPackAccounts";
+            sSchemaID = "VoucherInsert";
+            sSchemaVersion = "1";
+            sPersonId = "";
+
+            sFilter = null;
+
+            DateTime minvDate;
+
+
+            using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
+            {
+
+
+                HttpResponseMessage objResponse = objRequestInterface.Get();
+                var objResult = JObject.Parse(DecompressResult.DeflateByte(objResponse.Content.ReadAsByteArrayAsync().Result))["data"];
+                //newVouchers = objResult["data"];
+                List<DateTime> lstvDate = new List<DateTime>();
+
+                foreach (var objVoucher in objResult)
+                {
+                    string sVoucherNo = objVoucher["voucherNo"].ToString();
+                    DateTime sVoucherDate = DateTime.ParseExact(objVoucher["vDate"].ToString(), "yyyyMMddHHmmssfff", CultureInfo.InvariantCulture);
+                    lstvDate.Add(sVoucherDate);
+
+
+
+                }
+                minvDate = lstvDate.Min();
+            }
+
+
+
             HttpResponseMessage response_msg = new HttpResponseMessage();
             Dictionary<string, double[]> dict = new Dictionary<string, double[]>();
             Dictionary<string, string> dictNames = new Dictionary<string, string>();
-            DateTime startDate = new DateTime(2016, 12, 31, 23, 59, 59, 0);
+            // DateTime startDate = new DateTime(2016, 12, 31, 23, 59, 59, 0);
+            DateTime startDate = minvDate;
             string sStartDate = startDate.ToString("yyyyMMdd");
             //DateTime endDate = new DateTime(2017, 9, 24, 23, 59, 59, 0);
             DateTime endDate = DateTime.Now;
@@ -165,27 +204,19 @@ namespace InnoTech.Models
             sFilter = null;
 
             
-            string lastRunTimeStampRowID;
+            
 
-            using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
-            {
-                HttpResponseMessage temp = objRequestInterface.Get();
-                var json = JObject.Parse(DecompressResult.DeflateByte(temp.Content.ReadAsByteArrayAsync().Result))["data"];
-                lastRunTimeStampRowID = json[0]["_rowID"].ToString();
-                
-            }
-
-            sFilter = null;
+            
             using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
             {
 
 
-                JObject x = JObject.Parse("{\"_rowID\":\"" + lastRunTimeStampRowID + "\",\"lastRunTimeStamp\":\"" + endDate.ToString("yyyyMMddHHmmssfff") + "\"}");
+                JObject x = JObject.Parse("{\"lastRunTimeStamp\":\"" + endDate.ToString("yyyyMMddHHmmssfff") + "\"}");
                 List<JObject> lstControlTable = new List<JObject>();
                 lstControlTable.Add(x);
 
 
-                objRequestInterface.Put(lstControlTable);
+                objRequestInterface.Post(lstControlTable);
             }
             return response_msg;
         }
