@@ -88,6 +88,16 @@ namespace InnoTech.Models
             {
                 HttpResponseMessage temp = objRequestInterface.Get();
                 var json = JObject.Parse(DecompressResult.DeflateByte(temp.Content.ReadAsByteArrayAsync().Result))["data"];
+
+                // check if the controlTable is empty
+                // if the controlTable is empty, this means that the company is new and the voucher webserivce 
+                // didn't initialize the derived table
+                // added by Gamal 4/10/2017
+                
+                if (json.Count() == 0)
+                {
+                    return temp;
+                }
                 lastRunTimeStampRowID = json[0]["_rowID"].ToString();
                 lastRunTimeStamp = json[0]["lastRunTimeStamp"].ToString();
             }

@@ -149,6 +149,9 @@ namespace InnoTech.Models
             }
 
             // updating the last run date in the control table 
+            // updating the controlTable to be an indication of the initial load of data in the derived table
+            // added by Gamal 4/10/2017
+
             sBranchId = "1";
             sProductID = "innoPack";
             sWebserviceID = "srvBI";
