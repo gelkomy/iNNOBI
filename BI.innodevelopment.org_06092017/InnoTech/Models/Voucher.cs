@@ -97,6 +97,7 @@ namespace InnoTech.Models
             {
                 sDate = date.ToString("yyyyMMddHHmmssfff");
                 sFilter = "{'vDate':{'gte':" + date.AddDays(-1).ToString("yyyyMMddHHmmssfff") + ", 'lte':" + sDate + "}}";
+                sFilter = "{'vDate':{'gte':" + startDate.ToString("yyyyMMddHHmmssfff") + ", 'lte':" + endDate.ToString("yyyyMMddHHmmssfff") + "}}";
                 using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID,null,sFilter,null))
                 {
                     HttpResponseMessage objResponse = objRequestInterface.Get();

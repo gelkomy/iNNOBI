@@ -9,20 +9,35 @@ itemId = this.id;
 
 $.getJSON("example.json", function(result){
 
-  var colors = [ 
-        "yellow", 
-        "#00ffff",
-        "#f5f5dc",
-        "#00ff00",
-        "#4b0082",
-        "#a52a2a",
-        "#00ffff",
-        "#800000",
-        "#008b8b",
-        "#a9a9a9",
-        "#006400",
-        "#bdb76b",
-        "#8b008b"
+colors = ["#257F47",
+         "#73FFA8",
+         "#4AFF8E",
+         "#0C7F37",
+        "#3BCC71",
+        "#6DB9D1",
+        "#7D98A1",
+        "#477787",
+         "#3CCDFC",
+        "#7D493C",
+        "#FFBAA8",
+        "#FF957B",
+		"#A83E23",
+        "#CC7762",
+		"#7D623C",
+        "#FFDCA8",
+		"#FFC97B",
+        "#A87A37",
+		"#CCA162",
+        "#6D7D3C",
+		"#EAFFA8",
+		"#DEFF7B",
+		"#87A824",
+		"#B2CC62",
+		"#7D3931",
+		"#FF9D92",
+		"#FF7464",
+		"#A86861",
+		"#CC5D50"
         ];
   
   for (i in result["data"]){
@@ -51,7 +66,7 @@ $.getJSON("example.json", function(result){
 
  myConfig = {
       type: "pie",
-      backgroundColor: "#2B313B",
+      backgroundColor: "#fff",
       plot: {
         borderColor: "#2B313B",
         borderWidth: 5,
