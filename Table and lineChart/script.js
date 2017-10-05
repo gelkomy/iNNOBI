@@ -1,3 +1,4 @@
+var oneDay = 24*60*60*1000;
 var jsonData=[]
 var myConfig;
 var dbt=[];
@@ -7,9 +8,10 @@ var dbtAccounts = {};
 var arraySeries = [];
 var data;
 var dateRegex = /(\d{4})(\d{2})(\d{2})/;
+var arraySeriesFiltered=[];
 var startDate = document.getElementById("dat").value.replace('-','').replace('-','');
 var endDate = document.getElementById("dat2").value.replace('-','').replace('-','');
-
+var colors=[];
 
 
 $(document).ready(function(){
@@ -24,19 +26,25 @@ $(document).ready(function(){
 });
 
 
-
+function fillArray(value, len) {
+  var arr = [];
+  for (var i = 0; i < len; i++) {
+    arr.push(value);
+  }
+  return arr;
+}
 
  $.ajax({
           url: "http://localhost:2999/Derived",
           headers: { sCompanyID:'BI', sCompanyLicense:'97.74.205.13', sRequesterUserName:'admin', sRequesterPassword:'12#3' },
           type: "GET",
           success: function(result) { 
-          	alert('Success!' );
+          	//alert('Success!' );
 
           	data=result['data'].sort(function(a,b){ return parseFloat(a.runDate) - parseFloat(b.runDate);});
             $('#Button').removeAttr('disabled');
 
-		var colors = ["#0088CC",
+		 colors = ["#0088CC",
          "#005580",
          "#E36159",
          "#FF77FF",
@@ -55,6 +63,8 @@ allDate = dateRegex.exec(firstD);
 dateInEpochFormat = allDate[1]+"-"+allDate[2]+"-"+allDate[3]+"T00:00:00+0000";
 var firstDateFormatted = new Date(dateInEpochFormat);
 firstDate = firstDateFormatted.getTime();
+	
+	
 	
 	for (i in result.data){
 		var accName=result.data[i].accName;   //Get the account name 
@@ -79,7 +89,7 @@ firstDate = firstDateFormatted.getTime();
 		marker:{
 		  backgroundColor:col//color.rgb,//'#E34247'
 		},
-		text:" دائن "+ i 
+		text: i 
 			};
 		arraySeries.push(x);	
 
@@ -229,6 +239,7 @@ firstDate = firstDateFormatted.getTime();
 		
 	};
 
+	
 zingchart.render({ 
 	id: 'myChart', 
 	data: myConfig, 
@@ -248,6 +259,69 @@ zingchart.shape_click = function(p){
 
 function GenerateTable() {
     // Create table.
+	dbtAccounts={};
+	arraySeriesFiltered=[];
+	arraySeries=[];
+	firstD=startDate;
+allDate = dateRegex.exec(firstD);
+dateInEpochFormat = allDate[1]+"-"+allDate[2]+"-"+allDate[3]+"T00:00:00+0000";
+var firstDateFormatted = new Date(dateInEpochFormat);
+firstDate = firstDateFormatted.getTime();
+
+
+	for( i=0; i < data.length; i++){
+		if (data[i].runDate>startDate && data[i].runDate<endDate){
+		
+			var accName=data[i].accName;   //Get the account name 
+
+			if (dbtAccounts[accName]){
+			dbtAccounts[accName].push(Number(data[i].dbtAmt - data[i].crdAmt));	
+			}
+			else{
+				s = dateRegex.exec(data[i].runDate);
+			var startingDate = new Date(Number(s[1]),Number(s[2])-1,Number(s[3]));
+			var diffDays = Math.round(Math.abs((firstDateFormatted.getTime() - startingDate.getTime())/(oneDay)));
+			
+			dbtAccounts[accName]=fillArray(null,diffDays);
+			dbtAccounts[accName].push(Number(data[i].crdAmt)-Number(data[i].dbtAmt));	
+				dbtAccounts[accName]=[Number(data[i].dbtAmt - data[i].crdAmt)];	
+			}	
+		}
+	
+	
+	}
+	
+	for ( i in dbtAccounts){
+		var col = colors.shift();
+		colors.push(col);
+
+
+		var x=	{
+		values: dbtAccounts[i],//[218.92,212.85,241.95,200.76,203.87,245.26],
+		lineColor:col, //color.rgb,//'#214247',
+		marker:{
+		  backgroundColor:col//color.rgb,//'#E34247'
+		},
+		text: i 
+			};
+		arraySeries.push(x);	
+
+		}
+	
+	myConfig.series = arraySeries;
+	
+	
+	
+	
+	
+	myConfig.scaleX.minValue=firstDate;
+	zingchart.render({ 
+		id: 'myChart', 
+		data: myConfig, 
+		height: '500', 
+		width: '725' 
+	});
+	
     var table = document.createElement('table');
     // Apply CSS for table
     table.setAttribute('class', 'article');
