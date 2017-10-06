@@ -246,7 +246,7 @@ zingchart.render({
 	height: '500', 
 	width: '725' 
 });
-document.getElementById("myChart-license-text").style.display = "none";
+//document.getElementById("myChart-license-text").style.display = "none";
 }});
 
 
