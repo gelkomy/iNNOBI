@@ -89,8 +89,8 @@ namespace InnoTech.Models
             // DateTime startDate = new DateTime(2016, 12, 31, 23, 59, 59, 0);
             DateTime startDate = minvDate;
             string sStartDate = startDate.ToString("yyyyMMdd");
-            DateTime endDate = new DateTime(2017, 10, 01, 23, 59, 59, 0);
-           // DateTime endDate = DateTime.Now;
+           // DateTime endDate = new DateTime(2017, 10, 01, 23, 59, 59, 0);
+            DateTime endDate = DateTime.Now;
             string sEndDate = endDate.ToString("yyyyMMdd");
             string sDate;
             for (DateTime date = startDate; date.Date <= endDate.Date; date = date.AddDays(1))

@@ -109,8 +109,9 @@ namespace InnoTech.Models
                 List<JObject> lstDerivedData = new List<JObject>(); // recent transactions from vouchers
                 Dictionary<string, double[]> dictCurrentDerivedAccounts = new Dictionary<string, double[]>(); // current accounts from the derived table
                 Dictionary<string, string> dictCurrentDerivedAccountsRowID = new Dictionary<string, string>();// current accounts rowIDs to update
+                Dictionary<string, double[]> dictPreviousDerivedAccounts = new Dictionary<string, double[]>(); // current accounts from the derived table
                 HttpResponseMessage response = new HttpResponseMessage();
-
+                JToken currentDerivedAccounts;
                 List<JObject> lstUpdate = new List<JObject>(); // update list
                 List<JObject> lstInsert = new List<JObject>(); // insert list
 
@@ -260,7 +261,7 @@ namespace InnoTech.Models
                 {
                     var objResponse = objRequestInterface.Get();
                     var objResult = JObject.Parse(DecompressResult.DeflateByte(objResponse.Content.ReadAsByteArrayAsync().Result));
-                    var currentDerivedAccounts = objResult["data"];
+                     currentDerivedAccounts = objResult["data"];
                     var lstCurrentDerivedAccounts = currentDerivedAccounts.Children();
 
 
@@ -304,25 +305,127 @@ namespace InnoTech.Models
                 // lstDerivedData from vouchers
                 // dictCurrentDerivedAccounts from the derived table
 
-                foreach (JObject element in lstDerivedData)
+
+                // edited by Gamal 7/10/2017
+                if (lstDerivedData.Count() > 0)
                 {
-                    string accNo = element["accNo"].ToString();
-
-                    if (dictCurrentDerivedAccounts.ContainsKey(accNo))
+                    foreach (JObject element in lstDerivedData)
                     {
-                        // found so we need to update
+                        string accNo = element["accNo"].ToString();
+                        if (dictCurrentDerivedAccounts.Count() > 0)
+                        {
+                            if (dictCurrentDerivedAccounts.ContainsKey(accNo))
+                            {
+                                // found so we need to update
 
-                        element.Add("_rowID", dictCurrentDerivedAccountsRowID[accNo]);
-                        element["dbtAmt"] = double.Parse(element["dbtAmt"].ToString()) + dictCurrentDerivedAccounts[accNo][1];
-                        element["crdAmt"] = double.Parse(element["crdAmt"].ToString()) + dictCurrentDerivedAccounts[accNo][0];
-                        lstUpdate.Add(element);
+                                element.Add("_rowID", dictCurrentDerivedAccountsRowID[accNo]);
+                                element["dbtAmt"] = double.Parse(element["dbtAmt"].ToString()) + dictCurrentDerivedAccounts[accNo][1];
+                                element["crdAmt"] = double.Parse(element["crdAmt"].ToString()) + dictCurrentDerivedAccounts[accNo][0];
+                                lstUpdate.Add(element);
+                            }
+                            else
+                            {
+                                // not found so we need to insert
+                                lstInsert.Add(element);
+
+                            }
+                        }
+                        else
+                        {
+
+                            //dictPreviousDerivedAccounts
+                            if (dictPreviousDerivedAccounts.ContainsKey(accNo))
+                            {
+                                // found so we need to update
+
+                                //element.Add("_rowID", dictCurrentDerivedAccountsRowID[accNo]);
+                                element["dbtAmt"] = double.Parse(element["dbtAmt"].ToString()) + dictPreviousDerivedAccounts[accNo][1];
+                                element["crdAmt"] = double.Parse(element["crdAmt"].ToString()) + dictPreviousDerivedAccounts[accNo][0];
+                                lstInsert.Add(element);
+                            }
+                            else
+                            {
+                                // not found so we need to insert
+                                lstInsert.Add(element);
+
+                            }
+                        }
+
                     }
-                    else
+                }
+                else
+                {
+                    // no transaction in the voucher for the current data
+                    //hereeeeee
+                    foreach (var obj in currentDerivedAccounts)
                     {
-                        // not found so we need to insert
-                        lstInsert.Add(element);
+                        string accType = "0";
+                        if (obj["accNo"].ToString().StartsWith("102003"))
+                        {
+                            accType = "1"; // customer
+                        }
+                        else if (obj["accNo"].ToString().StartsWith("202001"))
+                        {
+                            accType = "2"; // supplier
+                        }
+
+
+                        JObject objDerived = new JObject
+                    {
+                        { "runDate", sEndDate.Substring(0,8) },
+                        { "accNo",obj["accNo"].ToString() },
+                         {"accType", accType },
+                        { "accName",obj["accName"] },
+                        { "dbtAmt", double.Parse(obj["dbtAmt"].ToString())},
+                        { "crdAmt",  double.Parse(obj["crdAmt"].ToString()) }
+                    };
+                        lstInsert.Add(objDerived);
+
+                        //if (!dictCurrentDerivedAccounts.ContainsKey(obj["accNo"].ToString()))
+                        //{
+                        //    double[] value = { double.Parse(obj["crdAmt"].ToString()), double.Parse(obj["dbtAmt"].ToString()) };
+                        //    dictCurrentDerivedAccounts.Add(obj["accNo"].ToString(), value);
+                        //    dictCurrentDerivedAccountsRowID.Add(obj["accNo"].ToString(), obj["_rowID"].ToString());
+                        //}
+                        //else
+                        //{
+                        //    dictCurrentDerivedAccounts[obj["accNo"].ToString()][0] += Int32.Parse(obj["crdAmt"].ToString());
+                        //    dictCurrentDerivedAccounts[obj["accNo"].ToString()][1] += Int32.Parse(obj["dbtAmt"].ToString());
+                        //}
 
                     }
+
+
+
+                    foreach (KeyValuePair<string, double[]> entry in dictCurrentDerivedAccounts)
+                    {
+                        // do something with entry.Value or entry.Key
+
+                        string accType = "0";
+                        if (entry.Key.StartsWith("102003"))
+                        {
+                            accType = "1"; // customer
+                        }
+                        else if (entry.Key.StartsWith("202001"))
+                        {
+                            accType = "2"; // supplier
+                        }
+
+
+                        JObject objDerived = new JObject
+                    {
+                        { "runDate", sEndDate.Substring(0,8) },
+                        { "accNo", entry.Key },
+                         {"accType", accType },
+                        { "accName", dictNames[entry.Key] },
+                        { "dbtAmt", entry.Value[1] },
+                        { "crdAmt", entry.Value[0] }
+                    };
+                        lstInsert.Add(objDerived);
+
+                    }
+
+
 
                 }
 
@@ -432,7 +535,7 @@ namespace InnoTech.Models
                     List<JObject> lstDerivedData = new List<JObject>(); // recent transactions from vouchers
                     Dictionary<string, double[]> dictCurrentDerivedAccounts = new Dictionary<string, double[]>(); // current accounts from the derived table
                     Dictionary<string, string> dictCurrentDerivedAccountsRowID = new Dictionary<string, string>();// current accounts rowIDs to update
-
+                    JToken currentDerivedAccounts;
                     Dictionary<string, double[]> dictPreviousDerivedAccounts = new Dictionary<string, double[]>(); // current accounts from the derived table
                     HttpResponseMessage response = new HttpResponseMessage();
 
@@ -602,7 +705,7 @@ namespace InnoTech.Models
                     {
                         var objResponse = objRequestInterface.Get();
                         var objResult = JObject.Parse(DecompressResult.DeflateByte(objResponse.Content.ReadAsByteArrayAsync().Result));
-                        var currentDerivedAccounts = objResult["data"];
+                         currentDerivedAccounts = objResult["data"];
                         var lstCurrentDerivedAccounts = currentDerivedAccounts.Children();
 
                         if (currentDerivedAccounts.Count() > 0)
@@ -689,6 +792,10 @@ namespace InnoTech.Models
                     // lstDerivedData from vouchers
                     // dictCurrentDerivedAccounts from the derived table
 
+
+                    // edited by Gamal 7/10/2017
+                    if (lstDerivedData.Count() > 0)
+                    { 
                     foreach (JObject element in lstDerivedData)
                     {
                         string accNo = element["accNo"].ToString();
@@ -732,7 +839,82 @@ namespace InnoTech.Models
                         }
 
                     }
+                    }
+                    else
+                    {
+                        // no transaction in the voucher for the current data
+                        //hereeeeee
+                        foreach (var obj in currentDerivedAccounts)
+                        {
+                            string accType = "0";
+                            if (obj["accNo"].ToString().StartsWith("102003"))
+                            {
+                                accType = "1"; // customer
+                            }
+                            else if (obj["accNo"].ToString().StartsWith("202001"))
+                            {
+                                accType = "2"; // supplier
+                            }
 
+
+                            JObject objDerived = new JObject
+                    {
+                        { "runDate", sEndDate.Substring(0,8) },
+                        { "accNo",obj["accNo"].ToString() },
+                         {"accType", accType },
+                        { "accName",obj["accName"] },
+                        { "dbtAmt", double.Parse(obj["dbtAmt"].ToString())},
+                        { "crdAmt",  double.Parse(obj["crdAmt"].ToString()) }
+                    };
+                            lstInsert.Add(objDerived);
+
+                            //if (!dictCurrentDerivedAccounts.ContainsKey(obj["accNo"].ToString()))
+                            //{
+                            //    double[] value = { double.Parse(obj["crdAmt"].ToString()), double.Parse(obj["dbtAmt"].ToString()) };
+                            //    dictCurrentDerivedAccounts.Add(obj["accNo"].ToString(), value);
+                            //    dictCurrentDerivedAccountsRowID.Add(obj["accNo"].ToString(), obj["_rowID"].ToString());
+                            //}
+                            //else
+                            //{
+                            //    dictCurrentDerivedAccounts[obj["accNo"].ToString()][0] += Int32.Parse(obj["crdAmt"].ToString());
+                            //    dictCurrentDerivedAccounts[obj["accNo"].ToString()][1] += Int32.Parse(obj["dbtAmt"].ToString());
+                            //}
+
+                        }
+
+
+
+                    //    foreach (KeyValuePair<string, double[]> entry in dictCurrentDerivedAccounts)
+                    //    {
+                    //        // do something with entry.Value or entry.Key
+
+                    //        string accType = "0";
+                    //        if (entry.Key.StartsWith("102003"))
+                    //        {
+                    //            accType = "1"; // customer
+                    //        }
+                    //        else if (entry.Key.StartsWith("202001"))
+                    //        {
+                    //            accType = "2"; // supplier
+                    //        }
+
+
+                    //        JObject objDerived = new JObject
+                    //{
+                    //    { "runDate", sEndDate.Substring(0,8) },
+                    //    { "accNo", entry.Key },
+                    //     {"accType", accType },
+                    //    { "accName", dictNames[entry.Key] },
+                    //    { "dbtAmt", entry.Value[1] },
+                    //    { "crdAmt", entry.Value[0] }
+                    //};
+                    //        lstInsert.Add(objDerived);
+
+                    //    }
+
+                       
+
+                    }
 
                     sBranchId = "1";
                     sProductID = "innoPack";
