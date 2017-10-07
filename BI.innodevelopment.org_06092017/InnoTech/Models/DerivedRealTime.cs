@@ -104,10 +104,10 @@ namespace InnoTech.Models
                 // Normal derived real time service
                 // Getting the new data from the vouchers 
                 HttpResponseMessage response_msg = new HttpResponseMessage();
-                Dictionary<string, float[]> dict = new Dictionary<string, float[]>();
+                Dictionary<string, double[]> dict = new Dictionary<string, double[]>();
                 Dictionary<string, string> dictNames = new Dictionary<string, string>();
                 List<JObject> lstDerivedData = new List<JObject>(); // recent transactions from vouchers
-                Dictionary<string, float[]> dictCurrentDerivedAccounts = new Dictionary<string, float[]>(); // current accounts from the derived table
+                Dictionary<string, double[]> dictCurrentDerivedAccounts = new Dictionary<string, double[]>(); // current accounts from the derived table
                 Dictionary<string, string> dictCurrentDerivedAccountsRowID = new Dictionary<string, string>();// current accounts rowIDs to update
                 HttpResponseMessage response = new HttpResponseMessage();
 
@@ -167,26 +167,26 @@ namespace InnoTech.Models
                             dictNames[sDbtAccNo] = sDbtAccAName;
 
                             // credit account
-                            float[] crd = new float[2];
-                            crd[1] = 0; crd[0] = float.Parse(sVoucherDetailNetAmt);
+                            double[] crd = new double[2];
+                            crd[1] = 0; crd[0] = double.Parse(sVoucherDetailNetAmt);
 
                             if (!dict.ContainsKey(sCrdAccNo))
                                 dict.Add(sCrdAccNo, crd);
                             else
                             {
-                                dict[sCrdAccNo][0] += float.Parse(sVoucherDetailNetAmt);
+                                dict[sCrdAccNo][0] += double.Parse(sVoucherDetailNetAmt);
                             }
 
                             // debit account
 
-                            float[] dbt = new float[2];
-                            dbt[0] = 0; dbt[1] = float.Parse(sVoucherDetailNetAmt);
+                            double[] dbt = new double[2];
+                            dbt[0] = 0; dbt[1] = double.Parse(sVoucherDetailNetAmt);
 
                             if (!dict.ContainsKey(sDbtAccNo))
                                 dict.Add(sDbtAccNo, dbt);
                             else
                             {
-                                dict[sDbtAccNo][1] += float.Parse(sVoucherDetailNetAmt);
+                                dict[sDbtAccNo][1] += double.Parse(sVoucherDetailNetAmt);
                             }
 
 
@@ -195,7 +195,7 @@ namespace InnoTech.Models
                         }
                     }
 
-                    foreach (KeyValuePair<string, float[]> entry in dict)
+                    foreach (KeyValuePair<string, double[]> entry in dict)
                     {
                         // do something with entry.Value or entry.Key
 
@@ -227,7 +227,7 @@ namespace InnoTech.Models
                     /*
                     foreach (var obj in objResultData)
                     {
-                        obj["netAmt"] = (float)obj["dbtAmt"] - (float)obj["crdAmt"];
+                        obj["netAmt"] = (double)obj["dbtAmt"] - (double)obj["crdAmt"];
                         obj["dbtAmt"].Parent.Remove();
                         obj["crdAmt"].Parent.Remove();
                     }
@@ -268,7 +268,7 @@ namespace InnoTech.Models
                     {
                         if (!dictCurrentDerivedAccounts.ContainsKey(obj["accNo"].ToString()))
                         {
-                            float[] value = { float.Parse(obj["crdAmt"].ToString()), float.Parse(obj["dbtAmt"].ToString()) };
+                            double[] value = { double.Parse(obj["crdAmt"].ToString()), double.Parse(obj["dbtAmt"].ToString()) };
                             dictCurrentDerivedAccounts.Add(obj["accNo"].ToString(), value);
                             dictCurrentDerivedAccountsRowID.Add(obj["accNo"].ToString(), obj["_rowID"].ToString());
                         }
@@ -283,7 +283,7 @@ namespace InnoTech.Models
                     /*
                     foreach (var obj in objResultData)
                     {
-                        obj["netAmt"] = (float)obj["dbtAmt"] - (float)obj["crdAmt"];
+                        obj["netAmt"] = (double)obj["dbtAmt"] - (double)obj["crdAmt"];
                         obj["dbtAmt"].Parent.Remove();
                         obj["crdAmt"].Parent.Remove();
                     }
@@ -313,8 +313,8 @@ namespace InnoTech.Models
                         // found so we need to update
 
                         element.Add("_rowID", dictCurrentDerivedAccountsRowID[accNo]);
-                        element["dbtAmt"] = float.Parse(element["dbtAmt"].ToString()) + dictCurrentDerivedAccounts[accNo][1];
-                        element["crdAmt"] = float.Parse(element["crdAmt"].ToString()) + dictCurrentDerivedAccounts[accNo][0];
+                        element["dbtAmt"] = double.Parse(element["dbtAmt"].ToString()) + dictCurrentDerivedAccounts[accNo][1];
+                        element["crdAmt"] = double.Parse(element["crdAmt"].ToString()) + dictCurrentDerivedAccounts[accNo][0];
                         lstUpdate.Add(element);
                     }
                     else
@@ -400,7 +400,7 @@ namespace InnoTech.Models
                     //var objResultData = objResult["data"];
                     //foreach (var obj in objResultData)
                     //{
-                    //    obj["netAmt"] = (float)obj["dbtAmt"] - (float)obj["crdAmt"];
+                    //    obj["netAmt"] = (double)obj["dbtAmt"] - (double)obj["crdAmt"];
                     //    obj["dbtAmt"].Parent.Remove();
                     //    obj["crdAmt"].Parent.Remove();
                     //}
@@ -427,13 +427,13 @@ namespace InnoTech.Models
                 {
                     // Getting the new data from the vouchers 
                     HttpResponseMessage response_msg = new HttpResponseMessage();
-                    Dictionary<string, float[]> dict = new Dictionary<string, float[]>();
+                    Dictionary<string, double[]> dict = new Dictionary<string, double[]>();
                     Dictionary<string, string> dictNames = new Dictionary<string, string>();
                     List<JObject> lstDerivedData = new List<JObject>(); // recent transactions from vouchers
-                    Dictionary<string, float[]> dictCurrentDerivedAccounts = new Dictionary<string, float[]>(); // current accounts from the derived table
+                    Dictionary<string, double[]> dictCurrentDerivedAccounts = new Dictionary<string, double[]>(); // current accounts from the derived table
                     Dictionary<string, string> dictCurrentDerivedAccountsRowID = new Dictionary<string, string>();// current accounts rowIDs to update
 
-                    Dictionary<string, float[]> dictPreviousDerivedAccounts = new Dictionary<string, float[]>(); // current accounts from the derived table
+                    Dictionary<string, double[]> dictPreviousDerivedAccounts = new Dictionary<string, double[]>(); // current accounts from the derived table
                     HttpResponseMessage response = new HttpResponseMessage();
 
                     //List<JObject> lstUpdate = new List<JObject>(); // update list
@@ -509,26 +509,26 @@ namespace InnoTech.Models
                                 dictNames[sDbtAccNo] = sDbtAccAName;
 
                                 // credit account
-                                float[] crd = new float[2];
-                                crd[1] = 0; crd[0] = float.Parse(sVoucherDetailNetAmt);
+                                double[] crd = new double[2];
+                                crd[1] = 0; crd[0] = double.Parse(sVoucherDetailNetAmt);
 
                                 if (!dict.ContainsKey(sCrdAccNo))
                                     dict.Add(sCrdAccNo, crd);
                                 else
                                 {
-                                    dict[sCrdAccNo][0] += float.Parse(sVoucherDetailNetAmt);
+                                    dict[sCrdAccNo][0] += double.Parse(sVoucherDetailNetAmt);
                                 }
 
                                 // debit account
 
-                                float[] dbt = new float[2];
-                                dbt[0] = 0; dbt[1] = float.Parse(sVoucherDetailNetAmt);
+                                double[] dbt = new double[2];
+                                dbt[0] = 0; dbt[1] = double.Parse(sVoucherDetailNetAmt);
 
                                 if (!dict.ContainsKey(sDbtAccNo))
                                     dict.Add(sDbtAccNo, dbt);
                                 else
                                 {
-                                    dict[sDbtAccNo][1] += float.Parse(sVoucherDetailNetAmt);
+                                    dict[sDbtAccNo][1] += double.Parse(sVoucherDetailNetAmt);
                                 }
 
 
@@ -537,7 +537,7 @@ namespace InnoTech.Models
                             }
                         }
 
-                        foreach (KeyValuePair<string, float[]> entry in dict)
+                        foreach (KeyValuePair<string, double[]> entry in dict)
                         {
                             // do something with entry.Value or entry.Key
 
@@ -569,7 +569,7 @@ namespace InnoTech.Models
                         /*
                         foreach (var obj in objResultData)
                         {
-                            obj["netAmt"] = (float)obj["dbtAmt"] - (float)obj["crdAmt"];
+                            obj["netAmt"] = (double)obj["dbtAmt"] - (double)obj["crdAmt"];
                             obj["dbtAmt"].Parent.Remove();
                             obj["crdAmt"].Parent.Remove();
                         }
@@ -611,7 +611,7 @@ namespace InnoTech.Models
                             {
                                 if (!dictCurrentDerivedAccounts.ContainsKey(obj["accNo"].ToString()))
                                 {
-                                    float[] value = { float.Parse(obj["crdAmt"].ToString()), float.Parse(obj["dbtAmt"].ToString()) };
+                                    double[] value = { double.Parse(obj["crdAmt"].ToString()), double.Parse(obj["dbtAmt"].ToString()) };
                                     dictCurrentDerivedAccounts.Add(obj["accNo"].ToString(), value);
                                     dictCurrentDerivedAccountsRowID.Add(obj["accNo"].ToString(), obj["_rowID"].ToString());
                                 }
@@ -652,7 +652,7 @@ namespace InnoTech.Models
                                 {
                                     if (!dictPreviousDerivedAccounts.ContainsKey(obj["accNo"].ToString()))
                                     {
-                                        float[] value = { float.Parse(obj["crdAmt"].ToString()), float.Parse(obj["dbtAmt"].ToString()) };
+                                        double[] value = { double.Parse(obj["crdAmt"].ToString()), double.Parse(obj["dbtAmt"].ToString()) };
                                         dictPreviousDerivedAccounts.Add(obj["accNo"].ToString(), value);
                                         // dictCurrentDerivedAccountsRowID.Add(obj["accNo"].ToString(), obj["_rowID"].ToString());
                                     }
@@ -668,7 +668,7 @@ namespace InnoTech.Models
                             /*
                             foreach (var obj in objResultData)
                             {
-                                obj["netAmt"] = (float)obj["dbtAmt"] - (float)obj["crdAmt"];
+                                obj["netAmt"] = (double)obj["dbtAmt"] - (double)obj["crdAmt"];
                                 obj["dbtAmt"].Parent.Remove();
                                 obj["crdAmt"].Parent.Remove();
                             }
@@ -699,8 +699,8 @@ namespace InnoTech.Models
                                 // found so we need to update
 
                                 element.Add("_rowID", dictCurrentDerivedAccountsRowID[accNo]);
-                                element["dbtAmt"] = float.Parse(element["dbtAmt"].ToString()) + dictCurrentDerivedAccounts[accNo][1];
-                                element["crdAmt"] = float.Parse(element["crdAmt"].ToString()) + dictCurrentDerivedAccounts[accNo][0];
+                                element["dbtAmt"] = double.Parse(element["dbtAmt"].ToString()) + dictCurrentDerivedAccounts[accNo][1];
+                                element["crdAmt"] = double.Parse(element["crdAmt"].ToString()) + dictCurrentDerivedAccounts[accNo][0];
                                 lstUpdate.Add(element);
                             }
                             else
@@ -719,8 +719,8 @@ namespace InnoTech.Models
                                 // found so we need to update
 
                                 //element.Add("_rowID", dictCurrentDerivedAccountsRowID[accNo]);
-                                element["dbtAmt"] = float.Parse(element["dbtAmt"].ToString()) + dictPreviousDerivedAccounts[accNo][1];
-                                element["crdAmt"] = float.Parse(element["crdAmt"].ToString()) + dictPreviousDerivedAccounts[accNo][0];
+                                element["dbtAmt"] = double.Parse(element["dbtAmt"].ToString()) + dictPreviousDerivedAccounts[accNo][1];
+                                element["crdAmt"] = double.Parse(element["crdAmt"].ToString()) + dictPreviousDerivedAccounts[accNo][0];
                                 lstInsert.Add(element);
                             }
                             else
@@ -812,7 +812,7 @@ namespace InnoTech.Models
                     //var objResultData = objResult["data"];
                     //foreach (var obj in objResultData)
                     //{
-                    //    obj["netAmt"] = (float)obj["dbtAmt"] - (float)obj["crdAmt"];
+                    //    obj["netAmt"] = (double)obj["dbtAmt"] - (double)obj["crdAmt"];
                     //    obj["dbtAmt"].Parent.Remove();
                     //    obj["crdAmt"].Parent.Remove();
                     //}
