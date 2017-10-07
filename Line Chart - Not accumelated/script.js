@@ -1,464 +1,167 @@
 var jsonData=[]
-var myConfig;
-var dbt=[];
-var crd=[];
 var dbtAccounts = {};
-var lastNetAmt = {};
-//var crdAccounts = {};
 var arraySeries = [];
-var minDate = [];
 var dailyData = [];
-var weeklyData = [];
-var monthlyData = [];
-var quarterlyData = [];
-var halfYearlyData = [];
-var yearlyData = [];
-var weeklyConfig;
 var firstDate;
 var data_;
 var oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
 var dateRegex = /(\d{4})(\d{2})(\d{2})/;  //RegEx to separate date into y-m-d
 
+//HighChart variables ************************
+var chart = {
+	zoomType: 'xy'
+}
+var title = {
+   text: 'تقرير يومي'   
+};
+var subtitle = {
+   text: ''
+};
+var xAxis = {
+   type: 'datetime'
+};
+var yAxis = {
+   title: {
+      text: 'قيمة العملة'
+   }
+};
+var arabic = /[\u0600-\u06FF]/;
+var tooltip= {
+    useHTML:true,    
+    formatter: function() {
+    	if (arabic.test(this.series.name)){
+        	return Highcharts.numberFormat(this.y, 0) + " : "+this.series.name;
+        }
+        else{
+        	return this.series.name + " : " + Highcharts.numberFormat(this.y, 0);
+        }
+	}
+};
 
-var ColorsList = {
-        aqua: "#00ffff",
-        azure: "#f0ffff",
-        beige: "#f5f5dc",
-        black: "#000000",
-        blue: "#0000ff",
-        brown: "#a52a2a",
-        cyan: "#00ffff",
-        darkblue: "#00008b",
-        darkcyan: "#008b8b",
-        darkgrey: "#a9a9a9",
-        darkgreen: "#006400",
-        darkkhaki: "#bdb76b",
-        darkmagenta: "#8b008b",
-        darkolivegreen: "#556b2f",
-        darkorange: "#ff8c00",
-        darkorchid: "#9932cc",
-        darkred: "#8b0000",
-        darksalmon: "#e9967a",
-        darkviolet: "#9400d3",
-        fuchsia: "#ff00ff",
-        gold: "#ffd700",
-        green: "#008000",
-        indigo: "#4b0082",
-        khaki: "#f0e68c",
-        lightblue: "#add8e6",
-        lightcyan: "#e0ffff",
-        lightgreen: "#90ee90",
-        lightgrey: "#d3d3d3",
-        lightpink: "#ffb6c1",
-        lightyellow: "#ffffe0",
-        lime: "#00ff00",
-        magenta: "#ff00ff",
-        maroon: "#800000",
-        navy: "#000080",
-        olive: "#808000",
-        orange: "#ffa500",
-        pink: "#ffc0cb",
-        purple: "#800080",
-        violet: "#800080",
-        red: "#ff0000",
-        silver: "#c0c0c0",
-        white: "#ffffff",
-        yellow: "#ffff00"
-    };
-
- // $.ajax({
- //          url: "http://localhost:2999/Derived",
- //          headers: { sCompanyID:'BI', sCompanyLicense:'97.74.205.13', sRequesterUserName:'admin', sRequesterPassword:'12#3' },
- //          type: "GET",
- //          success: function(result) { //alert('Success!' );
-function fillArray(value, len) {
-  var arr = [];
-  for (var i = 0; i < len; i++) {
-    arr.push(value);
-  }
-  return arr;
+var legend = {
+  	layout: 'vertical',
+	align: 'right',
+	verticalAlign: 'middle',
+	maxHeight: 200,  //in pixels
+	enabled: true
 }
 
+var json = {};
+json.chart = chart;
+json.title = title;
+json.subtitle = subtitle;
+json.xAxis = xAxis;
+json.yAxis = yAxis;  
+
+json.tooltip = tooltip;
+json.legend = legend;
+
+
+
+
 $.ajax({
-          url: "http://localhost:2999/Derived",
-          headers: { sCompanyID:'BI', sCompanyLicense:'97.74.205.13', sRequesterUserName:'admin', sRequesterPassword:'12#3' },
-          type: "GET",
-          success: function(result) { alert('Success!' );
-//$.getJSON("data2.json", function(result) {
-//	alert("success");
+        url: "http://bi.innodevelopment.org/Derived",
+        headers: { sCompanyID:'BI', sCompanyLicense:'97.74.205.13', sRequesterUserName:'admin', sRequesterPassword:'12#3' },
+        type: "GET",
+        success: function(result) { alert('Success!' );
 
-result['data'] = result['data'].sort(function (a,b) {
-	return parseFloat(a.runDate) - parseFloat(b.runDate);
-});
-data_ = result["data"];
+		data=result['data'].sort(function(a,b){ return parseFloat(a.runDate) - parseFloat(b.runDate);});
 
 
-firstD=result['data'][0].runDate;
-allDate = dateRegex.exec(firstD);
-dateInEpochFormat = allDate[1]+"-"+allDate[2]+"-"+allDate[3]+"T00:00:00+0000";
-var firstDateFormatted = new Date(dateInEpochFormat);
-firstDate = firstDateFormatted.getTime();
+	data_ = result["data"];
 
 
 
-
-var colors = ["#0088CC",
-         "#005580",
-         "#E36159",
-         "#FF77FF",
-        "#050505",
-        "#FCF305",
-        "#c88cea",
-        "#37e5d9",
-         "#1FB713",
-        "#6711FF",
-        "#A64C21",
-        "#00ABEA"
-        ];
+	colors = ["#257F47","#6DB9D1", "#FFBAA8","#FFDCA8","#EAFFA8","#FF9D92","#73FFA8",
+         "#4AFF8E",
+         "#0C7F37",
+		 "#3BCC71",
+		 "#7D98A1",
+        "#477787",
+         "#3CCDFC",
+        "#7D493C",
+		"#FF957B",
+		"#A83E23",
+        "#CC7762",
+		"#7D623C",
+		"#FFC97B",
+        "#A87A37",
+		"#CCA162",
+        "#6D7D3C",
+		"#DEFF7B",
+		"#87A824",
+		"#B2CC62",
+		"#7D3931",
+		"#FF7464",
+		"#CC5D50",
+    ];
 
 
 	for (i in result.data){
 		var accName=result.data[i].accName;   //Get the account name 
+		d = dateRegex.exec(result['data'][i].runDate);
+		utcDate = Date.UTC(Number(d[1]),Number(d[2])-1,Number(d[3]));
 
 		if (dbtAccounts[accName]){
-			dbtAccounts[accName].push(Number(result.data[i].crdAmt)-Number(result.data[i].dbtAmt) - lastNetAmt[accName]);	
+			dbtAccounts[accName].push([utcDate,Number(result.data[i].dbtAmt - result.data[i].crdAmt)]);	
 		}
 		else{
-			s = dateRegex.exec(result.data[i].runDate);
-			var startingDate = new Date(Number(s[1]),Number(s[2])-1,Number(s[3]));
-			var diffDays = Math.round(Math.abs((firstDateFormatted.getTime() - startingDate.getTime())/(oneDay)));
-			
-			dbtAccounts[accName]=fillArray(null,diffDays);
-			dbtAccounts[accName].push(Number(result.data[i].crdAmt)-Number(result.data[i].dbtAmt));	
+			dbtAccounts[accName]=[[utcDate,Number(result.data[i].dbtAmt - result.data[i].crdAmt)]];	
 		}	
-		lastNetAmt[accName] = Number(result.data[i].crdAmt-Number(result.data[i].dbtAmt));
 	}
+
+
 
 	for ( i in dbtAccounts){
 		var col = colors.shift();
 		colors.push(col);
-
-		
 		var x=	{
-					values: dbtAccounts[i],//[218.92,212.85,241.95,200.76,203.87,245.26],
-					lineColor:col, //color.rgb,//'#214247',
-					marker:{
-					  backgroundColor:col//color.rgb,//'#E34247'
-					},
-					text: i 
-				};
+			data: dbtAccounts[i],
+			name: i 
+		};
 		arraySeries.push(x);	
 	}
 
-    dailyData = arraySeries;
-	myConfig = {
-	 	type: 'line',
-	 	backgroundColor: '#FFFFFF',
-	 	title:{
-	 	  text:'تقرير حسابات الدائن و المدين',
-	 	  rtl: true,
-	 	  adjustLayout: true,
-	 	  fontColor:"black",
-	 	  marginTop: 7
-	 	},
-	 	"legend":{
-            "layout":"x1",
-            "width":"180px",
-            "x":"74%",
-            "y":"9.5%",
-            rtl: true,
-            "alpha":1,
-            "shadow":0,
-            "max-items":Object.keys(dbtAccounts).length,
-            "overflow":"page",
-            "draggable":true,
-            "minimize":true,
-            "header":{
-                "text":"Select Account"
-            }
-        },
-	 	plotarea:{
-	 	  margin:'dynamic 70'
-	 	},
-	 	plot:{
-	 	  aspect: 'spline',
-	 	  lineWidth: 2,
-	 	  marker:{
-	 	    borderWidth: 0,
-	 	    size: 5
-	 	  }
-	 	},
-	 	scaleX:{
-	 	  lineColor: '#E3E3E5',
-	 	  zooming: true,
-	 	  zoomTo:[0,15],
-	 	  minValue: firstDate,//1459468800000,
-	 	  step: 'day',
-	 	  item:{
-	 	    fontColor:'black',//'#E3E3E5'
-	 	  },
-	 	  transform:{
-	 	    type: 'date',
-	 	    all: '%d %M %Y'
-	 	  }
-	 	},
-	 	scaleY:{
-	 	  minorTicks: 1,
-	 	  lineColor: 'black',//'#E3E3E5',
-	 	  tick:{
-	 	    lineColor: 'black',//'#E3E3E5'
-	 	  },
-	 	  minorTick:{
-	 	    lineColor: 'black',//'#E3E3E5'
-	 	  },
-	 	  minorGuide:{
-	 	    visible: true,
-	 	    lineWidth: 1,
-	 	    lineColor: '#FFFFFF',//'black',//'#E3E3E5',
-	 	    alpha: 0.7,
-	 	    lineStyle: 'dashed'
-	 	  },
-	 	  guide:{
-	 	    lineStyle: 'dashed'
-	 	  },
-	 	  item:{
-	 	    fontColor:'black',//'#E3E3E5'
-	 	  }
-	 	},
-	 	tooltip:{
-	 	  borderWidth: 0,
-	 	  borderRadius: 3,
-	 	  rtl: true
-	 	},
-	 	preview:{
-	 	  adjustLayout: true,
-	 	  borderColor:'black',//'#E3E3E5',
-	 	  mask:{
-	 	    backgroundColor:'black',//'#E3E3E5'
-	 	  }
-	 	},
-	 	crosshairX:{
-	 	  plotLabel:{
-	 	    multiple: true,
-	 	    borderRadius: 3
-	 	  },
-	 	  scaleLabel:{
-	 	    backgroundColor:'#53535e',
-	 	    borderRadius: 3
-	 	  },
-	 	  marker:{
-	 	    size: 7,
-	 	    alpha: 0.5
-	 	  }
-	 	},
-	 	crosshairY:{
-	 	  lineColor:'#E3E3E5',
-	 	  type:'multiple',
-	 	  scaleLabel:{
-	 	    decimals: 2,
-	 	    borderRadius: 3,
-	 	    offsetX: -5,
-	 	    fontColor:"#2C2C39",
-	 	    bold: true
-	 	  }
-	 	},
-	 	shapes:[
-	              {
-	                type:'rectangle',
-	                id:'view_all',
-	                height:'20px',
-	                width:'75px',
-	                borderColor:'#E3E3E5',
-	                borderWidth:1,
-	                borderRadius: 3,
-	                x:'85%',
-	                y:'11%',
-	                backgroundColor:'#53535e',
-	                cursor:'hand',
-	                label:{
-	                  text:'View All',
-	                  fontColor:'#E3E3E5',
-	                  fontSize:12,
-	                  bold:true
-	                }
-	              }
-	           ],
-		series:arraySeries 	
-	};
-//debugger;
-zingchart.render({ 
-	id: 'myChart', 
-	data: myConfig, 
-	height: '500', 
-	width: '725' 
-});
 
+    json.series = arraySeries;
+    $('#container').highcharts(json);
+	
 	  // }});
-GenerateTable(1,data_);
-}
+	GenerateTable(1,data_);
+	}
 });
 
 
 function setDaily(){
 	// alert('Report is daily now' )
-	myConfig.series = dailyData;
-	zingchart.render({ 
-	id: 'myChart', 
-	data: myConfig, 
-	height: '500', 
-	width: '725' 
-	});
+	json.series = arraySeries;
+    $('#container').highcharts(json);
+	
 	GenerateTable(1,data_);
 }
 
-function setWeekly(){
-	//alert('Report is Weekly now' )
-	// weeklyConfig = $.extend(true,{}, myConfig);
- 	if(weeklyData.length == 0){
-		sJson = JSON.stringify(arraySeries);
-		weeklyData = JSON.parse(sJson);
-		for (i = 0; i < arraySeries.length; ++i) {
-			weeklyData[i].values = [];
-			var values7 = 0
-		    for(j = 0; j < arraySeries[i].values.length; j+=7){
-		    	if(j %7 ==0){
-		    		weeklyData[i].values.push(values7);
-		    		values7 = 0;
-		    	}
-		    	values7 += arraySeries[i].values[j];
+function UpdateFigure(period){
+	newData = [];
+	sJson = JSON.stringify(arraySeries);
+	newData = JSON.parse(sJson);
+	for (i = 0; i < arraySeries.length; ++i) {
+		newData[i].data = [];
+		var values = 0
 
-		    } 
-		}
+	    for(j = 0; j < arraySeries[i].data.length; j+=period){		    	
+	    	if(j % period ==0){
+	    		date = arraySeries[i].data[j][0];
+	    		newData[i].data.push([date,values]);
+	    		values = 0;
+	    	}
+	    	values += arraySeries[i].data[j][1];
+	    } 
 	}
-	myConfig.series = weeklyData;
-	myConfig.scaleX.step = 'week';
-	zingchart.render({ 
-		id: 'myChart', 
-		data: myConfig, 
-		height: '500', 
-		width: '725' 
-	});
-	GenerateTable(7,data_);
-}
 
-function setMonthly(){
-	//alert('Report is Monthly now' )
-	// weeklyConfig = $.extend(true,{}, myConfig);
- 	if(monthlyData.length == 0){
-		sJson = JSON.stringify(arraySeries);
-		monthlyData = JSON.parse(sJson);
-		for (i = 0; i < arraySeries.length; ++i) {
-			monthlyData[i].values = [];
-			var values30 = 0
-		    for(j = 0; j < arraySeries[i].values.length; j+=30){
-		    	if(j %30 ==0){
-		    		monthlyData[i].values.push(values30);
-		    		values30 = 0;
-		    	}
-		    	values30 += arraySeries[i].values[j];
+	json.series = newData;
+    $('#container').highcharts(json);
 
-		    } 
-		}
-	}
-	myConfig.series = monthlyData;
-	myConfig.scaleX.step = 'month';
-	zingchart.render({ 
-		id: 'myChart', 
-		data: myConfig, 
-		height: '500', 
-		width: '725' 
-	});
-	GenerateTable(30,data_);
-}
-
-function setQuarterly(){
-	//alert('Report is Quarterly now' )
-	// weeklyConfig = $.extend(true,{}, myConfig);
- 	if(quarterlyData.length == 0){
-		sJson = JSON.stringify(arraySeries);
-		quarterlyData = JSON.parse(sJson);
-		for (i = 0; i < arraySeries.length; ++i) {
-			quarterlyData[i].values = [];
-			var values90 = 0
-		    for(j = 0; j < arraySeries[i].values.length; j+=90){
-		    	if(j %90 ==0){
-		    		quarterlyData[i].values.push(values90);
-		    		values90 = 0;
-		    	}
-		    	values90 += arraySeries[i].values[j];
-
-		    } 
-		}
-	}
-	myConfig.series = quarterlyData;
-	myConfig.scaleX.step = '3month';
-	zingchart.render({ 
-		id: 'myChart', 
-		data: myConfig, 
-		height: '500', 
-		width: '725' 
-	});
-	GenerateTable(90,data_);
-}
-
-function setHalfYearly(){
-	//alert('Report is Half Yearly now' )
-	// weeklyConfig = $.extend(true,{}, myConfig);
- 	if(halfYearlyData.length == 0){
-		sJson = JSON.stringify(arraySeries);
-		halfYearlyData = JSON.parse(sJson);
-		for (i = 0; i < arraySeries.length; ++i) {
-			halfYearlyData[i].values = [];
-			var values180 = 0
-		    for(j = 0; j < arraySeries[i].values.length; j+=180){
-		    	if(j %180 ==0){
-		    		halfYearlyData[i].values.push(values180);
-		    		values180 = 0;
-		    	}
-		    	values180 += arraySeries[i].values[j];
-
-		    } 
-		}
-	}
-	myConfig.series = halfYearlyData;
-	myConfig.scaleX.step = '6month';
-	zingchart.render({ 
-		id: 'myChart', 
-		data: myConfig, 
-		height: '500', 
-		width: '725' 
-	});
-	GenerateTable(180,data_);
-}
-
-function setYearly(){
-	//alert('Report is Yearly now' )
-	// weeklyConfig = $.extend(true,{}, myConfig);
- 	if(yearlyData.length == 0){
-		sJson = JSON.stringify(arraySeries);
-		yearlyData = JSON.parse(sJson);
-		for (i = 0; i < arraySeries.length; ++i) {
-			yearlyData[i].values = [];
-			var values365 = 0
-		    for(j = 0; j < arraySeries[i].values.length; j+=365){
-		    	if(j %365 ==0){
-		    		yearlyData[i].values.push(values365);
-		    		values365 = 0;
-		    	}
-		    	values365 += arraySeries[i].values[j];
-
-		    } 
-		}
-	}
-	myConfig.series = yearlyData;
-	myConfig.scaleX.step = 'year';
-	zingchart.render({ 
-		id: 'myChart', 
-		data: myConfig, 
-		height: '500', 
-		width: '725' 
-	});
-	GenerateTable(360,data_);
+	GenerateTable(period,data_);
 }
 
 function GenerateTable(step,data__) {
@@ -561,38 +264,9 @@ function GenerateTable(step,data__) {
 	    	startDateFormatted.setDate(startDateFormatted.getDate()+step);  //increment start date
 	    	
 	    }
-	    
-
 	}
 
-    // for( i=0; i < accounts.length; i++){
-    //     var row= table.insertRow(idx);
-
-    //     dateRegex = /(\d{4})(\d{2})(\d{2})/;
-    //     allDate = dateRegex.exec(data_[i].runDate)
-    //     styledDate = allDate[3]+"-"+allDate[2]+"-"+allDate[1]
-
-
-
-    //     if ((Number(endDate) - Number(startDate))>=0 && (Number(endDate) - Number(allDate[0]))>=0 && (Number(allDate[0]) - Number(startDate))>=0) {
-    //         row.insertCell(0).innerHTML=styledDate;
-    //         row.insertCell(1).innerHTML=data_[i].accNo;
-    //         row.insertCell(2).innerHTML=data_[i].accName;
-    //         row.insertCell(3).innerHTML=data_[i].accType;
-    //         row.insertCell(4).innerHTML=data_[i].dbtAmt;
-    //         row.insertCell(5).innerHTML=data_[i].crdAmt;
-    //         idx+=1;
-    //     }
-    // }
- 
     var dvTable = document.getElementById("dvTable");
     dvTable.innerHTML = "";
     dvTable.appendChild(table);
-}
-
-
-zingchart.shape_click = function(p){
-  if(p.shapeid == "view_all"){
-    zingchart.exec(p.id,'viewall');
-  }
 }
