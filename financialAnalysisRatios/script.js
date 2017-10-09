@@ -163,7 +163,7 @@ function checkDates(){
 					fixedAssets_crdAmt += Number(result["data"][i].crdAmt);		
 				}
 
-				else if (result["data"][i].accNo.startsWith("501") || result["data"][i].accNo.startsWith("502") || result["data"][i].accNo.startsWith("503") || result["data"][i].accNo.startsWith("504")){
+				else if (result["data"][i].accNo.startsWith("5")){   //Upon Ahmed Zayat request that projectOwnersRights is all what starts with 5
 					projectOwnersRights_dbtAmt += Number(result["data"][i].dbtAmt);
 					projectOwnersRights_crdAmt += Number(result["data"][i].crdAmt);
 				}
@@ -175,7 +175,7 @@ function checkDates(){
 
 			dictRatios["نسبة المخزون الى صافى  راس المال العامل"]=Math.round((stocks_dbtAmt - stocks_crdAmt)/dictRatios["نسبة التداول"]*100)/100;
 
-			dictRatios["نسبة السيولة النقدية"] = Math.round((currentAssets_dbtAmt - currentAssets_crdAmt - stocks_dbtAmt - stocks_crdAmt - prePaidExpenses_dbtAmt - prePaidExpenses_crdAmt)/(currentLiabilities_dbtAmt - currentLiabilities_crdAmt)*100)/100;
+			dictRatios["نسبة السيولة النقدية"] = Math.round((cash_dbtAmt - cash_crdAmt + shortTermInvest_dbtAmt - shortTermInvest_crdAmt)/(currentLiabilities_dbtAmt - currentLiabilities_crdAmt)*100)/100;
 			
 			dictRatios["نسبة المدينون واوراق القبض الى صافى راس المال العامل "]=Math.round((customers_dbtAmt - customers_crdAmt + otherDebitAccounts_dbtAmt - otherDebitAccounts_crdAmt + receivables_dbtAmt - receivables_crdAmt) / ((currentAssets_dbtAmt - currentAssets_crdAmt)-(currentLiabilities_dbtAmt - currentLiabilities_crdAmt))*100)/100;
 
