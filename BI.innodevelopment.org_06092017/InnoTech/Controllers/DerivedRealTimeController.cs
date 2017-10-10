@@ -30,7 +30,8 @@ namespace HR.Controllers
                 }
                 using (var objModel = new DerivedRealTime() { sCompanyID = sCompanyID, sCompanyLicense = sCompanyLicense, sRequesterUserName = sRequesterUserName, sRequesterPassword = sRequesterPassword, sRequesterControlID = sRequesterControlID })
                 {
-                    return objModel.Select();
+                    return null;
+                    // return objModel.Select();
                 }
             }
             catch (Exception ex)

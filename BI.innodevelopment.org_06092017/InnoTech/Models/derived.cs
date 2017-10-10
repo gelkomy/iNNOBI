@@ -46,21 +46,6 @@ namespace InnoTech.Models
         {
             using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID))
             {
-                //var objResponse = objRequestInterface.Get();
-                //var objResult = JObject.Parse(DecompressResult.DeflateByte(objResponse.Content.ReadAsByteArrayAsync().Result));
-                //var objResultData = objResult["data"];
-                //foreach (var obj in objResultData)
-                //{
-                //    obj["netAmt"] = (float)obj["dbtAmt"] - (float)obj["crdAmt"];
-                //    obj["dbtAmt"].Parent.Remove();
-                //    obj["crdAmt"].Parent.Remove();
-                //}
-                ////objResult["data"] = objResultData;
-                //HttpResponseMessage response = new HttpResponseMessage();
-
-                //response.Content = new ObjectContent<JObject>(objResult, GlobalConfiguration.Configuration.Formatters.JsonFormatter);
-
-                //return response;
                 return objRequestInterface.Get();
             }
         }

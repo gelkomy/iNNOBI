@@ -65,7 +65,7 @@ namespace InnoTech.Models
 
 
                 HttpResponseMessage objResponse = objRequestInterface.Get();
-                var objResult = JObject.Parse(DecompressResult.DeflateByte(objResponse.Content.ReadAsByteArrayAsync().Result))["data"];
+                var objResult = JObject.Parse(BIParseResult.parse(objResponse))["data"];
                 //newVouchers = objResult["data"];
                 List<DateTime> lstvDate = new List<DateTime>();
 
@@ -88,20 +88,22 @@ namespace InnoTech.Models
             Dictionary<string, string> dictNames = new Dictionary<string, string>();
             // DateTime startDate = new DateTime(2016, 12, 31, 23, 59, 59, 0);
             DateTime startDate = minvDate;
+            startDate = new DateTime(minvDate.Year, minvDate.Month, minvDate.Day, 23, 59, 59, 0);
             string sStartDate = startDate.ToString("yyyyMMdd");
            // DateTime endDate = new DateTime(2017, 10, 01, 23, 59, 59, 0);
             DateTime endDate = DateTime.Now;
+            //endDate = new DateTime(endDate.Year, endDate.Month, endDate.Day, 23, 59, 59, 0);
             string sEndDate = endDate.ToString("yyyyMMdd");
             string sDate;
             for (DateTime date = startDate; date.Date <= endDate.Date; date = date.AddDays(1))
             {
                 sDate = date.ToString("yyyyMMddHHmmssfff");
-                sFilter = "{'vDate':{'gte':" + date.AddDays(-1).ToString("yyyyMMddHHmmssfff") + ", 'lte':" + sDate + "}}";
-               // sFilter = "{'vDate':{'gte':" + startDate.ToString("yyyyMMddHHmmssfff") + ", 'lte':" + endDate.ToString("yyyyMMddHHmmssfff") + "}}";
+                sFilter = "{'vDate':{'gt':" + date.AddDays(-1).ToString("yyyyMMddHHmmssfff") + ", 'lte':" + sDate + "}}";
+                // sFilter = "{'vDate':{'gte':" + startDate.ToString("yyyyMMddHHmmssfff") + ", 'lte':" + endDate.ToString("yyyyMMddHHmmssfff") + "}}";
                 using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID,null,sFilter,null))
                 {
                     HttpResponseMessage objResponse = objRequestInterface.Get();
-                    var objResult = JObject.Parse(DecompressResult.DeflateByte(objResponse.Content.ReadAsByteArrayAsync().Result))["data"];
+                    var objResult = JObject.Parse(BIParseResult.parse(objResponse))["data"];
 
                     foreach (var objVoucher in objResult)
                     {
@@ -203,11 +205,6 @@ namespace InnoTech.Models
             // getting lastRunTimeStamp
             
             sFilter = null;
-
-            
-            
-
-            
             using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
             {
 

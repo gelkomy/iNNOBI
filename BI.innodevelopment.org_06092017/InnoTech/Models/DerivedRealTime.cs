@@ -57,7 +57,7 @@ namespace InnoTech.Models
         #endregion
 
         #region CRUD Operations
-        public HttpResponseMessage Select()
+        public void Select()
         {
             DateTime dtNow = DateTime.Now;
 
@@ -76,7 +76,7 @@ namespace InnoTech.Models
             using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
             {
                 HttpResponseMessage temp = objRequestInterface.Get();
-                var json = JObject.Parse(DecompressResult.DeflateByte(temp.Content.ReadAsByteArrayAsync().Result))["data"];
+                var json = JObject.Parse(BIParseResult.parse(temp))["data"];
 
                 // check if the controlTable is empty
                 // if the controlTable is empty, this means that the company is new and the voucher webserivce 
@@ -85,7 +85,7 @@ namespace InnoTech.Models
 
                 if (json.Count() == 0)
                 {
-                    return temp;
+                    return;
                 }
                 lastRunTimeStampRowID = json[0]["_rowID"].ToString();
                 lastRunTimeStamp = json[0]["lastRunTimeStamp"].ToString();
@@ -98,7 +98,7 @@ namespace InnoTech.Models
             // if it is 0 days, the normal real time service will run.
             // otherwise, there will be a loop to iterate the date between Now and the dtlastRunTimeStamp
             // added by Gamal 4/10/2017
-            
+
             if ((dtNow.Date - dtlastRunTimeStamp.Date).TotalDays == 0)
             {
                 // Normal derived real time service
@@ -132,7 +132,7 @@ namespace InnoTech.Models
 
                 string sStartDate = lastRunTimeStamp; //"20170702000000000";
                 //string currentTimeStamp = DateTime.Now.ToString("yyyyMMddHHmmssfff");
-                string currentTimeStamp= dtNow.ToString("yyyyMMddHHmmssfff");
+                string currentTimeStamp = dtNow.ToString("yyyyMMddHHmmssfff");
                 string sEndDate = currentTimeStamp; //"20170708110000000";
                 sFilter = "{\"vDate\":{\"gte\":\"" + sStartDate + "\",\"lte\":\"" + sEndDate + "\"}}";
                 //sFilter = null;
@@ -143,7 +143,7 @@ namespace InnoTech.Models
 
 
                     HttpResponseMessage objResponse = objRequestInterface.Get();
-                    var objResult = JObject.Parse(DecompressResult.DeflateByte(objResponse.Content.ReadAsByteArrayAsync().Result))["data"];
+                    var objResult = JObject.Parse(BIParseResult.parse(objResponse))["data"];
                     //newVouchers = objResult["data"];
 
                     foreach (var objVoucher in objResult)
@@ -223,23 +223,6 @@ namespace InnoTech.Models
                         lstDerivedData.Add(objDerived);
 
                     }
-
-
-                    /*
-                    foreach (var obj in objResultData)
-                    {
-                        obj["netAmt"] = (double)obj["dbtAmt"] - (double)obj["crdAmt"];
-                        obj["dbtAmt"].Parent.Remove();
-                        obj["crdAmt"].Parent.Remove();
-                    }
-                    */
-                    //objResult["data"] = objResultData;
-
-                    //HttpResponseMessage response = new HttpResponseMessage();
-
-                    // response.Content = new ObjectContent<JObject>(objResult, GlobalConfiguration.Configuration.Formatters.JsonFormatter);
-
-                    //   return response;
                 }
 
 
@@ -260,8 +243,8 @@ namespace InnoTech.Models
                 using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
                 {
                     var objResponse = objRequestInterface.Get();
-                    var objResult = JObject.Parse(DecompressResult.DeflateByte(objResponse.Content.ReadAsByteArrayAsync().Result));
-                     currentDerivedAccounts = objResult["data"];
+                    var objResult = JObject.Parse(BIParseResult.parse(objResponse));
+                    currentDerivedAccounts = objResult["data"];
                     var lstCurrentDerivedAccounts = currentDerivedAccounts.Children();
 
 
@@ -280,23 +263,7 @@ namespace InnoTech.Models
                         }
                     }
 
-
-                    /*
-                    foreach (var obj in objResultData)
-                    {
-                        obj["netAmt"] = (double)obj["dbtAmt"] - (double)obj["crdAmt"];
-                        obj["dbtAmt"].Parent.Remove();
-                        obj["crdAmt"].Parent.Remove();
-                    }
-                    */
-                    //objResult["data"] = objResultData;
-
-
-
                     response.Content = new ObjectContent<JObject>(objResult, GlobalConfiguration.Configuration.Formatters.JsonFormatter);
-
-
-
                 }
 
 
@@ -380,22 +347,7 @@ namespace InnoTech.Models
                         { "crdAmt",  double.Parse(obj["crdAmt"].ToString()) }
                     };
                         lstInsert.Add(objDerived);
-
-                        //if (!dictCurrentDerivedAccounts.ContainsKey(obj["accNo"].ToString()))
-                        //{
-                        //    double[] value = { double.Parse(obj["crdAmt"].ToString()), double.Parse(obj["dbtAmt"].ToString()) };
-                        //    dictCurrentDerivedAccounts.Add(obj["accNo"].ToString(), value);
-                        //    dictCurrentDerivedAccountsRowID.Add(obj["accNo"].ToString(), obj["_rowID"].ToString());
-                        //}
-                        //else
-                        //{
-                        //    dictCurrentDerivedAccounts[obj["accNo"].ToString()][0] += Int32.Parse(obj["crdAmt"].ToString());
-                        //    dictCurrentDerivedAccounts[obj["accNo"].ToString()][1] += Int32.Parse(obj["dbtAmt"].ToString());
-                        //}
-
                     }
-
-
 
                     foreach (KeyValuePair<string, double[]> entry in dictCurrentDerivedAccounts)
                     {
@@ -486,38 +438,22 @@ namespace InnoTech.Models
 
 
 
-                sBranchId = "1";
-                sProductID = "innoPack";
-                sWebserviceID = "srvBI";
-                sSchemaID = "derived";
+                //sBranchId = "1";
+                //sProductID = "innoPack";
+                //sWebserviceID = "srvBI";
+                //sSchemaID = "derived";
 
-                sSchemaVersion = "1";
-                sPersonId = "0";
-                sFilter = "{\"runDate\":\"" + dtNow.ToString("yyyyMMddHHmmssfff").Substring(0, 8) + "\"}";
-                sFilter = null;
-                // getting aggregates from the derived
-                using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
-                {
-                    //var objResponse = objRequestInterface.Get();
-                    //var objResult = JObject.Parse(DecompressResult.DeflateByte(objResponse.Content.ReadAsByteArrayAsync().Result));
-                    //var objResultData = objResult["data"];
-                    //foreach (var obj in objResultData)
-                    //{
-                    //    obj["netAmt"] = (double)obj["dbtAmt"] - (double)obj["crdAmt"];
-                    //    obj["dbtAmt"].Parent.Remove();
-                    //    obj["crdAmt"].Parent.Remove();
-                    //}
-                    ////objResult["data"] = objResultData;
-                    //response = new HttpResponseMessage();
+                //sSchemaVersion = "1";
+                //sPersonId = "0";
+                //sFilter = "{\"runDate\":\"" + dtNow.ToString("yyyyMMddHHmmssfff").Substring(0, 8) + "\"}";
+                //sFilter = null;
+                //// getting aggregates from the derived
+                //using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
+                //{
+                //    return objRequestInterface.Get();
+                //}
 
-                    //response.Content = new ObjectContent<JObject>(objResult, GlobalConfiguration.Configuration.Formatters.JsonFormatter);
-
-                    //return response;
-                    return objRequestInterface.Get();
-                }
-
-
-
+                return;
             }
             else
             {
@@ -559,7 +495,7 @@ namespace InnoTech.Models
                     using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
                     {
                         HttpResponseMessage temp = objRequestInterface.Get();
-                        var json = JObject.Parse(DecompressResult.DeflateByte(temp.Content.ReadAsByteArrayAsync().Result))["data"];
+                        var json = JObject.Parse(BIParseResult.parse(temp))["data"];
                         lastRunTimeStampRowID = json[0]["_rowID"].ToString();
                         lastRunTimeStamp = json[0]["lastRunTimeStamp"].ToString();
                     }
@@ -587,7 +523,7 @@ namespace InnoTech.Models
 
 
                         HttpResponseMessage objResponse = objRequestInterface.Get();
-                        var objResult = JObject.Parse(DecompressResult.DeflateByte(objResponse.Content.ReadAsByteArrayAsync().Result))["data"];
+                        var objResult = JObject.Parse(BIParseResult.parse(objResponse))["data"];
                         //newVouchers = objResult["data"];
 
                         foreach (var objVoucher in objResult)
@@ -667,23 +603,6 @@ namespace InnoTech.Models
                             lstDerivedData.Add(objDerived);
 
                         }
-
-
-                        /*
-                        foreach (var obj in objResultData)
-                        {
-                            obj["netAmt"] = (double)obj["dbtAmt"] - (double)obj["crdAmt"];
-                            obj["dbtAmt"].Parent.Remove();
-                            obj["crdAmt"].Parent.Remove();
-                        }
-                        */
-                        //objResult["data"] = objResultData;
-
-                        //HttpResponseMessage response = new HttpResponseMessage();
-
-                        // response.Content = new ObjectContent<JObject>(objResult, GlobalConfiguration.Configuration.Formatters.JsonFormatter);
-
-                        //   return response;
                     }
 
 
@@ -704,8 +623,8 @@ namespace InnoTech.Models
                     using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
                     {
                         var objResponse = objRequestInterface.Get();
-                        var objResult = JObject.Parse(DecompressResult.DeflateByte(objResponse.Content.ReadAsByteArrayAsync().Result));
-                         currentDerivedAccounts = objResult["data"];
+                        var objResult = JObject.Parse(BIParseResult.parse(objResponse));
+                        currentDerivedAccounts = objResult["data"];
                         var lstCurrentDerivedAccounts = currentDerivedAccounts.Children();
 
                         if (currentDerivedAccounts.Count() > 0)
@@ -748,7 +667,7 @@ namespace InnoTech.Models
                             using (var innerObjRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
                             {
                                 objResponse = innerObjRequestInterface.Get();
-                                objResult = JObject.Parse(DecompressResult.DeflateByte(objResponse.Content.ReadAsByteArrayAsync().Result));
+                                objResult = JObject.Parse(BIParseResult.parse(objResponse));
                                 currentDerivedAccounts = objResult["data"];
                                 lstCurrentDerivedAccounts = currentDerivedAccounts.Children();
                                 foreach (var obj in currentDerivedAccounts)
@@ -795,50 +714,50 @@ namespace InnoTech.Models
 
                     // edited by Gamal 7/10/2017
                     if (lstDerivedData.Count() > 0)
-                    { 
-                    foreach (JObject element in lstDerivedData)
                     {
-                        string accNo = element["accNo"].ToString();
-                        if (dictCurrentDerivedAccounts.Count() > 0)
+                        foreach (JObject element in lstDerivedData)
                         {
-                            if (dictCurrentDerivedAccounts.ContainsKey(accNo))
+                            string accNo = element["accNo"].ToString();
+                            if (dictCurrentDerivedAccounts.Count() > 0)
                             {
-                                // found so we need to update
+                                if (dictCurrentDerivedAccounts.ContainsKey(accNo))
+                                {
+                                    // found so we need to update
 
-                                element.Add("_rowID", dictCurrentDerivedAccountsRowID[accNo]);
-                                element["dbtAmt"] = double.Parse(element["dbtAmt"].ToString()) + dictCurrentDerivedAccounts[accNo][1];
-                                element["crdAmt"] = double.Parse(element["crdAmt"].ToString()) + dictCurrentDerivedAccounts[accNo][0];
-                                lstUpdate.Add(element);
+                                    element.Add("_rowID", dictCurrentDerivedAccountsRowID[accNo]);
+                                    element["dbtAmt"] = double.Parse(element["dbtAmt"].ToString()) + dictCurrentDerivedAccounts[accNo][1];
+                                    element["crdAmt"] = double.Parse(element["crdAmt"].ToString()) + dictCurrentDerivedAccounts[accNo][0];
+                                    lstUpdate.Add(element);
+                                }
+                                else
+                                {
+                                    // not found so we need to insert
+                                    lstInsert.Add(element);
+
+                                }
                             }
                             else
                             {
-                                // not found so we need to insert
-                                lstInsert.Add(element);
 
+                                //dictPreviousDerivedAccounts
+                                if (dictPreviousDerivedAccounts.ContainsKey(accNo))
+                                {
+                                    // found so we need to update
+
+                                    //element.Add("_rowID", dictCurrentDerivedAccountsRowID[accNo]);
+                                    element["dbtAmt"] = double.Parse(element["dbtAmt"].ToString()) + dictPreviousDerivedAccounts[accNo][1];
+                                    element["crdAmt"] = double.Parse(element["crdAmt"].ToString()) + dictPreviousDerivedAccounts[accNo][0];
+                                    lstInsert.Add(element);
+                                }
+                                else
+                                {
+                                    // not found so we need to insert
+                                    lstInsert.Add(element);
+
+                                }
                             }
+
                         }
-                        else
-                        {
-
-                            //dictPreviousDerivedAccounts
-                            if (dictPreviousDerivedAccounts.ContainsKey(accNo))
-                            {
-                                // found so we need to update
-
-                                //element.Add("_rowID", dictCurrentDerivedAccountsRowID[accNo]);
-                                element["dbtAmt"] = double.Parse(element["dbtAmt"].ToString()) + dictPreviousDerivedAccounts[accNo][1];
-                                element["crdAmt"] = double.Parse(element["crdAmt"].ToString()) + dictPreviousDerivedAccounts[accNo][0];
-                                lstInsert.Add(element);
-                            }
-                            else
-                            {
-                                // not found so we need to insert
-                                lstInsert.Add(element);
-
-                            }
-                        }
-
-                    }
                     }
                     else
                     {
@@ -858,62 +777,17 @@ namespace InnoTech.Models
 
 
                             JObject objDerived = new JObject
-                    {
-                        { "runDate", sEndDate.Substring(0,8) },
-                        { "accNo",obj["accNo"].ToString() },
-                         {"accType", accType },
-                        { "accName",obj["accName"] },
-                        { "dbtAmt", double.Parse(obj["dbtAmt"].ToString())},
-                        { "crdAmt",  double.Parse(obj["crdAmt"].ToString()) }
-                    };
+                            {
+                                { "runDate", sEndDate.Substring(0,8) },
+                                { "accNo",obj["accNo"].ToString() },
+                                 {"accType", accType },
+                                { "accName",obj["accName"] },
+                                { "dbtAmt", double.Parse(obj["dbtAmt"].ToString())},
+                                { "crdAmt",  double.Parse(obj["crdAmt"].ToString()) }
+                            };
                             lstInsert.Add(objDerived);
 
-                            //if (!dictCurrentDerivedAccounts.ContainsKey(obj["accNo"].ToString()))
-                            //{
-                            //    double[] value = { double.Parse(obj["crdAmt"].ToString()), double.Parse(obj["dbtAmt"].ToString()) };
-                            //    dictCurrentDerivedAccounts.Add(obj["accNo"].ToString(), value);
-                            //    dictCurrentDerivedAccountsRowID.Add(obj["accNo"].ToString(), obj["_rowID"].ToString());
-                            //}
-                            //else
-                            //{
-                            //    dictCurrentDerivedAccounts[obj["accNo"].ToString()][0] += Int32.Parse(obj["crdAmt"].ToString());
-                            //    dictCurrentDerivedAccounts[obj["accNo"].ToString()][1] += Int32.Parse(obj["dbtAmt"].ToString());
-                            //}
-
                         }
-
-
-
-                    //    foreach (KeyValuePair<string, double[]> entry in dictCurrentDerivedAccounts)
-                    //    {
-                    //        // do something with entry.Value or entry.Key
-
-                    //        string accType = "0";
-                    //        if (entry.Key.StartsWith("102003"))
-                    //        {
-                    //            accType = "1"; // customer
-                    //        }
-                    //        else if (entry.Key.StartsWith("202001"))
-                    //        {
-                    //            accType = "2"; // supplier
-                    //        }
-
-
-                    //        JObject objDerived = new JObject
-                    //{
-                    //    { "runDate", sEndDate.Substring(0,8) },
-                    //    { "accNo", entry.Key },
-                    //     {"accType", accType },
-                    //    { "accName", dictNames[entry.Key] },
-                    //    { "dbtAmt", entry.Value[1] },
-                    //    { "crdAmt", entry.Value[0] }
-                    //};
-                    //        lstInsert.Add(objDerived);
-
-                    //    }
-
-                       
-
                     }
 
                     sBranchId = "1";
@@ -959,56 +833,29 @@ namespace InnoTech.Models
                     sFilter = null;
                     using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
                     {
-
-
                         JObject x = JObject.Parse("{\"_rowID\":\"" + lastRunTimeStampRowID + "\",\"lastRunTimeStamp\":\"" + currentTimeStamp + "\"}");
                         List<JObject> lstControlTable = new List<JObject>();
                         lstControlTable.Add(x);
-
-
                         objRequestInterface.Put(lstControlTable);
                     }
-
-
-
-
-
-
                 }
 
-                sBranchId = "1";
-                sProductID = "innoPack";
-                sWebserviceID = "srvBI";
-                sSchemaID = "derived";
+                //sBranchId = "1";
+                //sProductID = "innoPack";
+                //sWebserviceID = "srvBI";
+                //sSchemaID = "derived";
 
-                sSchemaVersion = "1";
-                sPersonId = "0";
-                //sFilter = "{\"runDate\":\"" + current.ToString("yyyyMMddHHmmssfff").Substring(0, 8) + "\"}";
-                sFilter = null;
+                //sSchemaVersion = "1";
+                //sPersonId = "0";
+                ////sFilter = "{\"runDate\":\"" + current.ToString("yyyyMMddHHmmssfff").Substring(0, 8) + "\"}";
+                //sFilter = null;
 
-                // getting aggregates from the derived
-                using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
-                {
-                    //var objResponse = objRequestInterface.Get();
-                    //var objResult = JObject.Parse(DecompressResult.DeflateByte(objResponse.Content.ReadAsByteArrayAsync().Result));
-                    //var objResultData = objResult["data"];
-                    //foreach (var obj in objResultData)
-                    //{
-                    //    obj["netAmt"] = (double)obj["dbtAmt"] - (double)obj["crdAmt"];
-                    //    obj["dbtAmt"].Parent.Remove();
-                    //    obj["crdAmt"].Parent.Remove();
-                    //}
-                    ////objResult["data"] = objResultData;
-                    //response = new HttpResponseMessage();
-
-                    //response.Content = new ObjectContent<JObject>(objResult, GlobalConfiguration.Configuration.Formatters.JsonFormatter);
-
-                    //return response;
-                    return objRequestInterface.Get();
-                }
-
-
-
+                //// getting aggregates from the derived
+                //using (var objRequestInterface = new CommitLog.Controllers.Request(sCompanyID, sCompanyLicense, sBranchId, sPersonId, sProductID, sWebserviceID, sSchemaID, sSchemaVersion, sRequesterUserName, sRequesterPassword, sRequesterControlID, null, sFilter, null))
+                //{
+                //    //return response;
+                //    return objRequestInterface.Get();
+                //}
             }
 
         }
